@@ -18,6 +18,7 @@ def clean_utterances(df):
         text = re.sub(r'\+\.\.\.', '', text) # Remove +... (incomplete)
         text = re.sub(r'@\w+', '', text)    # Remove @o, @b etc
         text = re.sub(r'\s+', ' ', text)    # Multiple spaces to single
+        text = re.sub(r'[\x00-\x1F]*\d+_\d+[\x00-\x1F]*', '', text) # Remove random unicode items 
         
         return text.strip()
     

@@ -1,0 +1,635 @@
+@UTF8
+@PID:	11312/a-00077579-1
+@Begin
+@Languages:	eng
+@Participants:	FAT Father
+@ID:	eng|MacWhinney|FAT|||||Father|||
+@Media:	000203a, audio
+@Comment:	Batchalign 0.7.2, ASR Engine rev
+@Types:	long, toyplay, TD
+*FAT:	<this is> [/] this is the first tape for Ross and it begins on February twenty eighth nineteen seventy eight . 0_8165
+%mor:	pron|this-Dem-S1 aux|be-Fin-Ind-Pres-S3 det|the-Def-Art adj|first-S1 noun|tape adp|for propn|Ross cconj|and pron|it-Prs-Nom-S3 verb|begin-Fin-Ind-Pres-S3 adp|on propn|February num|twenty adj|eighth-S1 num|nineteen num|seventy num|eight .
+%gra:	1|5|NSUBJ 2|5|COP 3|5|DET 4|5|AMOD 5|17|ROOT 6|7|CASE 7|5|NMOD 8|10|CC 9|10|NSUBJ 10|5|CONJ 11|12|CASE 12|10|OBL 13|12|NUMMOD 14|15|ADVMOD 15|10|OBL 16|17|NUMMOD 17|15|NMOD-UNMARKED 18|5|PUNCT
+*FAT:	he is now exactly two months and three days since he was born on Christmas December twenty fifth . 8665_14085
+%mor:	pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Pres-S3 adv|now adv|exactly num|two noun|month-Plur cconj|and num|three noun|day-Plur sconj|since pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr verb|bear-Part-Past-S adp|on propn|Christmas propn|December num|twenty noun|fifth .
+%gra:	1|6|NSUBJ 2|6|COP 3|6|ADVMOD 4|5|ADVMOD 5|6|NUMMOD 6|18|ROOT 7|9|CC 8|9|NUMMOD 9|6|CONJ 10|13|MARK 11|13|NSUBJ-PASS 12|13|AUX-PASS 13|6|ADVCL 14|16|CASE 15|16|COMPOUND 16|13|OBL 17|18|NUMMOD 18|13|OBL 19|6|PUNCT
+*FAT:	Mary did tick of him . 24955_26125
+%mor:	propn|Mary aux|do-Fin-Ind-Past-S3-irr verb|tick-Inf-S adp|of pron|he-Prs-Acc-S3 .
+%gra:	1|3|NSUBJ 2|3|AUX 3|5|ROOT 4|5|CASE 5|3|OBL 6|3|PUNCT
+*FAT:	and then she raised his arm . 26265_27365
+%mor:	cconj|and adv|then pron|she-Prs-Nom-S3 verb|raise-Fin-Ind-Past-S3 pron|his-Prs-Gen-S3 noun|arm-Acc .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|6|ROOT 5|6|NMOD-POSS 6|4|OBJ 7|4|PUNCT
+*FAT:	he sitting his tubby looking up the light which is now very dull and di dining room table . 27505_35725
+%mor:	pron|he-Prs-Nom-S3 verb|sit-Part-Pres-S pron|his-Prs-Gen-S3 noun|tubby-Acc verb|look-Part-Pres-S adp|up det|the-Def-Art noun|light-Acc pron|which-Rel-S1 aux|be-Fin-Ind-Pres-S3 adv|now adv|very adj|dull-S1 cconj|and noun|di noun|dining-Ger noun|room noun|table .
+%gra:	1|2|NSUBJ 2|18|ROOT 3|4|NMOD-POSS 4|2|OBJ 5|2|ADVCL 6|5|COMPOUND-PRT 7|8|DET 8|5|OBJ 9|13|NSUBJ 10|13|COP 11|13|ADVMOD 12|13|ADVMOD 13|8|ACL-RELCL 14|18|CC 15|18|COMPOUND 16|18|COMPOUND 17|18|COMPOUND 18|13|CONJ 19|2|PUNCT
+*FAT:	I interview this February twenty eighth earlier by the way this is at &-uh what time of night seven [/] <seven fifteen> [/] seven fifteen . 41685_58035
+%mor:	pron|I-Prs-Nom-S1 verb|interview-Fin-Ind-Pres-S1 det|this-Def-Dem-Sing propn|February-Acc num|twenty noun|eighth adv|early adp|by det|the-Def-Art noun|way pron|this-Dem-S1 aux|be-Fin-Ind-Pres-S3 adp|at det|what-Def-Int noun|time adp|of noun|night num|seven num|fifteen .
+%gra:	1|2|NSUBJ 2|19|ROOT 3|4|DET 4|2|OBJ 5|6|NUMMOD 6|7|OBL-UNMARKED 7|2|ADVMOD 8|10|CASE 9|10|DET 10|2|OBL 11|15|NSUBJ 12|15|COP 13|15|CASE 14|15|DET 15|10|ACL-RELCL 16|17|CASE 17|15|NMOD 18|19|NUMMOD 19|15|NMOD-UNMARKED 20|2|PUNCT
+*FAT:	and when did you last eat . 58295_59515
+%mor:	cconj|and adv|when aux|do-Fin-Ind-Past-S2-irr pron|you-Prs-Nom-S2 verb|last-Inf-S verb|eat-Inf-S .
+%gra:	1|5|CC 2|5|ADVMOD 3|5|AUX 4|5|NSUBJ 5|6|ROOT 6|5|XCOMP 7|5|PUNCT
+*FAT:	oh . 60615_60835
+%mor:	intj|oh .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	six fifteen . 62015_63235
+%mor:	num|six num|fifteen .
+%gra:	1|2|NUMMOD 2|2|ROOT 3|2|PUNCT
+*FAT:	six fifteen . 63615_64235
+%mor:	num|six num|fifteen .
+%gra:	1|2|NUMMOD 2|2|ROOT 3|2|PUNCT
+*FAT:	so this is obviously one of those little awake periods . 66175_68595
+%mor:	adv|so pron|this-Dem-S1 aux|be-Fin-Ind-Pres-S3 adv|obviously num|one adp|of det|that-Def-Dem-Plur adj|little-S1 adj|awake-S1 noun|period-Plur .
+%gra:	1|5|ADVMOD 2|5|NSUBJ 3|5|COP 4|5|ADVMOD 5|10|ROOT 6|10|CASE 7|10|DET 8|10|AMOD 9|10|AMOD 10|5|NMOD 11|5|PUNCT
+*FAT:	isn't it would like to speak some more to the line upon house . 68685_74645
+%mor:	aux|be-Fin-Ind-Pres-S3~part|not pron|it-Prs-Nom-S3 aux|would-Fin-S verb|like-Inf-S part|to verb|speak-Inf-S det|some-Def-Ind adj|more-Cmp-S1 adp|to det|the-Def-Art noun|line adp|upon noun|house .
+%gra:	1|5|COP 2|5|ADVMOD 3|5|NSUBJ 4|5|AUX 5|14|ROOT 6|7|MARK 7|5|XCOMP 8|9|DET 9|7|OBJ 10|12|CASE 11|12|DET 12|7|OBL 13|14|CASE 14|7|OBL 15|5|PUNCT
+*FAT:	okay . 77215_77505
+%mor:	intj|okay .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	turn you off for now . 78575_79385
+%mor:	verb|turn-Fin-Imp-S pron|you-Prs-Acc-S2 adp|off adp|for adv|now .
+%gra:	1|5|ROOT 2|1|OBJ 3|1|COMPOUND-PRT 4|5|CASE 5|1|OBL 6|1|PUNCT
+*FAT:	unless you have anything more to say . 79385_80465
+%mor:	sconj|unless pron|you-Prs-Nom-S2 verb|have-Fin-Ind-Pres-S2 pron|anything-Ind-S1 adj|more-Cmp-S1 part|to verb|say-Inf-S .
+%gra:	1|3|MARK 2|3|NSUBJ 3|7|ROOT 4|3|OBJ 5|4|AMOD 6|7|MARK 7|5|ADVCL 8|3|PUNCT
+*FAT:	you wanna say that again . 84925_85825
+%mor:	pron|you-Prs-Nom-S2 aux|wanna-Fin-Ind-Pres-S2 verb|say-Fin-Ind-Pres-S pron|that-Dem adv|again .
+%gra:	1|3|NSUBJ 2|3|AUX 3|5|ROOT 4|3|OBJ 5|3|ADVMOD 6|3|PUNCT
+*FAT:	that was a he . 93465_94555
+%mor:	pron|that-Dem aux|be-Fin-Ind-Past-S3-irr det|a-Ind-Art pron|he-Prs-Nom-S3 .
+%gra:	1|4|NSUBJ 2|4|COP 3|4|DET 4|4|ROOT 5|4|PUNCT
+*FAT:	he took his two . 94555_95195
+%mor:	pron|he-Prs-Nom-S3 verb|take-Fin-Ind-Past-S3-irr pron|his-Prs-Gen-S3 num|two .
+%gra:	1|2|NSUBJ 2|4|ROOT 3|4|NMOD-POSS 4|2|OBJ 5|2|PUNCT
+*FAT:	lips to the side . 95195_95995
+%mor:	noun|lip-Plur adp|to det|the-Def-Art noun|side .
+%gra:	1|4|ROOT 2|4|CASE 3|4|DET 4|1|NMOD 5|1|PUNCT
+*FAT:	and made a little mouth click . 97095_98475
+%mor:	cconj|and verb|make-Fin-Ind-Past-S3-irr det|a-Ind-Art adj|little-S1 noun|mouth noun|click-Acc .
+%gra:	1|2|CC 2|6|ROOT 3|6|DET 4|6|AMOD 5|6|COMPOUND 6|2|OBJ 7|2|PUNCT
+*FAT:	waving his arms all around . 104145_105525
+%mor:	verb|wave-Part-Pres-S pron|his-Prs-Gen-S3 noun|arm-Plur-Acc det|all-Def-Tot adv|around .
+%gra:	1|5|ROOT 2|3|NMOD-POSS 3|1|OBJ 4|5|DET 5|1|ADVMOD 6|1|PUNCT
+*FAT:	now sort of a triumph gesture . 105625_107485
+%mor:	adv|now noun|sort adp|of det|a-Ind-Art noun|triumph noun|gesture .
+%gra:	1|6|ADVMOD 2|6|ADVMOD 3|2|FIXED 4|6|DET 5|6|COMPOUND 6|6|ROOT 7|6|PUNCT
+*FAT:	almost like beginning to cry but not really you . 110665_115725
+%mor:	adv|almost sconj|like verb|begin-Part-Pres-S part|to verb|cry-Inf-S cconj|but part|not adv|really pron|you-Prs-Acc-S2 .
+%gra:	1|3|ADVMOD 2|3|DISCOURSE 3|9|ROOT 4|5|MARK 5|3|XCOMP 6|9|CC 7|9|ADVMOD 8|9|ADVMOD 9|3|CONJ 10|3|PUNCT
+*FAT:	hey that was a little bit of a trill down in the bottom of the tongue . 117225_126245
+%mor:	intj|hey pron|that-Dem aux|be-Fin-Ind-Past-S3-irr det|a-Ind-Art adj|little-S1 noun|bit adp|of det|a-Ind-Art noun|trill adp|down adp|in det|the-Def-Art noun|bottom adp|of det|the-Def-Art noun|tongue .
+%gra:	1|6|DISCOURSE 2|6|NSUBJ 3|6|COP 4|6|DET 5|6|AMOD 6|16|ROOT 7|9|CASE 8|9|DET 9|6|NMOD 10|6|ADVMOD 11|13|CASE 12|13|DET 13|6|NMOD 14|16|CASE 15|16|DET 16|13|NMOD 17|6|PUNCT
+*FAT:	lip spreading with a mhm . 128125_129385
+%mor:	noun|lip verb|spread-Ger-S adp|with det|a-Ind-Art intj|mhm .
+%gra:	1|2|NSUBJ 2|5|ROOT 3|5|CASE 4|5|DET 5|2|OBL 6|2|PUNCT
+*FAT:	nice . 130735_131025
+%mor:	adj|nice-S1 .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	fla his tongue out . 131205_132185
+%mor:	propn|fla pron|his-Prs-Gen-S3 noun|tongue-Acc adp|out .
+%gra:	1|4|ROOT 2|3|NMOD-POSS 3|1|OBJ 4|1|COMPOUND-PRT 5|1|PUNCT
+*FAT:	eh a little nasality . 136245_137625
+%mor:	intj|eh det|a-Ind-Art adj|little-S1 noun|nasality .
+%gra:	1|4|DISCOURSE 2|4|DET 3|4|AMOD 4|4|ROOT 5|4|PUNCT
+*FAT:	and you closing his mouth . 141275_142575
+%mor:	cconj|and pron|you-Prs-Nom-S2 verb|close-Part-Pres-S pron|his-Prs-Gen-S3 noun|mouth-Acc .
+%gra:	1|3|CC 2|3|NSUBJ 3|5|ROOT 4|5|NMOD-POSS 5|3|OBJ 6|3|PUNCT
+*FAT:	sort of basically making little ends or was that sort of a stricter at the back of the Clarence on a snorting and breathing going on . 142575_154985
+%mor:	noun|sort adp|of adv|basically verb|make-Part-Pres-S adj|little-S1 noun|end-Plur-Acc cconj|or aux|be-Fin-Ind-Past-S3-irr det|that-Def-Dem-Sing noun|sort adp|of det|a-Ind-Art adj|stricter-Cmp-S1 adp|at det|the-Def-Art noun|back adp|of det|the-Def-Art propn|Clarence adp|on det|a-Ind-Art noun|snorting-Ger cconj|and noun|breathing-Ger verb|go-Ger-S adp|on .
+%gra:	1|4|ADVMOD 2|1|FIXED 3|4|ADVMOD 4|26|ROOT 5|6|AMOD 6|4|OBJ 7|13|CC 8|13|COP 9|10|DET 10|13|OBL-UNMARKED 11|10|FIXED 12|13|DET 13|4|CONJ 14|16|CASE 15|16|DET 16|13|OBL 17|19|CASE 18|19|DET 19|16|NMOD 20|22|CASE 21|22|DET 22|16|NMOD 23|24|CC 24|22|CONJ 25|22|CONJ 26|25|COMPOUND-PRT 27|4|PUNCT
+*FAT:	yeah . 154985_155225
+%mor:	intj|yeah .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	what was that . 158535_159145
+%mor:	pron|what-Int-S1 aux|be-Fin-Ind-Past-S3-irr pron|that-Dem .
+%gra:	1|3|ROOT 2|3|COP 3|1|NSUBJ 4|1|PUNCT
+*FAT:	hey sort of bounce down followed by another one of those little nasal births . 159325_164185
+%mor:	intj|hey noun|sort adp|of verb|bounce-Inf-S adp|down verb|follow-Part-Past-S adp|by det|another-Def-Ind noun|one adp|of det|that-Def-Dem-Plur adj|little-S1 adj|nasal-S1 noun|birth-Plur .
+%gra:	1|4|DISCOURSE 2|4|ADVMOD 3|2|FIXED 4|14|ROOT 5|4|COMPOUND-PRT 6|4|XCOMP 7|9|CASE 8|9|DET 9|6|OBL-AGENT 10|14|CASE 11|14|DET 12|14|AMOD 13|14|AMOD 14|9|NMOD 15|4|PUNCT
+*FAT:	another . 168645_169135
+%mor:	det|another-Def-Ind .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	one of those little glo . 169135_171055
+%mor:	num|one adp|of det|that-Def-Dem-Plur adj|little-S1 noun|glo .
+%gra:	1|5|ROOT 2|5|CASE 3|5|DET 4|5|AMOD 5|1|NMOD 6|1|PUNCT
+*FAT:	it's hard to tell where their glottal . 171165_172335
+%mor:	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adj|hard-S1 part|to verb|tell-Inf-S adv|where pron|their-Prs-Gen-P3 noun|glottal-Acc .
+%gra:	1|3|EXPL 2|3|COP 3|8|ROOT 4|5|MARK 5|3|CSUBJ 6|5|CCOMP 7|8|NMOD-POSS 8|5|OBJ 9|3|PUNCT
+*FAT:	so they seemed like nasal flaps . 172575_173895
+%mor:	adv|so pron|they-Prs-Nom-P3 verb|seem-Fin-Ind-Past-P3 adp|like adj|nasal-S1 noun|flap-Plur .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|6|ROOT 4|6|CASE 5|6|AMOD 6|3|OBL 7|3|PUNCT
+*FAT:	really get about all you have to say . 173895_176935
+%mor:	adv|really verb|get-Fin-Imp-S adv|about det|all-Def-Tot pron|you-Prs-Nom-S2 verb|have-Fin-Ind-Pres-S2 part|to verb|say-Inf-S .
+%gra:	1|2|ADVMOD 2|8|ROOT 3|4|ADVMOD 4|2|OBJ 5|6|NSUBJ 6|4|ACL-RELCL 7|8|MARK 8|6|XCOMP 9|2|PUNCT
+*FAT:	this is all still at the same time seven o'clock on the twenty eighth of February well he's making these little taches . 178955_187365
+%mor:	pron|this-Dem-S1 aux|be-Fin-Ind-Pres-S3 adv|all adv|still adp|at det|the-Def-Art adj|same-S1 noun|time num|seven noun|oclock adp|on det|the-Def-Art num|twenty noun|eighth adp|of propn|February intj|well pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|make-Part-Pres-S det|this-Def-Dem-Plur adj|little-S1 noun|tache-Plur-Acc .
+%gra:	1|8|NSUBJ 2|8|COP 3|8|ADVMOD 4|8|ADVMOD 5|8|CASE 6|8|DET 7|8|AMOD 8|23|ROOT 9|10|NUMMOD 10|8|NMOD-UNMARKED 11|14|CASE 12|14|DET 13|14|NUMMOD 14|8|NMOD 15|16|CASE 16|14|NMOD 17|20|DISCOURSE 18|20|NSUBJ 19|20|AUX 20|8|PARATAXIS 21|23|DET 22|23|AMOD 23|20|OBJ 24|8|PUNCT
+*FAT:	I hear these little clicks . 187685_188525
+%mor:	pron|I-Prs-Nom-S1 verb|hear-Fin-Ind-Pres-S1 det|this-Def-Dem-Plur adj|little-S1 noun|click-Plur-Acc .
+%gra:	1|2|NSUBJ 2|5|ROOT 3|5|DET 4|5|AMOD 5|2|OBJ 6|2|PUNCT
+*FAT:	Mary did you hear them . 188525_189565
+%mor:	propn|Mary-Acc aux|do-Fin-Ind-Past-S2-irr pron|you-Prs-Nom-S2 verb|hear-Inf-S pron|they-Prs-Acc-P3 .
+%gra:	1|4|OBJ 2|4|AUX 3|4|NSUBJ 4|5|ROOT 5|4|OBJ 6|4|PUNCT
+*FAT:	I can hear I can go on tape . 191885_193085
+%mor:	pron|I-Prs-Nom-S1 aux|can-Fin-S verb|hear-Inf-S pron|I-Prs-Nom-S1 aux|can-Fin-S verb|go-Inf-S adp|on noun|tape .
+%gra:	1|3|NSUBJ 2|3|AUX 3|8|ROOT 4|6|NSUBJ 5|6|AUX 6|3|CCOMP 7|8|CASE 8|6|OBL 9|3|PUNCT
+*FAT:	this is all breathing mostly just breathing . 201705_205035
+%mor:	pron|this-Dem-S1 aux|be-Fin-Ind-Pres-S3 adv|all verb|breathe-Part-Pres-S adv|mostly adv|just verb|breathe-Part-Pres-S .
+%gra:	1|4|NSUBJ 2|4|AUX 3|4|ADVMOD 4|7|ROOT 5|7|ADVMOD 6|7|ADVMOD 7|4|ADVCL 8|4|PUNCT
+*FAT:	eh sort of like name lies . 206935_209155
+%mor:	intj|eh noun|sort adp|of adj|like-S1 noun|name noun|lie-Plur .
+%gra:	1|6|DISCOURSE 2|6|NMOD-UNMARKED 3|2|FIXED 4|6|AMOD 5|6|COMPOUND 6|6|ROOT 7|6|PUNCT
+*FAT:	anything [/] anything else . 214155_214755
+%mor:	pron|anything-Ind-S1 adj|else-S1 .
+%gra:	1|2|ROOT 2|1|AMOD 3|1|PUNCT
+*FAT:	you wanna say . 214755_215235
+%mor:	pron|you-Prs-Nom-S2 aux|wanna-Fin-S2 verb|say-Inf-S .
+%gra:	1|3|NSUBJ 2|3|AUX 3|3|ROOT 4|3|PUNCT
+*FAT:	no more word for this one . 216175_217435
+%mor:	det|no-Def-Neg adj|more-Cmp-S1 noun|word adp|for det|this-Def-Dem-Sing noun|one .
+%gra:	1|3|DET 2|3|AMOD 3|6|ROOT 4|6|CASE 5|6|DET 6|3|NMOD 7|3|PUNCT
+*FAT:	okay . 218565_218855
+%mor:	intj|okay .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	that's pretty v light . 219765_220905
+%mor:	pron|that-Dem~aux|be-Fin-Ind-Pres-S3 adv|pretty noun|v adj|light-S1 .
+%gra:	1|5|NSUBJ 2|5|COP 3|4|ADVMOD 4|5|ADVMOD 5|5|ROOT 6|5|PUNCT
+*FAT:	you want me to . 220925_221425
+%mor:	pron|you-Prs-Nom-S2 verb|want-Fin-Ind-Pres-S2 pron|I-Prs-Acc-S1 part|to .
+%gra:	1|2|NSUBJ 2|4|ROOT 3|2|OBJ 4|2|XCOMP 5|2|PUNCT
+*FAT:	hold it . 221425_221745
+%mor:	verb|hold-Fin-Imp-S pron|it-Prs-Acc-S3 .
+%gra:	1|2|ROOT 2|1|OBJ 3|1|PUNCT
+*FAT:	you take it back . 222245_222905
+%mor:	pron|you-Prs-Nom-S2 verb|take-Fin-Ind-Pres-S2 pron|it-Prs-Acc-S3 adv|back .
+%gra:	1|2|NSUBJ 2|4|ROOT 3|2|OBJ 4|2|ADVMOD 5|2|PUNCT
+*FAT:	we'll just turn it off and get him later right . 224195_225625
+%mor:	pron|we-Prs-Nom-P1~aux|will-Fin-S adv|just verb|turn-Inf-S pron|it-Prs-Acc-S3 adp|off cconj|and verb|get-Inf-S pron|he-Prs-Acc-S3 adv|late adv|right .
+%gra:	1|4|NSUBJ 2|4|AUX 3|4|ADVMOD 4|11|ROOT 5|4|OBJ 6|4|COMPOUND-PRT 7|8|CC 8|4|CONJ 9|8|OBJ 10|8|ADVMOD 11|8|ADVMOD 12|4|PUNCT
+*FAT:	he's pretty nice . 226095_226705
+%mor:	pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adv|pretty adj|nice-S1 .
+%gra:	1|4|NSUBJ 2|4|COP 3|4|ADVMOD 4|4|ROOT 5|4|PUNCT
+*FAT:	saying a lot of important things . 227365_228745
+%mor:	verb|say-Part-Pres-S det|a-Ind-Art noun|lot-Acc adp|of adj|important-S1 noun|thing-Plur .
+%gra:	1|6|ROOT 2|3|DET 3|1|OBJ 4|6|CASE 5|6|AMOD 6|3|NMOD 7|1|PUNCT
+*FAT:	you wanna do it . 229205_230025
+%mor:	pron|you-Prs-Nom-S2 aux|wanna-Fin-Ind-S2 verb|do-Fin-Ind-Pres-S pron|it-Prs-Acc-S3 .
+%gra:	1|3|NSUBJ 2|3|AUX 3|4|ROOT 4|3|OBJ 5|3|PUNCT
+*FAT:	yeah . 230025_230305
+%mor:	intj|yeah .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	by the way that hand will get recorded out . 232125_234105
+%mor:	adp|by det|the-Def-Art noun|way det|that-Def-Dem-Sing noun|hand aux|will-Fin-S aux|get-Inf-S verb|record-Part-Past-S adp|out .
+%gra:	1|3|CASE 2|3|DET 3|9|ROOT 4|5|DET 5|8|NSUBJ-PASS 6|8|AUX 7|8|AUX-PASS 8|3|ACL-RELCL 9|8|COMPOUND-PRT 10|3|PUNCT
+*FAT:	so you around when he stopped saying things just turn out feedback right now . 234285_258155
+%mor:	adv|so pron|you-Prs-Nom-S2 adv|around adv|when pron|he-Prs-Nom-S3 verb|stop-Fin-Ind-Past-S3 verb|say-Ger-S noun|thing-Plur adv|just verb|turn-Inf-S adp|out noun|feedback-Acc adv|right adv|now .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|14|ROOT 4|6|ADVMOD 5|6|NSUBJ 6|3|ADVCL 7|6|XCOMP 8|10|NSUBJ 9|10|ADVMOD 10|7|CCOMP 11|10|COMPOUND-PRT 12|10|OBJ 13|14|ADVMOD 14|10|ADVMOD 15|3|PUNCT
+*FAT:	I turned off . 262515_263035
+%mor:	pron|I-Prs-Nom-S1 verb|turn-Fin-Ind-Past-S1 adp|off .
+%gra:	1|2|NSUBJ 2|3|ROOT 3|2|COMPOUND-PRT 4|2|PUNCT
+*FAT:	wow . 265965_266185
+%mor:	intj|wow .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	wow . 267325_267545
+%mor:	intj|wow .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	what was that . 268015_268585
+%mor:	pron|what-Int-S1 aux|be-Fin-Ind-Past-S3-irr pron|that-Dem .
+%gra:	1|3|ROOT 2|3|COP 3|1|NSUBJ 4|1|PUNCT
+*FAT:	wow . 270735_270955
+%mor:	intj|wow .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	it was <sort of a> [/] sort of a wow . 271295_272595
+%mor:	pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr noun|sort adp|of det|a-Ind-Art noun|wow .
+%gra:	1|6|NSUBJ 2|6|COP 3|6|ADVMOD 4|3|FIXED 5|6|DET 6|6|ROOT 7|6|PUNCT
+*FAT:	sort a little w .
+%mor:	noun|sort det|a-Ind-Art adj|little-S1 noun|with .
+%gra:	1|3|ADVMOD 2|3|DET 3|4|ROOT 4|3|PUNCT 5|3|PUNCT
+*FAT:	you've gotta I trip with these sounds . 272595_276855
+%mor:	pron|you-Prs-Nom-S2~aux|have-Fin-Ind-Pres-S2 part|getta pron|I-Prs-Nom-S1 verb|trip-Inf-S adp|with det|this-Def-Dem-Plur noun|sound-Plur .
+%gra:	1|5|NSUBJ 2|5|AUX 3|5|ADVMOD 4|5|NSUBJ 5|8|ROOT 6|8|CASE 7|8|DET 8|5|OBL 9|5|PUNCT
+*FAT:	I do . 277135_277335
+%mor:	pron|I-Prs-Nom-S1 aux|do-Fin-Ind-Pres-S1 .
+%gra:	1|2|NSUBJ 2|2|ROOT 3|2|PUNCT
+*FAT:	yeah . 277525_277815
+%mor:	intj|yeah .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	otherwise you it's very hard this tape to imagine how they were articulating nothing like that with his mouth . 277815_285295
+%mor:	adv|otherwise pron|you-Prs-Acc-S2 pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adv|very adj|hard-S1 det|this-Def-Dem-Sing noun|tape part|to verb|imagine-Inf-S adv|how pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr verb|articulate-Part-Pres-S pron|nothing-Neg-S1 adp|like pron|that-Dem adp|with pron|his-Prs-Gen-S3 noun|mouth .
+%gra:	1|6|ADVMOD 2|6|VOCATIVE 3|6|EXPL 4|6|COP 5|6|ADVMOD 6|20|ROOT 7|8|DET 8|6|NSUBJ 9|10|MARK 10|6|CSUBJ 11|14|ADVMOD 12|14|NSUBJ 13|14|AUX 14|10|CCOMP 15|14|OBJ 16|17|CASE 17|15|NMOD 18|20|CASE 19|20|NMOD-POSS 20|14|OBL 21|6|PUNCT
+*FAT:	I'm gonna stop Ross just . 288755_295095
+%mor:	pron|I-Prs-Nom-S1~aux|be-Fin-Ind-Pres-S1 part|go verb|stop-Inf-S propn|Ross-Acc adv|just .
+%gra:	1|4|NSUBJ 2|4|AUX 3|4|ADVMOD 4|6|ROOT 5|4|OBJ 6|4|ADVMOD 7|4|PUNCT
+*FAT:	finished listening to himself over the tape recording seemed to really enjoy it . 295255_299975
+%mor:	verb|finish-Fin-Ind-Past-S3 verb|listen-Ger-S adp|to pron|himself-Prs-Acc-reflx-S3 adp|over det|the-Def-Art noun|tape noun|recording-Ger verb|seem-Fin-Ind-Past-S3 part|to adv|really verb|enjoy-Inf-S pron|it-Prs-Acc-S3 .
+%gra:	1|9|CSUBJ 2|1|XCOMP 3|4|CASE 4|2|OBL 5|8|CASE 6|8|DET 7|8|COMPOUND 8|2|OBL 9|13|ROOT 10|12|MARK 11|12|ADVMOD 12|9|XCOMP 13|12|OBJ 14|9|PUNCT
+*FAT:	not his bathroom . 299975_300735
+%mor:	part|not pron|his-Prs-Gen-S3 noun|bathroom .
+%gra:	1|3|ADVMOD 2|3|NMOD-POSS 3|3|ROOT 4|3|PUNCT
+*FAT:	what's that . 305155_305735
+%mor:	pron|what-Int-S1~aux|be-Fin-Ind-Pres-S3 pron|that-Dem .
+%gra:	1|3|ROOT 2|3|COP 3|1|NSUBJ 4|1|PUNCT
+*FAT:	there . 307725_308075
+%mor:	adv|there .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	just a constriction . 308185_309035
+%mor:	adv|just det|a-Ind-Art noun|constriction .
+%gra:	1|3|ADVMOD 2|3|DET 3|3|ROOT 4|3|PUNCT
+*FAT:	a lot of constrictions at the bathroom . 309155_310995
+%mor:	det|a-Ind-Art noun|lot adp|of noun|constriction-Plur adp|at det|the-Def-Art noun|bathroom .
+%gra:	1|2|DET 2|7|ROOT 3|4|CASE 4|2|NMOD 5|7|CASE 6|7|DET 7|4|NMOD 8|2|PUNCT
+*FAT:	now . 311055_311275
+%mor:	adv|now .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	seems like has to be some kind of tensing before he makes it sound . 319485_322155
+%mor:	verb|seem-Fin-Ind-Pres-S3 sconj|like verb|have-Fin-Ind-Pres-S3 part|to aux|be-Inf-S det|some-Def-Ind noun|kind adp|of noun|tensing-Ger sconj|before pron|he-Prs-Nom-S3 verb|make-Fin-Ind-Pres-S3 pron|it-Prs-Acc-S3 verb|sound-Inf-S .
+%gra:	1|14|ROOT 2|3|MARK 3|1|ADVCL 4|7|MARK 5|7|COP 6|7|DET 7|3|XCOMP 8|9|CASE 9|7|NMOD 10|12|MARK 11|12|NSUBJ 12|3|ADVCL 13|12|OBJ 14|12|XCOMP 15|1|PUNCT
+*FAT:	ah I think we're getting hungry at this point . 323095_327315
+%mor:	intj|ah pron|I-Prs-Nom-S1 verb|think-Fin-Ind-Pres-S1 pron|we-Prs-Nom-P1~aux|be-Fin-Ind-Pres-P1 verb|get-Part-Pres-S adj|hungry-S1 adp|at det|this-Def-Dem-Sing noun|point .
+%gra:	1|3|DISCOURSE 2|3|NSUBJ 3|10|ROOT 4|6|NSUBJ 5|6|AUX 6|3|CCOMP 7|6|XCOMP 8|10|CASE 9|10|DET 10|6|OBL 11|3|PUNCT
+*FAT:	aren't we we're tired . 327315_328915
+%mor:	aux|be-Fin-Ind-Pres-P1~part|not pron|we-Prs-Nom-P1 pron|we-Prs-Nom-P1~aux|be-Fin-Ind-Pres-P1 adj|tired-S1 .
+%gra:	1|6|COP 2|6|ADVMOD 3|6|REPARANDUM 4|6|NSUBJ 5|6|COP 6|6|ROOT 7|6|PUNCT
+*FAT:	you hungry or tired . 329135_330035
+%mor:	pron|you-Prs-Nom-S2 adj|hungry-S1 cconj|or adj|tired-S1 .
+%gra:	1|2|NSUBJ 2|4|ROOT 3|4|CC 4|2|CONJ 5|2|PUNCT
+*FAT:	seems a little point . 330285_331355
+%mor:	verb|seem-Fin-Ind-Pres-S3 det|a-Ind-Art adj|little-S1 noun|point-Acc .
+%gra:	1|4|ROOT 2|4|DET 3|4|AMOD 4|1|OBJ 5|1|PUNCT
+*FAT:	eye clubs going on and sucking in hand . 333135_335435
+%mor:	noun|eye noun|club-Plur verb|go-Ger-S adp|on cconj|and verb|suck-Part-Pres-S adp|in noun|hand .
+%gra:	1|2|COMPOUND 2|8|ROOT 3|2|ACL 4|3|COMPOUND-PRT 5|6|CC 6|3|CONJ 7|8|CASE 8|6|OBL 9|2|PUNCT
+*FAT:	anyway . 336935_337355
+%mor:	intj|anyway .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	these sounds are &-uh you might call manual labial . 338485_342595
+%mor:	det|this-Def-Dem-Plur noun|sound-Plur aux|be-Fin-Ind-Pres-P3 pron|you-Prs-Nom-S2 aux|might-Fin-S verb|call-Inf-S adj|manual-S1 noun|labial-Acc .
+%gra:	1|2|DET 2|6|NSUBJ-OUTER 3|6|COP 4|6|NSUBJ 5|6|AUX 6|8|ROOT 7|8|AMOD 8|6|OBJ 9|6|PUNCT
+*FAT:	well hand and mouth sounds . 345465_346755
+%mor:	intj|well noun|hand cconj|and noun|mouth verb|sound-Fin-Ind-Pres-S3 .
+%gra:	1|5|DISCOURSE 2|5|NSUBJ 3|4|CC 4|2|CONJ 5|5|ROOT 6|5|PUNCT
+*FAT:	yeah . 348055_348345
+%mor:	intj|yeah .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	kind of bird all this . 353695_360285
+%mor:	noun|kind adp|of noun|bird det|all-Def-Tot pron|this-Dem-S1 .
+%gra:	1|3|ADVMOD 2|1|FIXED 3|5|ROOT 4|5|DET-PREDET 5|3|NMOD-UNMARKED 6|3|PUNCT
+*FAT:	nasal slap . 360335_360925
+%mor:	adj|nasal-S1 noun|slap .
+%gra:	1|2|AMOD 2|2|ROOT 3|2|PUNCT
+*FAT:	very common nasal slap . 360955_362125
+%mor:	adv|very adj|common-S1 adj|nasal-S1 noun|slap .
+%gra:	1|2|ADVMOD 2|4|AMOD 3|4|AMOD 4|4|ROOT 5|4|PUNCT
+*FAT:	is that a nasal . 364825_365605
+%mor:	aux|be-Fin-Ind-Pres-S3 sconj|that det|a-Ind-Art noun|nasal .
+%gra:	1|4|COP 2|4|MARK 3|4|DET 4|4|ROOT 5|4|PUNCT
+*FAT:	flap . 365605_365845
+%mor:	noun|flap .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	yeah . 365995_366285
+%mor:	intj|yeah .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	your yeah . 368235_370565
+%mor:	pron|your-Prs-Gen-S2 intj|yeah .
+%gra:	1|2|NMOD-POSS 2|2|ROOT 3|2|PUNCT
+*FAT:	you're flapping . 370565_371005
+%mor:	pron|you-Prs-Nom-S2~aux|be-Fin-Ind-Pres-S2 verb|flap-Part-Pres-S .
+%gra:	1|3|NSUBJ 2|3|AUX 3|3|ROOT 4|3|PUNCT
+*FAT:	your [/] your we say . 371005_375415
+%mor:	pron|your-Prs-Gen-S2 pron|we-Prs-Nom-P1 verb|say-Fin-Ind-Pres-P1 .
+%gra:	1|3|ROOT 2|3|NSUBJ 3|1|PARATAXIS 4|1|PUNCT
+*FAT:	uhuh . 375445_375735
+%mor:	intj|uhuh .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	what do you call the creaking door . 381475_382805
+%mor:	pron|what-Int-S1 aux|do-Fin-Ind-Pres-S2 pron|you-Prs-Nom-S2 verb|call-Inf-S det|the-Def-Art verb|creak-Ger-S noun|door-Acc .
+%gra:	1|4|OBJ 2|4|AUX 3|4|NSUBJ 4|7|ROOT 5|7|DET 6|7|AMOD 7|4|OBJ 8|4|PUNCT
+*FAT:	that's a Ization I don't think he's saying anymore . 384145_387285
+%mor:	pron|that-Dem~aux|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|ization pron|I-Prs-Nom-S1 aux|do-Fin-Ind-Pres-S1~part|not verb|think-Inf-S pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|say-Part-Pres-S adv|anymore .
+%gra:	1|4|NSUBJ 2|4|COP 3|4|DET 4|12|ROOT 5|8|NSUBJ 6|8|AUX 7|8|ADVMOD 8|4|ACL-RELCL 9|11|NSUBJ 10|11|AUX 11|8|CCOMP 12|11|ADVMOD 13|4|PUNCT
+*FAT:	turned off . 387345_387965
+%mor:	verb|turn-Fin-Ind-Past-S1 adp|off .
+%gra:	1|2|ROOT 2|1|COMPOUND-PRT 3|1|PUNCT
+*FAT:	okay . 388195_388485
+%mor:	intj|okay .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	March first eight o'clock in the morning taking a ba . 392055_398485
+%mor:	propn|March adj|first-S1 num|eight noun|oclock adp|in det|the-Def-Art noun|morning-Ger verb|take-Part-Pres-S det|a-Ind-Art noun|ba-Acc .
+%gra:	1|3|COMPOUND 2|3|AMOD 3|4|NUMMOD 4|10|ROOT 5|7|CASE 6|7|DET 7|4|NMOD 8|3|ADVCL 9|10|DET 10|8|OBJ 11|4|PUNCT
+*FAT:	&-uh just has taken a bath . 398665_400405
+%mor:	adv|just aux|have-Fin-Ind-Pres-S3 verb|take-Part-Past-S-irr det|a-Ind-Art noun|bath-Acc .
+%gra:	1|3|ADVMOD 2|3|AUX 3|5|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
+*FAT:	diapering him in the back of the throat . 401755_421865
+%mor:	verb|diaper-Part-Pres-S pron|he-Prs-Acc-S3 adp|in det|the-Def-Art noun|back adp|of det|the-Def-Art noun|throat .
+%gra:	1|8|ROOT 2|1|OBJ 3|5|CASE 4|5|DET 5|1|OBL 6|8|CASE 7|8|DET 8|5|NMOD 9|1|PUNCT
+*FAT:	most of the sounds are in the back of the throat . 455565_457375
+%mor:	adj|most-Sup-S1 adp|of det|the-Def-Art noun|sound-Plur aux|be-Fin-Ind-Pres-P3 adp|in det|the-Def-Art noun|back adp|of det|the-Def-Art noun|throat .
+%gra:	1|8|NSUBJ 2|4|CASE 3|4|DET 4|1|NMOD 5|8|COP 6|8|CASE 7|8|DET 8|11|ROOT 9|11|CASE 10|11|DET 11|8|NMOD 12|8|PUNCT
+*FAT:	and there's a lot of breathing being done . 457375_458975
+%mor:	cconj|and pron|there-Int-S1~verb|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|lot adp|of noun|breathing-Ger aux|be-Part-Pres-S verb|do-Part-Past-S-irr .
+%gra:	1|3|CC 2|3|EXPL 3|9|ROOT 4|5|DET 5|3|NSUBJ 6|7|CASE 7|5|NMOD 8|9|AUX-PASS 9|5|ACL 10|3|PUNCT
+*FAT:	flailing of arms and kicking the legs . 459815_461815
+%mor:	noun|flailing-Ger adp|of noun|arm-Plur cconj|and verb|kick-Part-Pres-S det|the-Def-Art noun|leg-Plur-Acc .
+%gra:	1|7|ROOT 2|3|CASE 3|1|NMOD 4|5|CC 5|1|CONJ 6|7|DET 7|5|OBJ 8|1|PUNCT
+*FAT:	he is struggling to get to the breast . 483625_485485
+%mor:	pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Pres-S3 verb|struggle-Part-Pres-S part|to verb|get-Inf-S adp|to det|the-Def-Art noun|breast .
+%gra:	1|3|NSUBJ 2|3|AUX 3|8|ROOT 4|5|MARK 5|3|XCOMP 6|8|CASE 7|8|DET 8|5|OBL 9|3|PUNCT
+*FAT:	which I've he hasn't eaten for yet since ten o'clock last night . 485485_491805
+%mor:	pron|which-Rel-S1 pron|I-Prs-Nom-S1~aux|have-Fin-Ind-Pres-S1 pron|he-Prs-Nom-S3 aux|have-Fin-Ind-Pres-S3~part|not verb|eat-Part-Past-S-irr adp|for adv|yet adp|since num|ten noun|oclock adj|last-S1 noun|night .
+%gra:	1|7|OBJ 2|7|NSUBJ 3|7|AUX 4|7|NSUBJ 5|7|AUX 6|7|ADVMOD 7|14|ROOT 8|9|CASE 9|7|OBL 10|11|CASE 11|7|OBL 12|11|NMOD-UNMARKED 13|14|AMOD 14|7|OBL-UNMARKED 15|7|PUNCT
+*FAT:	most of this is straining . 500605_501775
+%mor:	adj|most-Sup-S1 adp|of pron|this-Dem-S1 aux|be-Fin-Ind-Pres-S3 verb|strain-Part-Pres-S .
+%gra:	1|5|NSUBJ 2|3|CASE 3|1|NMOD 4|5|COP 5|5|ROOT 6|5|PUNCT
+*FAT:	no . 508075_508295
+%mor:	intj|no .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	he's lying in his tubby on the sideboard after having half eaten sort of waiting for a diaper change and watching the [/] the plug and the picture above a lot of breathing and sounds from the back of his throat . 508295_550045
+%mor:	pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|lie-Part-Pres-S adp|in pron|his-Prs-Gen-S3 noun|tubby adp|on det|the-Def-Art noun|sideboard sconj|after aux|have-Part-Pres-S noun|half verb|eat-Part-Past-S-irr noun|sort adp|of verb|wait-Ger-S adp|for det|a-Ind-Art noun|diaper noun|change cconj|and verb|watch-Part-Pres-S det|the-Def-Art noun|plug-Acc cconj|and det|the-Def-Art noun|picture adp|above det|a-Ind-Art noun|lot adp|of noun|breathing-Ger cconj|and noun|sound-Plur adp|from det|the-Def-Art noun|back adp|of pron|his-Prs-Gen-S3 noun|throat .
+%gra:	1|3|NSUBJ 2|3|AUX 3|40|ROOT 4|6|CASE 5|6|NMOD-POSS 6|3|OBL 7|9|CASE 8|9|DET 9|3|OBL 10|13|MARK 11|13|AUX 12|13|ADVMOD 13|3|ADVCL 14|16|ADVMOD 15|14|FIXED 16|13|ADVCL 17|20|CASE 18|20|DET 19|20|COMPOUND 20|16|OBL 21|22|CC 22|13|CONJ 23|24|DET 24|22|OBJ 25|27|CC 26|27|DET 27|24|CONJ 28|30|CASE 29|30|DET 30|22|OBL 31|32|CASE 32|30|NMOD 33|34|CC 34|32|CONJ 35|37|CASE 36|37|DET 37|30|NMOD 38|40|CASE 39|40|NMOD-POSS 40|37|NMOD 41|3|PUNCT
+*FAT:	got her old sons I think that had the tongue involved was an intake a bear back to the throat seem to be from the back of the throat . 557345_742915
+%mor:	verb|get-Fin-Ind-Past-S1-irr pron|her-Prs-Gen-S3 adj|old-S1 noun|son-Plur-Acc pron|I-Prs-Nom-S1 verb|think-Fin-Ind-Pres-S1 pron|that-Rel aux|have-Fin-Ind-Past-S3-irr det|the-Def-Art noun|tongue verb|involve-Part-Past-S aux|be-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|intake det|a-Ind-Art noun|bear adv|back adp|to det|the-Def-Art noun|throat verb|seem-Fin-Ind-Pres-P3 part|to aux|be-Inf-S adp|from det|the-Def-Art noun|back adp|of det|the-Def-Art noun|throat .
+%gra:	1|29|ROOT 2|4|NMOD-POSS 3|4|AMOD 4|1|OBJ 5|6|NSUBJ 6|4|ACL-RELCL 7|21|NSUBJ-OUTER 8|14|AUX 9|10|DET 10|14|NSUBJ 11|10|ACL 12|14|COP 13|14|DET 14|1|PARATAXIS 15|16|DET 16|14|NSUBJ 17|14|ADVMOD 18|20|CASE 19|20|DET 20|17|OBL 21|1|PARATAXIS 22|26|MARK 23|26|COP 24|26|CASE 25|26|DET 26|21|XCOMP 27|29|CASE 28|29|DET 29|26|NMOD 30|1|PUNCT
+*FAT:	he's also trying to suck on the on his hand . 743225_748035
+%mor:	pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adv|also verb|try-Part-Pres-S part|to verb|suck-Inf-S adp|on det|the-Def-Art adp|on pron|his-Prs-Gen-S3 noun|hand .
+%gra:	1|4|NSUBJ 2|4|AUX 3|4|ADVMOD 4|11|ROOT 5|6|MARK 6|4|XCOMP 7|6|COMPOUND-PRT 8|11|DET 9|11|CASE 10|11|NMOD-POSS 11|6|OBL 12|4|PUNCT
+*FAT:	he's still looking at that plug in spite of the fact that I've got the microphone up near his eyes involved . 755105_777335
+%mor:	pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adv|still verb|look-Part-Pres-S adp|at det|that-Def-Dem-Sing noun|plug adp|in noun|spite adp|of det|the-Def-Art noun|fact sconj|that pron|I-Prs-Nom-S1~aux|have-Fin-Ind-Pres-S1 verb|get-Part-Past-S-irr det|the-Def-Art noun|microphone-Acc adp|up adp|near pron|his-Prs-Gen-S3 noun|eye-Plur verb|involve-Part-Past-S .
+%gra:	1|4|NSUBJ 2|4|AUX 3|4|ADVMOD 4|23|ROOT 5|7|CASE 6|7|DET 7|4|OBL 8|9|CASE 9|4|OBL 10|12|CASE 11|12|DET 12|9|NMOD 13|16|MARK 14|16|NSUBJ 15|16|AUX 16|12|ACL 17|18|DET 18|16|OBJ 19|16|COMPOUND-PRT 20|22|CASE 21|22|NMOD-POSS 22|16|OBL 23|22|ACL 24|4|PUNCT
+*FAT:	back of throughout sticks his tongue out partially while doing this . 777405_788755
+%mor:	adv|back adp|of adp|throughout verb|stick-Fin-Ind-Pres-S3 pron|his-Prs-Gen-S3 noun|tongue-Acc adp|out adv|partially sconj|while verb|do-Part-Pres-S pron|this-Dem-S1 .
+%gra:	1|4|ADVMOD 2|1|FIXED 3|4|MARK 4|11|ROOT 5|6|NMOD-POSS 6|4|OBJ 7|4|COMPOUND-PRT 8|4|ADVMOD 9|10|MARK 10|4|ADVCL 11|10|OBJ 12|4|PUNCT
+*FAT:	he's still in his tubby . 807385_808835
+%mor:	pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adv|still adp|in pron|his-Prs-Gen-S3 noun|tubby .
+%gra:	1|6|NSUBJ 2|6|COP 3|6|ADVMOD 4|6|CASE 5|6|NMOD-POSS 6|6|ROOT 7|6|PUNCT
+*FAT:	it's about eight thirty . 809385_810435
+%mor:	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adv|about num|eight num|thirty .
+%gra:	1|5|NSUBJ 2|5|COP 3|4|ADVMOD 4|5|NUMMOD 5|5|ROOT 6|5|PUNCT
+*FAT:	little . 846475_846895
+%mor:	adj|little-S1 .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	tongue clicking . 847095_847655
+%mor:	noun|tongue noun|click-Ger .
+%gra:	1|2|COMPOUND 2|2|ROOT 3|2|PUNCT
+*FAT:	his hand is on his mouth . 877035_878375
+%mor:	pron|his-Prs-Gen-S3 noun|hand aux|be-Fin-Ind-Pres-S3 adp|on pron|his-Prs-Gen-S3 noun|mouth .
+%gra:	1|2|NMOD-POSS 2|6|NSUBJ 3|6|COP 4|6|CASE 5|6|NMOD-POSS 6|6|ROOT 7|6|PUNCT
+*FAT:	now he is just been washed . 878475_904805
+%mor:	adv|now pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Pres-S3 adv|just aux|be-Part-Past-S-irr verb|wash-Part-Past-S .
+%gra:	1|6|ADVMOD 2|6|NSUBJ-PASS 3|6|AUX 4|6|ADVMOD 5|6|AUX-PASS 6|6|ROOT 7|6|PUNCT
+*FAT:	and &-uh he's on the sideboard lying down . 905705_909565
+%mor:	cconj|and pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adp|on det|the-Def-Art noun|sideboard verb|lie-Part-Pres-S adv|down .
+%gra:	1|6|CC 2|6|NSUBJ 3|6|COP 4|6|CASE 5|6|DET 6|8|ROOT 7|6|ACL 8|7|ADVMOD 9|6|PUNCT
+*FAT:	it's about ten of nine . 910315_912765
+%mor:	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adv|about num|ten adp|of num|nine .
+%gra:	1|4|NSUBJ 2|4|COP 3|4|ADVMOD 4|6|ROOT 5|6|CASE 6|4|NMOD 7|4|PUNCT
+*FAT:	now Sneeze . 912945_921395
+%mor:	adv|now noun|sneeze .
+%gra:	1|2|ADVMOD 2|2|ROOT 3|2|PUNCT
+*FAT:	okay . 934905_935195
+%mor:	intj|okay .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	it was an intake of bear . 997695_998795
+%mor:	pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|intake adp|of noun|bear .
+%gra:	1|4|NSUBJ 2|4|COP 3|4|DET 4|6|ROOT 5|6|CASE 6|4|NMOD 7|4|PUNCT
+*FAT:	there's another one . 1008435_1009245
+%mor:	pron|there-Int-S1~verb|be-Fin-Ind-Pres-S3 det|another-Def-Ind noun|one .
+%gra:	1|2|EXPL 2|4|ROOT 3|4|DET 4|2|NSUBJ 5|2|PUNCT
+*FAT:	help me . 1014025_1014475
+%mor:	verb|help-Fin-Imp-S pron|I-Prs-Acc-S1 .
+%gra:	1|2|ROOT 2|1|OBJ 3|1|PUNCT
+*FAT:	his mouth wide . 1014575_1015475
+%mor:	pron|his-Prs-Gen-S3 noun|mouth adj|wide-S1 .
+%gra:	1|2|NMOD-POSS 2|3|NSUBJ 3|3|ROOT 4|3|PUNCT
+*FAT:	seemed like maybe he used to back his throat for that little . 1015575_1020715
+%mor:	verb|seem-Fin-Ind-Past-S3 adp|like adv|maybe pron|he-Prs-Nom-S3 verb|use-Fin-Ind-Past-S3 part|to verb|back-Inf-S pron|his-Prs-Gen-S3 noun|throat-Acc adp|for det|that-Def-Dem-Sing adj|little-S1 .
+%gra:	1|12|ROOT 2|1|COMPOUND-PRT 3|5|ADVMOD 4|5|NSUBJ 5|1|CCOMP 6|7|MARK 7|5|XCOMP 8|9|NMOD-POSS 9|7|OBJ 10|12|CASE 11|12|DET 12|7|OBL 13|1|PUNCT
+*FAT:	I'm playing with him . 1024655_1025435
+%mor:	pron|I-Prs-Nom-S1~aux|be-Fin-Ind-Pres-S1 verb|play-Part-Pres-S adp|with pron|he-Prs-Acc-S3 .
+%gra:	1|3|NSUBJ 2|3|AUX 3|5|ROOT 4|5|CASE 5|3|OBL 6|3|PUNCT
+*FAT:	there's a lot of tongue work going on . 1043155_1046885
+%mor:	pron|there-Int-S1~verb|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|lot adp|of noun|tongue noun|work verb|go-Ger-S adp|on .
+%gra:	1|2|EXPL 2|9|ROOT 3|4|DET 4|2|NSUBJ 5|7|CASE 6|7|COMPOUND 7|4|NMOD 8|4|ACL 9|8|COMPOUND-PRT 10|2|PUNCT
+*FAT:	a lot of breathing too . 1055845_1056765
+%mor:	det|a-Ind-Art noun|lot adp|of noun|breathing-Ger adv|too .
+%gra:	1|2|DET 2|5|ROOT 3|4|CASE 4|2|NMOD 5|2|ADVMOD 6|2|PUNCT
+*FAT:	oh that was using the back of the throat . 1061345_1074285
+%mor:	intj|oh pron|that-Dem aux|be-Fin-Ind-Past-S3-irr verb|use-Part-Pres-S det|the-Def-Art noun|back-Acc adp|of det|the-Def-Art noun|throat .
+%gra:	1|4|DISCOURSE 2|4|NSUBJ 3|4|AUX 4|9|ROOT 5|6|DET 6|4|OBJ 7|9|CASE 8|9|DET 9|6|NMOD 10|4|PUNCT
+*FAT:	kind of a gurgle a little lip trail lip spreading tongue was involved with that . 1074285_1132965
+%mor:	noun|kind adp|of det|a-Ind-Art noun|gurgle det|a-Ind-Art adj|little-S1 noun|lip noun|trail noun|lip verb|spread-Ger-S noun|tongue aux|be-Fin-Ind-Past-S3-irr verb|involve-Part-Past-S adp|with pron|that-Dem .
+%gra:	1|4|CASE 2|1|FIXED 3|4|DET 4|13|OBL 5|11|DET 6|11|AMOD 7|8|COMPOUND 8|11|COMPOUND 9|10|COMPOUND 10|11|AMOD 11|13|NSUBJ-PASS 12|13|AUX-PASS 13|15|ROOT 14|15|CASE 15|13|OBL 16|13|PUNCT
+*FAT:	he didn't take a bear again [/] again . 1138905_1148765
+%mor:	pron|he-Prs-Nom-S3 aux|do-Fin-Ind-Past-S3-irr~part|not verb|take-Inf-S det|a-Ind-Art noun|bear-Acc adv|again .
+%gra:	1|4|NSUBJ 2|4|AUX 3|4|ADVMOD 4|7|ROOT 5|6|DET 6|4|OBJ 7|4|ADVMOD 8|4|PUNCT
+*FAT:	whoops . 1154425_1154845
+%mor:	intj|whoops .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	what was that . 1155115_1155765
+%mor:	pron|what-Int-S1 aux|be-Fin-Ind-Past-S3-irr pron|that-Dem .
+%gra:	1|3|ROOT 2|3|COP 3|1|NSUBJ 4|1|PUNCT
+*FAT:	got caught in the middle of that one . 1156945_1158165
+%mor:	aux|get-Fin-Ind-Past-S3-irr verb|catch-Part-Past-S-irr adp|in det|the-Def-Art noun|middle adp|of det|that-Def-Dem-Sing noun|one .
+%gra:	1|2|AUX-PASS 2|8|ROOT 3|5|CASE 4|5|DET 5|2|OBL 6|8|CASE 7|8|DET 8|5|NMOD 9|2|PUNCT
+*FAT:	whoop . 1158575_1158925
+%mor:	noun|whoop .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	that was a hiccup . 1158925_1159605
+%mor:	pron|that-Dem aux|be-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|hiccup .
+%gra:	1|4|NSUBJ 2|4|COP 3|4|DET 4|4|ROOT 5|4|PUNCT
+*FAT:	another hiccup . 1160475_1161205
+%mor:	det|another-Def-Ind noun|hiccup .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+*FAT:	another hiccup . 1161835_1162565
+%mor:	det|another-Def-Ind noun|hiccup .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+*FAT:	sorry baby . 1163855_1164565
+%mor:	adj|sorry-S1 noun|baby .
+%gra:	1|2|AMOD 2|2|ROOT 3|2|PUNCT
+*FAT:	oh well stop [/] stop . 1169105_1173045
+%mor:	intj|oh intj|well verb|stop-Fin-Imp-S .
+%gra:	1|3|DISCOURSE 2|3|DISCOURSE 3|3|ROOT 4|3|PUNCT
+*FAT:	March first four ten in the afternoon . 1175015_1180445
+%mor:	propn|March adj|first-S1 num|four num|ten adp|in det|the-Def-Art noun|afternoon .
+%gra:	1|4|COMPOUND 2|4|AMOD 3|4|NUMMOD 4|7|ROOT 5|7|CASE 6|7|DET 7|4|NMOD 8|4|PUNCT
+*FAT:	&-uh . 1198745_1198965
+*FAT:	it was a little . 1201025_1201765
+%mor:	pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr det|a-Ind-Art adj|little-S1 .
+%gra:	1|4|NSUBJ 2|4|COP 3|4|DET 4|4|ROOT 5|4|PUNCT
+*FAT:	glottal . 1201955_1202445
+%mor:	adj|glottal-S1 .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	well that was a glottal trill . 1203755_1205285
+%mor:	intj|well pron|that-Dem aux|be-Fin-Ind-Past-S3-irr det|a-Ind-Art adj|glottal-S1 noun|trill .
+%gra:	1|6|DISCOURSE 2|6|NSUBJ 3|6|COP 4|6|DET 5|6|AMOD 6|6|ROOT 7|6|PUNCT
+*FAT:	wasn't it little tongue explosion there at the beginning of it . 1205285_1214245
+%mor:	aux|be-Fin-Ind-Past-S3-irr~part|not pron|it-Prs-Nom-S3 adj|little-S1 noun|tongue noun|explosion adv|there adp|at det|the-Def-Art noun|beginning-Ger adp|of pron|it-Prs-Acc-S3 .
+%gra:	1|6|COP 2|6|ADVMOD 3|6|NSUBJ 4|6|AMOD 5|6|COMPOUND 6|12|ROOT 7|6|ADVMOD 8|10|CASE 9|10|DET 10|6|NMOD 11|12|CASE 12|10|NMOD 13|6|PUNCT
+*FAT:	Ross has just taken a bath . 1222055_1223505
+%mor:	propn|Ross aux|have-Fin-Ind-Pres-S3 adv|just verb|take-Part-Past-S-irr det|a-Ind-Art noun|bath-Acc .
+%gra:	1|4|NSUBJ 2|4|AUX 3|4|ADVMOD 4|6|ROOT 5|6|DET 6|4|OBJ 7|4|PUNCT
+*FAT:	and I'm playing with him . 1226195_1227255
+%mor:	cconj|and pron|I-Prs-Nom-S1~aux|be-Fin-Ind-Pres-S1 verb|play-Part-Pres-S adp|with pron|he-Prs-Acc-S3 .
+%gra:	1|4|CC 2|4|NSUBJ 3|4|AUX 4|6|ROOT 5|6|CASE 6|4|OBL 7|4|PUNCT
+*FAT:	that was sort of he opened his mouth with a little m sound at the beginning . 1250875_1255045
+%mor:	pron|that-Dem aux|be-Fin-Ind-Past-S3-irr noun|sort adp|of pron|he-Prs-Nom-S3 verb|open-Fin-Ind-Past-S3 pron|his-Prs-Gen-S3 noun|mouth-Acc adp|with det|a-Ind-Art adj|little-S1 noun|m noun|sound adp|at det|the-Def-Art noun|beginning-Ger .
+%gra:	1|6|NSUBJ-OUTER 2|6|COP 3|6|ADVMOD 4|3|FIXED 5|6|NSUBJ 6|16|ROOT 7|8|NMOD-POSS 8|6|OBJ 9|13|CASE 10|13|DET 11|12|AMOD 12|13|COMPOUND 13|6|OBL 14|16|CASE 15|16|DET 16|13|NMOD 17|6|PUNCT
+*FAT:	nice . 1267325_1267615
+%mor:	adj|nice-S1 .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	Ross . 1267685_1267975
+%mor:	propn|Ross .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	nice . 1268445_1268735
+%mor:	adj|nice-S1 .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	Ross . 1268765_1269055
+%mor:	propn|Ross .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	couple of little l sounds involving the tongue that didn't involve the tongue so much . 1283355_1295305
+%mor:	noun|couple adp|of adj|little-S1 noun|l noun|sound-Plur verb|involve-Ger-S det|the-Def-Art noun|tongue-Acc pron|that-Rel aux|do-Fin-Ind-Past-S3-irr~part|not verb|involve-Inf-S det|the-Def-Art noun|tongue-Acc adv|so adv|much .
+%gra:	1|16|ROOT 2|5|CASE 3|5|AMOD 4|5|COMPOUND 5|1|NMOD 6|5|ACL 7|8|DET 8|6|OBJ 9|12|NSUBJ 10|12|AUX 11|12|ADVMOD 12|8|ACL-RELCL 13|14|DET 14|12|OBJ 15|16|ADVMOD 16|12|ADVMOD 17|1|PUNCT
+*FAT:	no . 1297045_1297265
+%mor:	intj|no .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	he is spreading the mouth in drawing in the air . 1297265_1301265
+%mor:	pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Pres-S3 verb|spread-Part-Pres-S det|the-Def-Art noun|mouth-Acc sconj|in verb|draw-Ger-S adp|in det|the-Def-Art noun|air .
+%gra:	1|3|NSUBJ 2|3|AUX 3|10|ROOT 4|5|DET 5|3|OBJ 6|7|MARK 7|3|ADVCL 8|10|CASE 9|10|DET 10|7|OBL 11|3|PUNCT
+*FAT:	oh that was a gurgle tongue . 1304725_1313985
+%mor:	intj|oh pron|that-Dem aux|be-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|gurgle noun|tongue .
+%gra:	1|6|DISCOURSE 2|6|NSUBJ 3|6|COP 4|6|DET 5|6|COMPOUND 6|6|ROOT 7|6|PUNCT
+*FAT:	click . 1313995_1314345
+%mor:	verb|click-Fin-Imp-S .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	his hand's in his mouth right now . 1325245_1326625
+%mor:	pron|his-Prs-Gen-S3 noun|hand~aux|be-Fin-Ind-Pres-S3 adp|in pron|his-Prs-Gen-S3 noun|mouth adv|right adv|now .
+%gra:	1|2|NMOD-POSS 2|6|NSUBJ 3|6|COP 4|6|CASE 5|6|NMOD-POSS 6|8|ROOT 7|8|ADVMOD 8|6|ADVMOD 9|6|PUNCT
+*FAT:	he's chewing on it . 1326625_1327385
+%mor:	pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|chew-Part-Pres-S adp|on pron|it-Prs-Acc-S3 .
+%gra:	1|3|NSUBJ 2|3|AUX 3|5|ROOT 4|3|COMPOUND-PRT 5|3|OBL 6|3|PUNCT
+*FAT:	sucking on it . 1329815_1330585
+%mor:	verb|suck-Part-Pres-S adp|on pron|it-Prs-Acc-S3 .
+%gra:	1|3|ROOT 2|1|COMPOUND-PRT 3|1|OBL 4|1|PUNCT
+*FAT:	a little gurgle in the throat . 1335915_1337275
+%mor:	det|a-Ind-Art adj|little-S1 noun|gurgle adp|in det|the-Def-Art noun|throat .
+%gra:	1|3|DET 2|3|AMOD 3|6|ROOT 4|6|CASE 5|6|DET 6|3|NMOD 7|3|PUNCT
+*FAT:	but he still has his hand on his gums . 1337335_1339955
+%mor:	cconj|but pron|he-Prs-Nom-S3 adv|still verb|have-Fin-Ind-Pres-S3 pron|his-Prs-Gen-S3 noun|hand-Acc adp|on pron|his-Prs-Gen-S3 noun|gum-Plur .
+%gra:	1|4|CC 2|4|NSUBJ 3|4|ADVMOD 4|9|ROOT 5|6|NMOD-POSS 6|4|OBJ 7|9|CASE 8|9|NMOD-POSS 9|4|OBL 10|4|PUNCT
+*FAT:	now his hands out of his mouth and back in the mouth . 1344765_1360075
+%mor:	adv|now pron|his-Prs-Gen-S3 noun|hand-Plur adp|out adp|of pron|his-Prs-Gen-S3 noun|mouth cconj|and adv|back adp|in det|the-Def-Art noun|mouth .
+%gra:	1|3|ADVMOD 2|3|NMOD-POSS 3|12|ROOT 4|7|CASE 5|7|CASE 6|7|NMOD-POSS 7|3|NMOD 8|12|CC 9|12|ADVMOD 10|12|CASE 11|12|DET 12|7|CONJ 13|3|PUNCT
+*FAT:	he didn't have his hand in his mouth for that nor this little &-um guttural sound . 1390075_1397975
+%mor:	pron|he-Prs-Nom-S3 aux|do-Fin-Ind-Past-S3-irr~part|not verb|have-Inf-S pron|his-Prs-Gen-S3 noun|hand-Acc adp|in pron|his-Prs-Gen-S3 noun|mouth adp|for pron|that-Dem cconj|nor det|this-Def-Dem-Sing adj|little-S1 adj|guttural-S1 noun|sound .
+%gra:	1|4|NSUBJ 2|4|AUX 3|4|ADVMOD 4|16|ROOT 5|6|NMOD-POSS 6|4|OBJ 7|9|CASE 8|9|NMOD-POSS 9|4|OBL 10|11|CASE 11|4|OBL 12|16|CC 13|16|DET 14|16|AMOD 15|16|AMOD 16|11|CONJ 17|4|PUNCT
+*FAT:	that one's . 1418685_1419295
+%mor:	sconj|that pron|one-Prs-S3~part|s .
+%gra:	1|2|MARK 2|3|ROOT 3|2|CASE 4|2|PUNCT
+*FAT:	drawn in and then let out . 1420505_1423935
+%mor:	verb|draw-Part-Past-S-irr adp|in cconj|and adv|then verb|let-Fin-Imp-S adp|out .
+%gra:	1|6|ROOT 2|1|COMPOUND-PRT 3|5|CC 4|5|ADVMOD 5|1|CONJ 6|5|COMPOUND-PRT 7|1|PUNCT
+*FAT:	don't do that . 1424305_1424815
+%mor:	aux|do-Fin-Imp-S~part|not verb|do-Fin-Imp-S pron|that-Dem .
+%gra:	1|3|AUX 2|3|ADVMOD 3|4|ROOT 4|3|OBJ 5|3|PUNCT
+*FAT:	a lot of tongue work . 1430805_1431645
+%mor:	det|a-Ind-Art noun|lot adp|of noun|tongue noun|work .
+%gra:	1|2|DET 2|5|ROOT 3|5|CASE 4|5|COMPOUND 5|2|NMOD 6|2|PUNCT
+*FAT:	a little scratchiness in the back of his throat . 1445565_1447365
+%mor:	det|a-Ind-Art adj|little-S1 noun|scratchiness adp|in det|the-Def-Art noun|back adp|of pron|his-Prs-Gen-S3 noun|throat .
+%gra:	1|3|DET 2|3|AMOD 3|9|ROOT 4|6|CASE 5|6|DET 6|3|NMOD 7|9|CASE 8|9|NMOD-POSS 9|6|NMOD 10|3|PUNCT
+*FAT:	sounds like he wants to cry . 1447365_1448485
+%mor:	verb|sound-Fin-Ind-Pres-S3 sconj|like pron|he-Prs-Nom-S3 verb|want-Fin-Ind-Pres-S3 part|to verb|cry-Inf-S .
+%gra:	1|6|ROOT 2|4|MARK 3|4|NSUBJ 4|1|ADVCL 5|6|MARK 6|4|XCOMP 7|1|PUNCT
+*FAT:	but he's not doesn't look like he wants to . 1448485_1450125
+%mor:	cconj|but pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 part|not aux|do-Fin-Ind-Pres-S3~part|not verb|look-Inf-S sconj|like pron|he-Prs-Nom-S3 verb|want-Fin-Ind-Pres-S3 part|to .
+%gra:	1|7|CC 2|7|NSUBJ 3|7|AUX 4|7|ADVMOD 5|7|AUX 6|7|ADVMOD 7|11|ROOT 8|10|MARK 9|10|NSUBJ 10|7|ADVCL 11|7|XCOMP 12|7|PUNCT
+*FAT:	ouch . 1452635_1452925
+%mor:	intj|ouch .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	Rose don't kick me . 1453195_1454405
+%mor:	noun|rose aux|do-Fin-Ind-Pres-S3~part|not verb|kick-Fin-Imp-S pron|I-Prs-Acc-S1 .
+%gra:	1|4|NSUBJ 2|4|AUX 3|4|ADVMOD 4|5|ROOT 5|4|OBJ 6|4|PUNCT
+*FAT:	ooh . 1456425_1456645
+%mor:	intj|ooh .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	smile . 1456735_1457085
+%mor:	noun|smile .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	you sure flail flailing your arms . 1461465_1462845
+%mor:	pron|you-Prs-Nom-S2 adv|sure verb|flail-Fin-Ind-Pres-S2 verb|flail-Ger-S pron|your-Prs-Gen-S2 noun|arm-Plur-Acc .
+%gra:	1|3|NSUBJ 2|3|ADVMOD 3|6|ROOT 4|3|XCOMP 5|6|NMOD-POSS 6|4|OBJ 7|3|PUNCT
+*FAT:	well kicking me . 1462955_1463965
+%mor:	intj|well verb|kick-Part-Pres-S pron|I-Prs-Acc-S1 .
+%gra:	1|2|DISCOURSE 2|3|ROOT 3|2|OBJ 4|2|PUNCT
+*FAT:	well that was interesting . 1465075_1466165
+%mor:	intj|well pron|that-Dem aux|be-Fin-Ind-Past-S3-irr adj|interesting-S1 .
+%gra:	1|4|DISCOURSE 2|4|NSUBJ 3|4|COP 4|4|ROOT 5|4|PUNCT
+*FAT:	part of the back . 1467875_1468685
+%mor:	noun|part adp|of det|the-Def-Art noun|back .
+%gra:	1|4|ROOT 2|4|CASE 3|4|DET 4|1|NMOD 5|1|PUNCT
+*FAT:	last part of that was drawn in wasn't it . 1468795_1471005
+%mor:	adj|last-S1 noun|part adp|of pron|that-Dem aux|be-Fin-Ind-Past-S3-irr verb|draw-Part-Past-S-irr adp|in aux|be-Fin-Ind-Past-S3-irr~part|not pron|it-Prs-Nom-S3 .
+%gra:	1|2|AMOD 2|6|NSUBJ-PASS 3|4|CASE 4|2|NMOD 5|6|AUX-PASS 6|10|ROOT 7|6|COMPOUND-PRT 8|6|AUX-PASS 9|10|ADVMOD 10|6|ADVCL 11|6|PUNCT
+*FAT:	it was a little . 1473445_1474065
+%mor:	pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr det|a-Ind-Art adj|little-S1 .
+%gra:	1|4|NSUBJ 2|4|COP 3|4|DET 4|4|ROOT 5|4|PUNCT
+*FAT:	back of the tongue being used out a lot of breathing that was easy . 1474815_1492865
+%mor:	adv|back adp|of det|the-Def-Art noun|tongue aux|be-Part-Pres-S verb|use-Part-Past-S adp|out det|a-Ind-Art noun|lot-Acc adp|of noun|breathing-Ger pron|that-Rel aux|be-Fin-Ind-Past-S3-irr adj|easy-S1 .
+%gra:	1|14|ROOT 2|4|CASE 3|4|DET 4|1|OBL 5|6|AUX-PASS 6|4|ACL 7|6|COMPOUND-PRT 8|9|DET 9|6|OBJ 10|11|CASE 11|9|NMOD 12|14|NSUBJ 13|14|COP 14|9|ACL-RELCL 15|1|PUNCT
+*FAT:	little glu and then same thing with the intake of breath at the end of it . 1493765_1501065
+%mor:	adj|little-S1 noun|glu cconj|and adv|then adj|same-S1 noun|thing-Ger adp|with det|the-Def-Art noun|intake adp|of noun|breath adp|at det|the-Def-Art noun|end adp|of pron|it-Prs-Acc-S3 .
+%gra:	1|2|AMOD 2|16|ROOT 3|6|CC 4|6|ADVMOD 5|6|AMOD 6|2|CONJ 7|9|CASE 8|9|DET 9|6|NMOD 10|11|CASE 11|9|NMOD 12|14|CASE 13|14|DET 14|9|NMOD 15|16|CASE 16|14|NMOD 17|2|PUNCT
+*FAT:	tongue involvement . 1534615_1535675
+%mor:	noun|tongue noun|involvement .
+%gra:	1|2|COMPOUND 2|2|ROOT 3|2|PUNCT
+*FAT:	back the throat scratching little h in there . 1553025_1570395
+%mor:	adv|back det|the-Def-Art noun|throat noun|scratching-Ger adj|little-S1 noun|h adp|in adv|there .
+%gra:	1|6|ADVMOD 2|3|DET 3|6|COMPOUND 4|6|AMOD 5|6|AMOD 6|8|ROOT 7|8|CASE 8|6|NMOD 9|6|PUNCT
+*FAT:	hmm . 1572275_1572395
+%mor:	intj|hmm .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	little bubble fell out of his tongue there of the side of it . 1572855_1576875
+%mor:	adj|little-S1 noun|bubble verb|fall-Fin-Ind-Past-S3-irr adp|out adp|of pron|his-Prs-Gen-S3 noun|tongue adv|there adp|of det|the-Def-Art noun|side adp|of pron|it-Prs-Acc-S3 .
+%gra:	1|2|AMOD 2|3|NSUBJ 3|13|ROOT 4|7|CASE 5|4|FIXED 6|7|NMOD-POSS 7|3|OBL 8|3|ADVMOD 9|11|CASE 10|11|DET 11|3|OBL 12|13|CASE 13|11|NMOD 14|3|PUNCT
+*FAT:	little . 1598785_1599205
+%mor:	adj|little-S1 .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	tongue click at the end of that one . 1599365_1600725
+%mor:	noun|tongue verb|click-Fin-Imp-S adp|at det|the-Def-Art noun|end adp|of det|that-Def-Dem-Sing noun|one .
+%gra:	1|2|NSUBJ 2|8|ROOT 3|5|CASE 4|5|DET 5|2|OBL 6|8|CASE 7|8|DET 8|5|NMOD 9|2|PUNCT
+*FAT:	little . 1605345_1605765
+%mor:	adj|little-S1 .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	little tongue clicks . 1619065_1620205
+%mor:	adj|little-S1 noun|tongue noun|click-Plur .
+%gra:	1|3|AMOD 2|3|COMPOUND 3|3|ROOT 4|3|PUNCT
+*FAT:	I don't know if you can hear him . 1620205_1621365
+%mor:	pron|I-Prs-Nom-S1 aux|do-Fin-Ind-Pres-S1~part|not verb|know-Inf-S sconj|if pron|you-Prs-Nom-S2 aux|can-Fin-S verb|hear-Inf-S pron|he-Prs-Acc-S3 .
+%gra:	1|4|NSUBJ 2|4|AUX 3|4|ADVMOD 4|9|ROOT 5|8|MARK 6|8|NSUBJ 7|8|AUX 8|4|CCOMP 9|8|OBJ 10|4|PUNCT
+*FAT:	tongue was involved in the last . 1657175_1658595
+%mor:	noun|tongue aux|be-Fin-Ind-Past-S3-irr verb|involve-Part-Past-S adp|in det|the-Def-Art adj|last-S1 .
+%gra:	1|3|NSUBJ-PASS 2|3|AUX-PASS 3|6|ROOT 4|6|CASE 5|6|DET 6|3|OBL 7|3|PUNCT
+*FAT:	part of that and the right . 1658595_1661385
+%mor:	noun|part adp|of pron|that-Dem cconj|and det|the-Def-Art noun|right .
+%gra:	1|6|ROOT 2|3|CASE 3|1|NMOD 4|6|CC 5|6|DET 6|3|CONJ 7|1|PUNCT
+*FAT:	isn't that what you did . 1662155_1663225
+%mor:	aux|be-Fin-Ind-Pres-S3~part|not pron|that-Dem pron|what-Rel-S1 pron|you-Prs-Nom-S2 verb|do-Fin-Ind-Past-S2-irr .
+%gra:	1|4|COP 2|4|ADVMOD 3|4|NSUBJ 4|6|ROOT 5|6|NSUBJ 6|4|ACL-RELCL 7|4|PUNCT
+*FAT:	that was from the back of the throat . 1678385_1679795
+%mor:	pron|that-Dem aux|be-Fin-Ind-Past-S3-irr adp|from det|the-Def-Art noun|back adp|of det|the-Def-Art noun|throat .
+%gra:	1|5|NSUBJ 2|5|COP 3|5|CASE 4|5|DET 5|8|ROOT 6|8|CASE 7|8|DET 8|5|NMOD 9|5|PUNCT
+*FAT:	it sounded like a burp . 1681255_1682395
+%mor:	pron|it-Prs-Nom-S3 verb|sound-Fin-Ind-Past-S3 adp|like det|a-Ind-Art noun|burp .
+%gra:	1|2|NSUBJ 2|5|ROOT 3|5|CASE 4|5|DET 5|2|OBL 6|2|PUNCT
+*FAT:	but I don't think it was there was that little glue sound again . 1682395_1707185
+%mor:	cconj|but pron|I-Prs-Nom-S1 aux|do-Fin-Ind-Pres-S1~part|not verb|think-Inf-S pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr pron|there-Int-S1 aux|be-Fin-Ind-Past-S3-irr det|that-Def-Dem-Sing adj|little-S1 noun|glue noun|sound adv|again .
+%gra:	1|5|CC 2|5|NSUBJ 3|5|AUX 4|5|ADVMOD 5|14|ROOT 6|7|NSUBJ 7|13|COP 8|9|EXPL 9|13|COP 10|13|DET 11|13|AMOD 12|13|COMPOUND 13|5|CCOMP 14|13|ADVMOD 15|5|PUNCT
+*FAT:	and that's beginning of a cry . 1728135_1729715
+%mor:	cconj|and pron|that-Dem~aux|be-Fin-Ind-Pres-S3 verb|begin-Part-Pres-S adp|of det|a-Ind-Art noun|cry .
+%gra:	1|4|CC 2|4|NSUBJ 3|4|AUX 4|7|ROOT 5|7|CASE 6|7|DET 7|4|OBL 8|4|PUNCT
+*FAT:	he had his mouth shut . 1734175_1735195
+%mor:	pron|he-Prs-Nom-S3 verb|have-Fin-Ind-Past-S3-irr pron|his-Prs-Gen-S3 noun|mouth-Acc verb|shut-Part-Past-S-irr .
+%gra:	1|2|NSUBJ 2|5|ROOT 3|4|NMOD-POSS 4|2|OBJ 5|2|XCOMP 6|2|PUNCT
+*FAT:	and &-uh now four fifteen . 1742825_1747995
+%mor:	cconj|and adv|now num|four num|fifteen .
+%gra:	1|4|CC 2|3|ADVMOD 3|4|NUMMOD 4|4|ROOT 5|4|PUNCT
+@End

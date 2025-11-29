@@ -1,0 +1,1813 @@
+@UTF8
+@PID:	11312/a-00077598-1
+@Begin
+@Languages:	eng
+@Participants:	FAT Father
+@ID:	eng|MacWhinney|FAT|||||Father|||
+@Media:	000818d, audio
+@Comment:	Batchalign 0.7.2, ASR Engine rev
+@Types:	long, toyplay, TD
+*FAT:	what'd you say . 4705_5365
+%mor:	pron|what-Int-S1~aux|would-Fin-S pron|you-Prs-Nom-S2 verb|say-Inf-S .
+%gra:	1|4|OBJ 2|4|AUX 3|4|NSUBJ 4|4|ROOT 5|4|PUNCT
+*FAT:	he yelled at me . 6185_7045
+%mor:	pron|he-Prs-Nom-S3 verb|yell-Fin-Ind-Past-S3 adp|at pron|I-Prs-Acc-S1 .
+%gra:	1|2|NSUBJ 2|4|ROOT 3|4|CASE 4|2|OBL 5|2|PUNCT
+*FAT:	you say he helicopter . 8225_9085
+%mor:	pron|you-Prs-Nom-S2 verb|say-Fin-Ind-Pres-S2 pron|he-Prs-Nom-S3 noun|helicopter .
+%gra:	1|2|NSUBJ 2|4|ROOT 3|4|COMPOUND 4|2|CCOMP 5|2|PUNCT
+*FAT:	you say . 13425_13805
+%mor:	pron|you-Prs-Nom-S2 verb|say-Fin-Ind-Pres-S2 .
+%gra:	1|2|NSUBJ 2|2|ROOT 3|2|PUNCT
+*FAT:	helicopter . 13805_14205
+%mor:	noun|helicopter .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	hi [/] hi . 17145_19605
+%mor:	intj|hi .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	hi . 21865_22085
+%mor:	intj|hi .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	okay . 24635_24925
+%mor:	intj|okay .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	thank you . 24925_25285
+%mor:	verb|thank-Fin-Ind-Pres-S1 pron|you-Prs-Acc-S2 .
+%gra:	1|2|ROOT 2|1|OBJ 3|1|PUNCT
+*FAT:	okay . 25955_26245
+%mor:	intj|okay .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	I'm gonna put the tape recorder . 26265_27205
+%mor:	pron|I-Prs-Nom-S1~aux|be-Fin-Ind-Pres-S1 adv|gonna verb|put-Part-Past-S-irr det|the-Def-Art noun|tape noun|recorder-Acc .
+%gra:	1|4|NSUBJ 2|4|AUX 3|4|ADVMOD 4|7|ROOT 5|7|DET 6|7|COMPOUND 7|4|OBJ 8|4|PUNCT
+*FAT:	hi . 30105_30325
+%mor:	intj|hi .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	box you want eat you want the box . 33225_35485
+%mor:	noun|box pron|you-Prs-Nom-S2 verb|want-Fin-Ind-Pres-S2 verb|eat-Inf-S pron|you-Prs-Nom-S2 verb|want-Fin-Ind-Pres-S2 det|the-Def-Art noun|box-Acc .
+%gra:	1|6|NSUBJ 2|3|NSUBJ 3|1|ACL-RELCL 4|1|ACL-RELCL 5|6|NSUBJ 6|8|ROOT 7|8|DET 8|6|OBJ 9|6|PUNCT
+*FAT:	oh music box . 35825_36805
+%mor:	intj|oh noun|music noun|box .
+%gra:	1|3|DISCOURSE 2|3|COMPOUND 3|3|ROOT 4|3|PUNCT
+*FAT:	want the box . 39995_40845
+%mor:	verb|want-Fin-Imp-S det|the-Def-Art noun|box-Acc .
+%gra:	1|3|ROOT 2|3|DET 3|1|OBJ 4|1|PUNCT
+*FAT:	the nicest box . 41665_42445
+%mor:	det|the-Def-Art adj|nice-Sup-S1 noun|box .
+%gra:	1|3|DET 2|3|AMOD 3|3|ROOT 4|3|PUNCT
+*FAT:	I've ever heard you say . 42475_43445
+%mor:	pron|I-Prs-Nom-S1~aux|have-Fin-Ind-Pres-S1 adv|ever verb|hear-Part-Past-S-irr pron|you-Prs-Acc-S2 verb|say-Inf-S .
+%gra:	1|4|NSUBJ 2|4|AUX 3|4|ADVMOD 4|6|ROOT 5|4|OBJ 6|4|XCOMP 7|4|PUNCT
+*FAT:	the book . 44105_44725
+%mor:	det|the-Def-Art noun|book .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+*FAT:	do you want your music . 52265_52925
+%mor:	aux|do-Fin-Ind-Pres-S2 pron|you-Prs-Nom-S2 verb|want-Inf-S pron|your-Prs-Gen-S2 noun|music-Acc .
+%gra:	1|3|AUX 2|3|NSUBJ 3|5|ROOT 4|5|NMOD-POSS 5|3|OBJ 6|3|PUNCT
+*FAT:	box . 53025_53245
+%mor:	noun|box .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	music [/] music . 56215_59605
+%mor:	noun|music .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	what . 60715_61005
+%mor:	pron|what-Int-S1 .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	music . 61415_61765
+%mor:	noun|music .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	mm . 62505_62725
+%mor:	intj|mm .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	music . 63655_64005
+%mor:	noun|music .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	huh . 64305_64525
+%mor:	intj|huh .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	he's winding up all by himself . 64595_65965
+%mor:	pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|wind-Part-Pres-S adp|up det|all-Def-Tot adp|by pron|himself-Prs-Acc-reflx-S3 .
+%gra:	1|3|NSUBJ 2|3|AUX 3|7|ROOT 4|3|COMPOUND-PRT 5|3|OBJ 6|7|CASE 7|3|OBL 8|3|PUNCT
+*FAT:	he did a good . 74195_74735
+%mor:	pron|he-Prs-Nom-S3 verb|do-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|good-Acc .
+%gra:	1|2|NSUBJ 2|4|ROOT 3|4|DET 4|2|OBJ 5|2|PUNCT
+*FAT:	October The sixth . 96205_97335
+%mor:	propn|October det|the-Def-Art adj|sixth-S1 .
+%gra:	1|3|ROOT 2|3|DET 3|1|NMOD-UNMARKED 4|1|PUNCT
+*FAT:	dog you woke out this morning . 98995_104015
+%mor:	noun|dog pron|you-Prs-Nom-S2 verb|wake-Fin-Ind-Past-S2-irr adp|out det|this-Def-Dem-Sing noun|morning-Ger .
+%gra:	1|3|VOCATIVE 2|3|NSUBJ 3|6|ROOT 4|3|COMPOUND-PRT 5|6|DET 6|3|OBL-UNMARKED 7|3|PUNCT
+*FAT:	said . 104245_104535
+%mor:	verb|say-Fin-Ind-Past-S3-irr .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	doggy by a fish [/] fish means the sheep . 105545_110055
+%mor:	adj|doggy-S1 adp|by det|a-Ind-Art noun|fish verb|mean-Fin-Ind-Pres-S3 det|the-Def-Art noun|sheep-Acc .
+%gra:	1|5|NSUBJ 2|4|CASE 3|4|DET 4|1|OBL 5|7|ROOT 6|7|DET 7|5|OBJ 8|5|PUNCT
+*FAT:	then later he called it . 111945_113275
+%mor:	adv|then adv|late pron|he-Prs-Nom-S3 verb|call-Fin-Ind-Past-S3 pron|it-Prs-Acc-S3 .
+%gra:	1|4|ADVMOD 2|4|ADVMOD 3|4|NSUBJ 4|5|ROOT 5|4|OBJ 6|4|PUNCT
+*FAT:	sheep . 114565_114915
+%mor:	noun|sheep-Plur .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	Ppi . 115975_116195
+%mor:	noun|ppi .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	ppi . 117055_117275
+%mor:	noun|ppi .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	right . 117275_117555
+%mor:	adj|right-S1 .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	who's a sheep . 119285_119955
+%mor:	pron|who-Int~aux|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|sheep .
+%gra:	1|4|NSUBJ 2|4|COP 3|4|DET 4|4|ROOT 5|4|PUNCT
+*FAT:	bro . 119975_120195
+%mor:	intj|bro .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	donkey [/] donkey . 122135_124035
+%mor:	noun|donkey .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	that's the donkey . 124775_125795
+%mor:	pron|that-Dem~aux|be-Fin-Ind-Pres-S3 det|the-Def-Art noun|donkey .
+%gra:	1|4|NSUBJ 2|4|COP 3|4|DET 4|4|ROOT 5|4|PUNCT
+*FAT:	what . 126545_126835
+%mor:	pron|what-Int-S1 .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	what's p sheep . 126835_127795
+%mor:	pron|what-Int-S1~aux|be-Fin-Ind-Pres-S3 noun|p noun|sheep .
+%gra:	1|4|NSUBJ 2|4|COP 3|4|COMPOUND 4|4|ROOT 5|4|PUNCT
+*FAT:	where's the sheep . 128145_128955
+%mor:	adv|where~aux|be-Fin-Ind-Pres-S3 det|the-Def-Art noun|sheep .
+%gra:	1|4|ROOT 2|1|COP 3|4|DET 4|1|NSUBJ 5|1|PUNCT
+*FAT:	sheep . 129765_130115
+%mor:	noun|sheep-Plur .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	yeah . 130785_131075
+%mor:	intj|yeah .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	here at . 131075_131635
+%mor:	adv|here adp|at .
+%gra:	1|2|ROOT 2|1|CASE 3|1|PUNCT
+*FAT:	oh . 132655_132875
+%mor:	intj|oh .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	and I never taught him that he's a sheep rock sheep if fits in good with prosodic . 133055_144435
+%mor:	cconj|and pron|I-Prs-Nom-S1 adv|never verb|teach-Fin-Ind-Past-S1-irr pron|he-Prs-Acc-S3 sconj|that pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|sheep noun|rock noun|sheep-Plur sconj|if verb|fit-Fin-Ind-Pres-S3 adp|in adj|good-S1 adp|with noun|prosodic .
+%gra:	1|4|CC 2|4|NSUBJ 3|4|ADVMOD 4|18|ROOT 5|4|IOBJ 6|12|MARK 7|12|NSUBJ 8|12|COP 9|12|DET 10|12|COMPOUND 11|12|COMPOUND 12|4|CCOMP 13|14|MARK 14|12|ADVCL 15|16|CASE 16|14|OBL 17|18|CASE 18|14|OBL 19|4|PUNCT
+*FAT:	theory . 144435_144835
+%mor:	noun|theory .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	but sheepy sheep . 146375_148115
+%mor:	cconj|but adj|sheepy-S1 noun|sheep .
+%gra:	1|3|CC 2|3|AMOD 3|3|ROOT 4|3|PUNCT
+*FAT:	he doesn't know where the sounds are . 148775_150395
+%mor:	pron|he-Prs-Nom-S3 aux|do-Fin-Ind-Pres-S3~part|not verb|know-Inf-S adv|where det|the-Def-Art noun|sound-Plur aux|be-Fin-Ind-Pres-P3 .
+%gra:	1|4|NSUBJ 2|4|AUX 3|4|ADVMOD 4|8|ROOT 5|4|CCOMP 6|7|DET 7|5|NSUBJ 8|5|COP 9|4|PUNCT
+*FAT:	he just knows what sounds there are in the word . 150455_152435
+%mor:	pron|he-Prs-Nom-S3 adv|just verb|know-Fin-Ind-Pres-S3 pron|what-Int-S1 verb|sound-Fin-Ind-Pres-S3 adv|there aux|be-Fin-Ind-Pres-P3 adp|in det|the-Def-Art noun|word .
+%gra:	1|3|NSUBJ 2|3|ADVMOD 3|10|ROOT 4|5|NSUBJ 5|3|CCOMP 6|5|ADVMOD 7|10|COP 8|10|CASE 9|10|DET 10|3|CCOMP 11|3|PUNCT
+*FAT:	thank you . 159325_159755
+%mor:	verb|thank-Fin-Ind-Pres-S1 pron|you-Prs-Acc-S2 .
+%gra:	1|2|ROOT 2|1|OBJ 3|1|PUNCT
+*FAT:	he also then he said a book . 160615_162835
+%mor:	pron|he-Prs-Nom-S3 adv|also adv|then pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|book-Acc .
+%gra:	1|5|NSUBJ 2|5|ADVMOD 3|5|ADVMOD 4|5|NSUBJ 5|7|ROOT 6|7|DET 7|5|OBJ 8|5|PUNCT
+*FAT:	a book . 165235_165635
+%mor:	det|a-Ind-Art noun|book .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+*FAT:	elevator book . 166395_167195
+%mor:	noun|elevator noun|book .
+%gra:	1|2|COMPOUND 2|2|ROOT 3|2|PUNCT
+*FAT:	book . 167505_167795
+%mor:	noun|book .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	yeah . 168345_168635
+%mor:	intj|yeah .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	he's been last night . 168905_170915
+%mor:	pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 aux|be-Part-Past-S-irr adj|last-S1 noun|night .
+%gra:	1|5|NSUBJ 2|5|COP 3|5|COP 4|5|AMOD 5|5|ROOT 6|5|PUNCT
+*FAT:	he said . 171015_171515
+%mor:	pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr .
+%gra:	1|2|NSUBJ 2|2|ROOT 3|2|PUNCT
+*FAT:	<oh Matt oh Matt> [/] oh Matt &-uh that's not . 171655_177395
+%mor:	intj|oh propn|Matt pron|that-Dem~aux|be-Fin-Ind-Pres-S3 part|not .
+%gra:	1|2|DISCOURSE 2|5|DISCOURSE 3|5|NSUBJ 4|5|COP 5|5|ROOT 6|5|PUNCT
+*FAT:	he didn't use it in a sentence . 177395_178235
+%mor:	pron|he-Prs-Nom-S3 aux|do-Fin-Ind-Past-S3-irr~part|not verb|use-Inf-S pron|it-Prs-Acc-S3 adp|in det|a-Ind-Art noun|sentence .
+%gra:	1|4|NSUBJ 2|4|AUX 3|4|ADVMOD 4|8|ROOT 5|4|OBJ 6|8|CASE 7|8|DET 8|4|OBL 9|4|PUNCT
+*FAT:	he just said . 178235_178715
+%mor:	pron|he-Prs-Nom-S3 adv|just verb|say-Fin-Ind-Past-S3-irr .
+%gra:	1|3|NSUBJ 2|3|ADVMOD 3|3|ROOT 4|3|PUNCT
+*FAT:	he wanted Matt I think <a Matt a> [/] Matt a mat . 179065_182365
+%mor:	pron|he-Prs-Nom-S3 verb|want-Fin-Ind-Past-S3 propn|Matt-Acc pron|I-Prs-Nom-S1 verb|think-Fin-Ind-Pres-S1 propn|Matt-Acc det|a-Ind-Art noun|mat-Acc .
+%gra:	1|2|NSUBJ 2|8|ROOT 3|2|OBJ 4|5|NSUBJ 5|2|PARATAXIS 6|5|OBJ 7|8|DET 8|5|OBJ 9|2|PUNCT
+*FAT:	oh yeah it's silly . 183305_185045
+%mor:	intj|oh intj|yeah pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adj|silly-S1 .
+%gra:	1|5|DISCOURSE 2|5|DISCOURSE 3|5|NSUBJ 4|5|COP 5|5|ROOT 6|5|PUNCT
+*FAT:	because you can't say a Matt do you want a s Mikey phone . 185405_188245
+%mor:	sconj|because pron|you-Prs-Nom-S2 aux|can-Fin-S~part|not verb|say-Inf-S det|a-Ind-Art propn|Matt-Acc aux|do-Fin-Ind-Pres-S2 pron|you-Prs-Nom-S2 verb|want-Inf-S det|a-Ind-Art part|s propn|Mikey noun|phone-Acc .
+%gra:	1|5|MARK 2|5|NSUBJ 3|5|AUX 4|5|ADVMOD 5|10|ADVCL 6|7|DET 7|5|OBJ 8|10|AUX 9|10|NSUBJ 10|14|ROOT 11|14|DET 12|11|CASE 13|14|COMPOUND 14|10|OBJ 15|10|PUNCT
+*FAT:	no . 189345_189565
+%mor:	intj|no .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	is it . 190465_190805
+%mor:	aux|be-Fin-Ind-Pres-S3 pron|it-Prs-Nom-S3 .
+%gra:	1|2|ROOT 2|1|NSUBJ 3|1|PUNCT
+*FAT:	okay . 190805_191045
+%mor:	intj|okay .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	over here . 191045_191405
+%mor:	adp|over adv|here .
+%gra:	1|2|CASE 2|2|ROOT 3|2|PUNCT
+*FAT:	yeah . 191435_191725
+%mor:	intj|yeah .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	why you see . 193505_194045
+%mor:	adv|why pron|you-Prs-Nom-S2 verb|see-Fin-Ind-Pres-S2 .
+%gra:	1|3|ROOT 2|3|NSUBJ 3|1|ADVCL-RELCL 4|1|PUNCT
+*FAT:	thank you . 194055_194525
+%mor:	verb|thank-Fin-Ind-Pres-S1 pron|you-Prs-Acc-S2 .
+%gra:	1|2|ROOT 2|1|OBJ 3|1|PUNCT
+*FAT:	bye . 196505_196725
+%mor:	intj|bye .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	goodbye little lady . 197275_198325
+%mor:	verb|goodbye-Fin-Imp-S adj|little-S1 noun|lady-Acc .
+%gra:	1|3|ROOT 2|3|AMOD 3|1|OBJ 4|1|PUNCT
+*FAT:	I love you . 200125_200685
+%mor:	pron|I-Prs-Nom-S1 verb|love-Fin-Ind-Pres-S1 pron|you-Prs-Acc-S2 .
+%gra:	1|2|NSUBJ 2|3|ROOT 3|2|OBJ 4|2|PUNCT
+*FAT:	goodbye . 201715_202205
+%mor:	noun|goodbye .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	no . 202705_202925
+%mor:	intj|no .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	oh yes . 203945_204485
+%mor:	intj|oh intj|yes .
+%gra:	1|2|DISCOURSE 2|2|ROOT 3|2|PUNCT
+*FAT:	oh where book that was . 207745_211085
+%mor:	intj|oh adv|where noun|book pron|that-Rel aux|be-Fin-Ind-Past-S3-irr .
+%gra:	1|3|DISCOURSE 2|3|ADVMOD 3|5|ROOT 4|5|NSUBJ 5|3|ACL-RELCL 6|3|PUNCT
+*FAT:	where book . 211085_211605
+%mor:	adv|where noun|book .
+%gra:	1|2|ADVMOD 2|2|ROOT 3|2|PUNCT
+*FAT:	thank you . 213575_214045
+%mor:	verb|thank-Fin-Ind-Pres-S1 pron|you-Prs-Acc-S2 .
+%gra:	1|2|ROOT 2|1|OBJ 3|1|PUNCT
+*FAT:	oh [/] oh <a book> [/] a book . 216385_222325
+%mor:	intj|oh det|a-Ind-Art noun|book .
+%gra:	1|3|DISCOURSE 2|3|DET 3|3|ROOT 4|3|PUNCT
+*FAT:	oh . 222825_223045
+%mor:	intj|oh .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	is the microphone separate from the type of . 223105_224645
+%mor:	aux|be-Fin-Ind-Pres-S3 det|the-Def-Art noun|microphone adj|separate-S1 adp|from det|the-Def-Art noun|type adp|of .
+%gra:	1|4|COP 2|3|DET 3|8|ROOT 4|3|AMOD 5|7|CASE 6|7|DET 7|4|OBL 8|7|NMOD 9|3|PUNCT
+*FAT:	mhm . 224785_225205
+%mor:	intj|mhm .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	you want I don't put it over here . 226705_233925
+%mor:	pron|you-Prs-Nom-S2 verb|want-Fin-Ind-Pres-S2 pron|I-Prs-Nom-S1 aux|do-Fin-Ind-Pres-S1~part|not verb|put-Inf-S pron|it-Prs-Acc-S3 adp|over adv|here .
+%gra:	1|2|NSUBJ 2|9|ROOT 3|6|NSUBJ 4|6|AUX 5|6|ADVMOD 6|2|CCOMP 7|6|OBJ 8|9|CASE 9|6|OBL 10|2|PUNCT
+*FAT:	oh thank you . 243385_245045
+%mor:	intj|oh verb|thank-Fin-Ind-Pres-S1 pron|you-Prs-Acc-S2 .
+%gra:	1|2|DISCOURSE 2|3|ROOT 3|2|OBJ 4|2|PUNCT
+*FAT:	gimme the book . 246895_247685
+%mor:	verb|gimme-Fin-Imp-S det|the-Def-Art noun|book-Acc .
+%gra:	1|3|ROOT 2|3|DET 3|1|OBJ 4|1|PUNCT
+*FAT:	please . 247685_247965
+%mor:	intj|please .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	gimme the book . 249455_250165
+%mor:	verb|gimme-Fin-Imp-S det|the-Def-Art noun|book-Acc .
+%gra:	1|3|ROOT 2|3|DET 3|1|OBJ 4|1|PUNCT
+*FAT:	thank you . 250165_250645
+%mor:	verb|thank-Fin-Ind-Pres-S1 pron|you-Prs-Acc-S2 .
+%gra:	1|2|ROOT 2|1|OBJ 3|1|PUNCT
+*FAT:	thank you . 251575_253965
+%mor:	verb|thank-Fin-Ind-Pres-S1 pron|you-Prs-Acc-S2 .
+%gra:	1|2|ROOT 2|1|OBJ 3|1|PUNCT
+*FAT:	you want your dog . 259465_260205
+%mor:	pron|you-Prs-Nom-S2 verb|want-Fin-Ind-Pres-S2 pron|your-Prs-Gen-S2 noun|dog-Acc .
+%gra:	1|2|NSUBJ 2|4|ROOT 3|4|NMOD-POSS 4|2|OBJ 5|2|PUNCT
+*FAT:	Ross do you want your dog . 263195_264285
+%mor:	propn|Ross aux|do-Fin-Ind-Pres-S2 pron|you-Prs-Nom-S2 verb|want-Inf-S pron|your-Prs-Gen-S2 noun|dog-Acc .
+%gra:	1|4|VOCATIVE 2|4|AUX 3|4|NSUBJ 4|6|ROOT 5|6|NMOD-POSS 6|4|OBJ 7|4|PUNCT
+*FAT:	huh . 265905_266125
+%mor:	intj|huh .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	you want your donkey . 266545_267405
+%mor:	pron|you-Prs-Nom-S2 verb|want-Fin-Ind-Pres-S2 pron|your-Prs-Gen-S2 noun|donkey-Acc .
+%gra:	1|2|NSUBJ 2|4|ROOT 3|4|NMOD-POSS 4|2|OBJ 5|2|PUNCT
+*FAT:	no . 267985_268205
+%mor:	intj|no .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	no . 268585_268805
+%mor:	intj|no .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	no . 269905_270125
+%mor:	intj|no .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	why not . 270865_271245
+%mor:	adv|why part|not .
+%gra:	1|2|ROOT 2|1|ADVMOD 3|1|PUNCT
+*FAT:	no . 271905_272125
+%mor:	intj|no .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	coming for something . 272265_273325
+%mor:	verb|come-Part-Pres-S adp|for pron|something-Ind-S1 .
+%gra:	1|3|ROOT 2|3|CASE 3|1|OBL 4|1|PUNCT
+*FAT:	no . 273545_273765
+%mor:	intj|no .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	you know what it is . 273985_274725
+%mor:	pron|you-Prs-Nom-S2 verb|know-Fin-Ind-Pres-S2 pron|what-Int-S1 pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Pres-S3 .
+%gra:	1|2|NSUBJ 2|5|ROOT 3|2|OBJ 4|5|NSUBJ 5|3|ACL-RELCL 6|2|PUNCT
+*FAT:	<bad baby> [/] bad baby . 274985_276285
+%mor:	adj|bad-S1 noun|baby .
+%gra:	1|2|AMOD 2|2|ROOT 3|2|PUNCT
+*FAT:	where is the dog . 289895_290885
+%mor:	adv|where aux|be-Fin-Ind-Pres-S3 det|the-Def-Art noun|dog .
+%gra:	1|4|ROOT 2|1|COP 3|4|DET 4|1|NSUBJ 5|1|PUNCT
+*FAT:	you want . 291745_292085
+%mor:	pron|you-Prs-Nom-S2 verb|want-Fin-Ind-Pres-S2 .
+%gra:	1|2|NSUBJ 2|2|ROOT 3|2|PUNCT
+*FAT:	the big bear that big bear the bear . 292085_300925
+%mor:	det|the-Def-Art adj|big-S1 noun|bear pron|that-Rel adj|big-S1 verb|bear-Fin-Ind-Pres-S3 det|the-Def-Art noun|bear-Acc .
+%gra:	1|3|DET 2|3|AMOD 3|8|ROOT 4|6|NSUBJ 5|3|ACL-RELCL 6|3|ACL-RELCL 7|8|DET 8|6|OBJ 9|3|PUNCT
+*FAT:	want the doggy . 303635_304485
+%mor:	verb|want-Fin-Imp-S det|the-Def-Art noun|doggy-Acc .
+%gra:	1|3|ROOT 2|3|DET 3|1|OBJ 4|1|PUNCT
+*FAT:	you want the donkey [/] donkey . 308265_314245
+%mor:	pron|you-Prs-Nom-S2 verb|want-Fin-Ind-Pres-S2 det|the-Def-Art noun|donkey-Acc .
+%gra:	1|2|NSUBJ 2|4|ROOT 3|4|DET 4|2|OBJ 5|2|PUNCT
+*FAT:	he does . 314545_314965
+%mor:	pron|he-Prs-Nom-S3 aux|do-Fin-Ind-Pres-S3 .
+%gra:	1|2|NSUBJ 2|2|ROOT 3|2|PUNCT
+*FAT:	what's the donkey . 315345_316245
+%mor:	pron|what-Int-S1~aux|be-Fin-Ind-Pres-S3 det|the-Def-Art noun|donkey .
+%gra:	1|4|ROOT 2|4|COP 3|4|DET 4|1|NSUBJ 5|1|PUNCT
+*FAT:	donkey . 317065_317485
+%mor:	noun|donkey .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	donkey . 320295_320715
+%mor:	noun|donkey .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	where's the donkey . 321985_322955
+%mor:	adv|where~aux|be-Fin-Ind-Pres-S3 det|the-Def-Art noun|donkey .
+%gra:	1|4|ROOT 2|1|COP 3|4|DET 4|1|NSUBJ 5|1|PUNCT
+*FAT:	donkey . 323655_324075
+%mor:	noun|donkey .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	there . 328435_328785
+%mor:	adv|there .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	donkey . 329885_330305
+%mor:	noun|donkey .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	oh here that looks nice . 330645_331665
+%mor:	intj|oh adv|here pron|that-Rel verb|look-Fin-Ind-Pres-S3 adj|nice-S1 .
+%gra:	1|2|DISCOURSE 2|5|ROOT 3|4|NSUBJ 4|2|ADVCL-RELCL 5|4|XCOMP 6|2|PUNCT
+*FAT:	donkey . 334005_334425
+%mor:	noun|donkey .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	you're good . 339245_340025
+%mor:	pron|you-Prs-Nom-S2~aux|be-Fin-Ind-Pres-S2 adj|good-S1 .
+%gra:	1|3|NSUBJ 2|3|COP 3|3|ROOT 4|3|PUNCT
+*FAT:	dog . 340085_340305
+%mor:	noun|dog .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	is that your donkey . 343355_344295
+%mor:	aux|be-Fin-Ind-Pres-S3 sconj|that pron|your-Prs-Gen-S2 noun|donkey .
+%gra:	1|4|COP 2|4|MARK 3|4|NMOD-POSS 4|4|ROOT 5|4|PUNCT
+*FAT:	where's the doggy . 347645_348655
+%mor:	adv|where~aux|be-Fin-Ind-Pres-S3 det|the-Def-Art noun|doggy .
+%gra:	1|4|ROOT 2|1|COP 3|4|DET 4|1|NSUBJ 5|1|PUNCT
+*FAT:	the doggy is here . 348915_349815
+%mor:	det|the-Def-Art noun|doggy aux|be-Fin-Ind-Pres-S3 adv|here .
+%gra:	1|2|DET 2|4|NSUBJ 3|4|COP 4|4|ROOT 5|4|PUNCT
+*FAT:	yes . 350835_351055
+%mor:	intj|yes .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	okay . 351845_352135
+%mor:	intj|okay .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	Chase where's the chase . 353225_356615
+%mor:	noun|Chase adv|where~aux|be-Fin-Ind-Pres-S3 det|the-Def-Art noun|chase .
+%gra:	1|5|ROOT 2|1|ADVMOD 3|5|COP 4|5|DET 5|1|APPOS 6|1|PUNCT
+*FAT:	it's a sheep it getting feel a little buried here . 359195_366845
+%mor:	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|sheep pron|it-Prs-Acc-S3 aux|get-Part-Pres-S verb|feel-Inf-S det|a-Ind-Art adj|little-S1 verb|bury-Part-Past-S adv|here .
+%gra:	1|4|NSUBJ 2|4|COP 3|4|DET 4|11|ROOT 5|7|NSUBJ 6|7|AUX 7|4|ACL-RELCL 8|9|DET 9|10|OBL-UNMARKED 10|7|XCOMP 11|10|ADVMOD 12|4|PUNCT
+*FAT:	dad's she there's . 371415_372565
+%mor:	noun|dad~aux|be-Fin-Ind-Pres-S3 pron|she-Prs-Nom-S3 adv|there~aux|be-Fin-Ind-Pres-S3 .
+%gra:	1|4|NSUBJ 2|4|COP 3|4|NSUBJ 4|5|ROOT 5|4|COP 6|4|PUNCT
+*FAT:	a sheep . 372565_372925
+%mor:	det|a-Ind-Art noun|sheep .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+*FAT:	it's bunny . 373635_374285
+%mor:	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adj|bunny-S1 .
+%gra:	1|3|NSUBJ 2|3|COP 3|3|ROOT 4|3|PUNCT
+*FAT:	there's . 374715_375205
+%mor:	pron|there-Int-S1~verb|be-Fin-Ind-Pres-S3 .
+%gra:	1|2|EXPL 2|2|ROOT 3|2|PUNCT
+*FAT:	a is bunny . 375205_375685
+%mor:	pron|a-Prs-Nom-S3 aux|be-Fin-Ind-Pres-S3 adj|bunny-S1 .
+%gra:	1|3|NSUBJ 2|3|COP 3|3|ROOT 4|3|PUNCT
+*FAT:	b bunny [/] bunny . 378285_381205
+%mor:	noun|benefit noun|bunny .
+%gra:	1|2|COMPOUND 2|2|ROOT 3|2|PUNCT
+*FAT:	Ross B bunny [/] bunny . 381395_385205
+%mor:	propn|Ross propn|B noun|bunny .
+%gra:	1|3|ROOT 2|1|FLAT 3|1|LIST 4|1|PUNCT
+*FAT:	b . 386285_386405
+%mor:	noun|benefit .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	bunny . 387135_387485
+%mor:	noun|bunny .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	by . 389105_389325
+%mor:	adp|by .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	bunny . 389855_390205
+%mor:	noun|bunny .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	extended e . 391965_392605
+%mor:	verb|extend-Part-Past-S noun|e-Acc .
+%gra:	1|2|ROOT 2|1|OBJ 3|1|PUNCT
+*FAT:	yeah . 392915_393205
+%mor:	intj|yeah .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	by bye . 393425_393885
+%mor:	adp|by intj|bye .
+%gra:	1|2|CASE 2|2|ROOT 3|2|PUNCT
+*FAT:	bunny . 395135_395485
+%mor:	noun|bunny .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	Ross is your dog . 395755_397205
+%mor:	propn|Ross aux|be-Fin-Ind-Pres-S3 pron|your-Prs-Gen-S2 noun|dog .
+%gra:	1|4|NSUBJ 2|4|COP 3|4|NMOD-POSS 4|4|ROOT 5|4|PUNCT
+*FAT:	and here's your sheep . 397425_398325
+%mor:	cconj|and adv|here~aux|be-Fin-Ind-Pres-S3 pron|your-Prs-Gen-S2 noun|sheep .
+%gra:	1|2|CC 2|5|ROOT 3|2|COP 4|5|NMOD-POSS 5|2|NSUBJ 6|2|PUNCT
+*FAT:	sheep . 399655_400005
+%mor:	noun|sheep-Plur .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	she . 401345_401565
+%mor:	pron|she-Prs-Nom-S3 .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	sheep . 403215_403565
+%mor:	noun|sheep-Plur .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	it's your sheep huh . 405355_406405
+%mor:	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 pron|your-Prs-Gen-S2 noun|sheep intj|huh .
+%gra:	1|4|NSUBJ 2|4|COP 3|4|NMOD-POSS 4|5|ROOT 5|4|FLAT 6|4|PUNCT
+*FAT:	anyone give a kiss . 406825_407725
+%mor:	pron|anyone-Ind-S1 verb|give-Inf-S det|a-Ind-Art noun|kiss-Acc .
+%gra:	1|2|NSUBJ 2|4|ROOT 3|4|DET 4|2|OBJ 5|2|PUNCT
+*FAT:	mommy . 414095_414445
+%mor:	noun|mommy .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	no . 420465_420685
+%mor:	intj|no .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	no [/] no . 422795_425415
+%mor:	intj|no .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	no . 428675_428895
+%mor:	intj|no .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	a little boy . 439855_440335
+%mor:	det|a-Ind-Art adj|little-S1 noun|boy .
+%gra:	1|3|DET 2|3|AMOD 3|3|ROOT 4|3|PUNCT
+*FAT:	no [/] no you don't . 441515_444415
+%mor:	intj|no pron|you-Prs-Nom-S2 aux|do-Fin-Ind-Pres-S2~part|not .
+%gra:	1|3|DISCOURSE 2|3|NSUBJ 3|4|ROOT 4|3|ADVMOD 5|3|PUNCT
+*FAT:	I donkey . 447655_469215
+%mor:	pron|I-Prs-Nom-S1 noun|donkey .
+%gra:	1|2|COMPOUND 2|2|ROOT 3|2|PUNCT
+*FAT:	that was donkey . 472285_473215
+%mor:	pron|that-Dem aux|be-Fin-Ind-Past-S3-irr noun|donkey .
+%gra:	1|3|NSUBJ 2|3|COP 3|3|ROOT 4|3|PUNCT
+*FAT:	doggy . 475665_476015
+%mor:	adj|doggy-S1 .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	again . 476665_477015
+%mor:	adv|again .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	which doggy . 477425_478335
+%mor:	det|which-Def-Int adj|doggy-S1 .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+*FAT:	doggy . 479225_479575
+%mor:	adj|doggy-S1 .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	that was doggy . 480565_481455
+%mor:	pron|that-Dem aux|be-Fin-Ind-Past-S3-irr adj|doggy-S1 .
+%gra:	1|3|NSUBJ 2|3|COP 3|3|ROOT 4|3|PUNCT
+*FAT:	I think . 481535_481815
+%mor:	pron|I-Prs-Nom-S1 verb|think-Fin-Ind-Pres-S1 .
+%gra:	1|2|NSUBJ 2|2|ROOT 3|2|PUNCT
+*FAT:	oh it was do . 482195_482935
+%mor:	intj|oh pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr noun|do .
+%gra:	1|4|DISCOURSE 2|4|NSUBJ 3|4|COP 4|4|ROOT 5|4|PUNCT
+*FAT:	doggy . 484425_484775
+%mor:	adj|doggy-S1 .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	doggy . 487705_488055
+%mor:	adj|doggy-S1 .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	doggy . 489905_490255
+%mor:	adj|doggy-S1 .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	dog . 491115_491335
+%mor:	noun|dog .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	where's the . 492365_492935
+%mor:	adv|where~aux|be-Fin-Ind-Pres-S3 det|the-Def-Art .
+%gra:	1|3|ROOT 2|1|COP 3|1|PUNCT 4|1|PUNCT
+*FAT:	what's this thing . 508995_509775
+%mor:	pron|what-Int-S1~aux|be-Fin-Ind-Pres-S3 det|this-Def-Dem-Sing noun|thing-Ger .
+%gra:	1|4|ROOT 2|4|COP 3|4|DET 4|1|NSUBJ 5|1|PUNCT
+*FAT:	what's this . 509875_510455
+%mor:	pron|what-Int-S1~aux|be-Fin-Ind-Pres-S3 pron|this-Dem-S1 .
+%gra:	1|3|ROOT 2|3|COP 3|1|NSUBJ 4|1|PUNCT
+*FAT:	a sheet . 512535_512895
+%mor:	det|a-Ind-Art noun|sheet .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+*FAT:	that's deep . 514635_515255
+%mor:	pron|that-Dem~aux|be-Fin-Ind-Pres-S3 adj|deep-S1 .
+%gra:	1|3|NSUBJ 2|3|COP 3|3|ROOT 4|3|PUNCT
+*FAT:	and it does . 517375_522495
+%mor:	cconj|and pron|it-Prs-Nom-S3 aux|do-Fin-Ind-Pres-S3 .
+%gra:	1|3|CC 2|3|NSUBJ 3|3|ROOT 4|3|PUNCT
+*FAT:	doggy . 528945_529295
+%mor:	adj|doggy-S1 .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	dog . 529875_530095
+%mor:	noun|dog .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	what's a dog . 530795_531455
+%mor:	pron|what-Int-S1~aux|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|dog .
+%gra:	1|4|ROOT 2|4|COP 3|4|DET 4|1|NSUBJ 5|1|PUNCT
+*FAT:	just a dog . 532085_532735
+%mor:	adv|just det|a-Ind-Art noun|dog .
+%gra:	1|3|ADVMOD 2|3|DET 3|3|ROOT 4|3|PUNCT
+*FAT:	what . 532735_533015
+%mor:	pron|what-Int-S1 .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	dog . 533395_533615
+%mor:	noun|dog .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	called the dog . 534675_535525
+%mor:	verb|call-Fin-Ind-Past-S1 det|the-Def-Art noun|dog-Acc .
+%gra:	1|3|ROOT 2|3|DET 3|1|OBJ 4|1|PUNCT
+*FAT:	bye . 537305_537525
+%mor:	intj|bye .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	bye . 538465_538685
+%mor:	intj|bye .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	dog . 538745_538965
+%mor:	noun|dog .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	how come he . 539585_540005
+%mor:	adv|how verb|come-Fin-Ind-Pres-S3 pron|he-Prs-Nom-S3 .
+%gra:	1|2|ADVMOD 2|3|ROOT 3|2|NSUBJ 4|2|PUNCT
+*FAT:	bye . 540105_540325
+%mor:	intj|bye .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	bye . 541145_541365
+%mor:	intj|bye .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	how come he's begun to call . 541585_542645
+%mor:	adv|how verb|come-Fin-Ind-Pres-S3 pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|begin-Part-Past-S-irr part|to verb|call-Inf-S .
+%gra:	1|2|ADVMOD 2|5|ADVCL 3|5|NSUBJ-PASS 4|5|AUX-PASS 5|7|ROOT 6|7|MARK 7|5|XCOMP 8|5|PUNCT
+*FAT:	bye . 542945_543165
+%mor:	intj|bye .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	think how come . 543615_547285
+%mor:	verb|think-Fin-Imp-S adv|how verb|come-Fin-Ind-Pres-S .
+%gra:	1|3|ROOT 2|3|ADVMOD 3|1|CCOMP 4|1|PUNCT
+*FAT:	he began to call the sheep . 547285_548645
+%mor:	pron|he-Prs-Nom-S3 verb|begin-Fin-Ind-Past-S3-irr part|to verb|call-Inf-S det|the-Def-Art noun|sheep-Acc .
+%gra:	1|2|NSUBJ 2|6|ROOT 3|4|MARK 4|2|XCOMP 5|6|DET 6|4|OBJ 7|2|PUNCT
+*FAT:	sheepy . 548665_549085
+%mor:	intj|sheepy .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	the sheepy . 550665_551405
+%mor:	det|the-Def-Art noun|sheepy .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+*FAT:	the sheepy up a sheepy . 551745_553965
+%mor:	det|the-Def-Art noun|sheepy adp|up det|a-Ind-Art noun|sheepy .
+%gra:	1|2|DET 2|5|ROOT 3|5|CASE 4|5|DET 5|2|APPOS 6|2|PUNCT
+*FAT:	sheep . 556855_557205
+%mor:	noun|sheep-Plur .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	back to sheep . 557715_558445
+%mor:	adv|back adp|to noun|sheep .
+%gra:	1|3|ROOT 2|3|CASE 3|1|OBL 4|1|PUNCT
+*FAT:	sheep . 560855_561205
+%mor:	noun|sheep-Plur .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	sheep . 561775_562125
+%mor:	noun|sheep-Plur .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	sheepy . 562345_562765
+%mor:	intj|sheepy .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	like doggy baby and bun monkey and mommy . 564355_567965
+%mor:	adp|like adj|doggy-S1 noun|baby cconj|and noun|bun noun|monkey cconj|and noun|mommy .
+%gra:	1|3|DISCOURSE 2|3|AMOD 3|8|ROOT 4|6|CC 5|6|COMPOUND 6|3|CONJ 7|8|CC 8|6|CONJ 9|3|PUNCT
+*FAT:	everybody's e and mommy and daddy . 568035_569965
+%mor:	pron|everybody-Tot-S1~aux|be-Fin-Ind-Pres-S3 noun|e cconj|and noun|mommy cconj|and noun|daddy .
+%gra:	1|3|NSUBJ 2|3|COP 3|7|ROOT 4|5|CC 5|3|CONJ 6|7|CC 7|3|CONJ 8|3|PUNCT
+*FAT:	and so he called it sheep . 570185_571525
+%mor:	cconj|and adv|so pron|he-Prs-Nom-S3 verb|call-Fin-Ind-Past-S3 pron|it-Prs-Acc-S3 noun|sheep .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|6|ROOT 5|4|OBJ 6|4|XCOMP 7|4|PUNCT
+*FAT:	and the horsey . 572345_573045
+%mor:	cconj|and det|the-Def-Art noun|horsey .
+%gra:	1|3|CC 2|3|DET 3|3|ROOT 4|3|PUNCT
+*FAT:	everything was e piggy pg . 573415_575685
+%mor:	pron|everything-Tot-S1 aux|be-Fin-Ind-Past-S3-irr noun|e noun|piggy noun|pg .
+%gra:	1|5|NSUBJ 2|5|COP 3|5|NUMMOD 4|5|COMPOUND 5|5|ROOT 6|5|PUNCT
+*FAT:	maybe that's his first productive tive . 576935_578845
+%mor:	adv|maybe pron|that-Dem~aux|be-Fin-Ind-Pres-S3 pron|his-Prs-Gen-S3 adj|first-S1 adj|productive-S1 noun|tive .
+%gra:	1|7|ADVMOD 2|7|NSUBJ 3|7|COP 4|7|NMOD-POSS 5|7|AMOD 6|7|AMOD 7|7|ROOT 8|7|PUNCT
+*FAT:	right . 578845_579085
+%mor:	adj|right-S1 .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	are these dogs . 609465_610325
+%mor:	aux|be-Fin-Ind-Pres-P3 det|this-Def-Dem-Plur noun|dog-Plur .
+%gra:	1|3|COP 2|3|DET 3|3|ROOT 4|3|PUNCT
+*FAT:	Ross . 610435_610725
+%mor:	propn|Ross .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	no . 611585_611805
+%mor:	intj|no .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	no . 612185_612405
+%mor:	intj|no .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	where are the dogs . 613455_614205
+%mor:	adv|where aux|be-Fin-Ind-Pres-P3 det|the-Def-Art noun|dog-Plur .
+%gra:	1|4|ROOT 2|1|COP 3|4|DET 4|1|NSUBJ 5|1|PUNCT
+*FAT:	dogs . 615355_615645
+%mor:	noun|dog-Plur .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	where are the dogs . 617415_618165
+%mor:	adv|where aux|be-Fin-Ind-Pres-P3 det|the-Def-Art noun|dog-Plur .
+%gra:	1|4|ROOT 2|1|COP 3|4|DET 4|1|NSUBJ 5|1|PUNCT
+*FAT:	honey . 618215_618565
+%mor:	noun|honey .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	dog . 619585_619805
+%mor:	noun|dog .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	where are the dogs . 621295_622005
+%mor:	adv|where aux|be-Fin-Ind-Pres-P3 det|the-Def-Art noun|dog-Plur .
+%gra:	1|4|ROOT 2|1|COP 3|4|DET 4|1|NSUBJ 5|1|PUNCT
+*FAT:	honey . 622005_622325
+%mor:	noun|honey .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	what'd that mean . 622385_623045
+%mor:	pron|what-Int-S1~aux|would-Fin-S pron|that-Dem verb|mean-Inf-S .
+%gra:	1|4|OBJ 2|4|AUX 3|4|NSUBJ 4|4|ROOT 5|4|PUNCT
+*FAT:	thank you . 626895_627485
+%mor:	verb|thank-Fin-Ind-Pres-S1 pron|you-Prs-Acc-S2 .
+%gra:	1|2|ROOT 2|1|OBJ 3|1|PUNCT
+*FAT:	these are dogs . 629015_629925
+%mor:	pron|this-Dem-P1 aux|be-Fin-Ind-Pres-P3 noun|dog-Plur .
+%gra:	1|3|NSUBJ 2|3|COP 3|3|ROOT 4|3|PUNCT
+*FAT:	and dogs . 630745_631485
+%mor:	cconj|and noun|dog-Plur .
+%gra:	1|2|CC 2|2|ROOT 3|2|PUNCT
+*FAT:	and bears . 632385_633125
+%mor:	cconj|and noun|bear-Plur .
+%gra:	1|2|CC 2|2|ROOT 3|2|PUNCT
+*FAT:	where are the bears . 634655_635525
+%mor:	adv|where aux|be-Fin-Ind-Pres-P3 det|the-Def-Art noun|bear-Plur .
+%gra:	1|4|ROOT 2|1|COP 3|4|DET 4|1|NSUBJ 5|1|PUNCT
+*FAT:	thank you . 636135_636605
+%mor:	verb|thank-Fin-Ind-Pres-S1 pron|you-Prs-Acc-S2 .
+%gra:	1|2|ROOT 2|1|OBJ 3|1|PUNCT
+*FAT:	doggie . 638985_639405
+%mor:	noun|doggie .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	who are the bears . 639665_640365
+%mor:	pron|who-Rel aux|be-Fin-Ind-Pres-P3 det|the-Def-Art noun|bear-Plur .
+%gra:	1|4|NSUBJ 2|4|COP 3|4|DET 4|4|ROOT 5|4|PUNCT
+*FAT:	rust . 640395_640685
+%mor:	noun|rust .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	what's this . 643065_643605
+%mor:	pron|what-Int-S1~aux|be-Fin-Ind-Pres-S3 pron|this-Dem-S1 .
+%gra:	1|3|ROOT 2|3|COP 3|1|NSUBJ 4|1|PUNCT
+*FAT:	he dog . 644585_645285
+%mor:	pron|he-Prs-Nom-S3 noun|dog .
+%gra:	1|2|COMPOUND 2|2|ROOT 3|2|PUNCT
+*FAT:	no . 646345_646565
+%mor:	intj|no .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	no . 648065_648285
+%mor:	intj|no .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	what's this . 648285_648725
+%mor:	pron|what-Int-S1~aux|be-Fin-Ind-Pres-S3 pron|this-Dem-S1 .
+%gra:	1|3|ROOT 2|3|COP 3|1|NSUBJ 4|1|PUNCT
+*FAT:	what's this . 649705_650285
+%mor:	pron|what-Int-S1~aux|be-Fin-Ind-Pres-S3 pron|this-Dem-S1 .
+%gra:	1|3|ROOT 2|3|COP 3|1|NSUBJ 4|1|PUNCT
+*FAT:	Doty . 651035_651325
+%mor:	propn|Doty .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	no . 651865_652085
+%mor:	intj|no .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	what's this . 652665_653285
+%mor:	pron|what-Int-S1~aux|be-Fin-Ind-Pres-S3 pron|this-Dem-S1 .
+%gra:	1|3|ROOT 2|3|COP 3|1|NSUBJ 4|1|PUNCT
+*FAT:	Doty . 654355_654645
+%mor:	propn|Doty .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	no . 655025_655245
+%mor:	intj|no .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	it's a bear . 655245_655845
+%mor:	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|bear .
+%gra:	1|4|NSUBJ 2|4|COP 3|4|DET 4|4|ROOT 5|4|PUNCT
+*FAT:	daddy . 656575_656925
+%mor:	noun|daddy .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	what's this . 659145_659645
+%mor:	pron|what-Int-S1~aux|be-Fin-Ind-Pres-S3 pron|this-Dem-S1 .
+%gra:	1|3|ROOT 2|3|COP 3|1|NSUBJ 4|1|PUNCT
+*FAT:	Ron . 659665_659885
+%mor:	propn|Ron .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	thank you . 659885_660245
+%mor:	verb|thank-Fin-Ind-Pres-S1 pron|you-Prs-Acc-S2 .
+%gra:	1|2|ROOT 2|1|OBJ 3|1|PUNCT
+*FAT:	Ross what's . 660245_661165
+%mor:	propn|Ross pron|what-Int-S1~aux|be-Fin-Ind-Pres-S3 .
+%gra:	1|3|ROOT 2|1|OBJ 3|1|ACL-RELCL 4|1|PUNCT
+*FAT:	this daddy . 661165_661965
+%mor:	det|this-Def-Dem-Sing noun|daddy .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+*FAT:	no it's not a donkey . 662905_664125
+%mor:	intj|no pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 part|not det|a-Ind-Art noun|donkey .
+%gra:	1|6|DISCOURSE 2|6|NSUBJ 3|6|COP 4|6|ADVMOD 5|6|DET 6|6|ROOT 7|6|PUNCT
+*FAT:	what is it . 665155_665845
+%mor:	pron|what-Int-S1 aux|be-Fin-Ind-Pres-S3 pron|it-Prs-Nom-S3 .
+%gra:	1|3|ROOT 2|1|COP 3|1|NSUBJ 4|1|PUNCT
+*FAT:	he must . 666665_667125
+%mor:	pron|he-Prs-Nom-S3 aux|must-Fin-S .
+%gra:	1|2|NSUBJ 2|2|ROOT 3|2|PUNCT
+*FAT:	dirty . 667415_667765
+%mor:	adj|dirty-S1 .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	no . 668425_668645
+%mor:	intj|no .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	what is it . 669275_669845
+%mor:	pron|what-Int-S1 aux|be-Fin-Ind-Pres-S3 pron|it-Prs-Nom-S3 .
+%gra:	1|3|ROOT 2|1|COP 3|1|NSUBJ 4|1|PUNCT
+*FAT:	dirty . 670295_670645
+%mor:	adj|dirty-S1 .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	no . 671225_671445
+%mor:	intj|no .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	he's kidding . 672075_672565
+%mor:	pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|kid-Part-Pres-S .
+%gra:	1|3|NSUBJ 2|3|AUX 3|3|ROOT 4|3|PUNCT
+*FAT:	it's a sheep . 672755_673405
+%mor:	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|sheep .
+%gra:	1|4|NSUBJ 2|4|COP 3|4|DET 4|4|ROOT 5|4|PUNCT
+*FAT:	he's kidding Brian . 673835_674765
+%mor:	pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|kid-Part-Pres-S propn|Brian-Acc .
+%gra:	1|3|NSUBJ 2|3|AUX 3|4|ROOT 4|3|OBJ 5|3|PUNCT
+*FAT:	it's a sheep . 675155_675805
+%mor:	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|sheep .
+%gra:	1|4|NSUBJ 2|4|COP 3|4|DET 4|4|ROOT 5|4|PUNCT
+*FAT:	you silly . 675805_676245
+%mor:	pron|you-Prs-Nom-S2 adj|silly-S1 .
+%gra:	1|2|NSUBJ 2|2|ROOT 3|2|PUNCT
+*FAT:	boy . 676465_676685
+%mor:	intj|boy .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	thank you . 676775_677245
+%mor:	verb|thank-Fin-Ind-Pres-S1 pron|you-Prs-Acc-S2 .
+%gra:	1|2|ROOT 2|1|OBJ 3|1|PUNCT
+*FAT:	what's . 677305_677725
+%mor:	pron|what-Int-S1~aux|be-Fin-Ind-Pres-S3 .
+%gra:	1|2|ROOT 2|1|COP 3|1|PUNCT
+*FAT:	this . 677725_677885
+%mor:	pron|this-Dem-S1 .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	what's . 679065_679485
+%mor:	pron|what-Int-S1~aux|be-Fin-Ind-Pres-S3 .
+%gra:	1|2|ROOT 2|1|COP 3|1|PUNCT
+*FAT:	what sheep . 680035_681125
+%mor:	det|what-Def-Int noun|sheep .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+*FAT:	this . 681715_682005
+%mor:	pron|this-Dem-S1 .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	no it's not a sheep . 682545_683765
+%mor:	intj|no pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 part|not det|a-Ind-Art noun|sheep .
+%gra:	1|6|DISCOURSE 2|6|NSUBJ 3|6|COP 4|6|ADVMOD 5|6|DET 6|6|ROOT 7|6|PUNCT
+*FAT:	it's a bear . 684755_685285
+%mor:	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|bear .
+%gra:	1|4|NSUBJ 2|4|COP 3|4|DET 4|4|ROOT 5|4|PUNCT
+*FAT:	what is it . 686195_686725
+%mor:	pron|what-Int-S1 aux|be-Fin-Ind-Pres-S3 pron|it-Prs-Nom-S3 .
+%gra:	1|3|ROOT 2|1|COP 3|1|NSUBJ 4|1|PUNCT
+*FAT:	Ross . 686725_686925
+%mor:	propn|Ross .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	it . 687425_687645
+%mor:	pron|it-Prs-Acc-S3 .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	what is it . 689235_689685
+%mor:	pron|what-Int-S1 aux|be-Fin-Ind-Pres-S3 pron|it-Prs-Nom-S3 .
+%gra:	1|3|ROOT 2|1|COP 3|1|NSUBJ 4|1|PUNCT
+*FAT:	nose . 690515_690805
+%mor:	noun|nose .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	what is it . 691395_691925
+%mor:	pron|what-Int-S1 aux|be-Fin-Ind-Pres-S3 pron|it-Prs-Nom-S3 .
+%gra:	1|3|ROOT 2|1|COP 3|1|NSUBJ 4|1|PUNCT
+*FAT:	no . 692225_692445
+%mor:	intj|no .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	it's an animal . 692445_693125
+%mor:	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|animal .
+%gra:	1|4|NSUBJ 2|4|COP 3|4|DET 4|4|ROOT 5|4|PUNCT
+*FAT:	that's a big bear . 694945_695845
+%mor:	pron|that-Dem~aux|be-Fin-Ind-Pres-S3 det|a-Ind-Art adj|big-S1 noun|bear .
+%gra:	1|5|NSUBJ 2|5|COP 3|5|DET 4|5|AMOD 5|5|ROOT 6|5|PUNCT
+*FAT:	no that's . 696545_697445
+%mor:	intj|no pron|that-Dem~aux|be-Fin-Ind-Pres-S3 .
+%gra:	1|3|DISCOURSE 2|3|NSUBJ 3|3|ROOT 4|3|PUNCT
+*FAT:	a big bear . 697445_697925
+%mor:	det|a-Ind-Art adj|big-S1 noun|bear .
+%gra:	1|3|DET 2|3|AMOD 3|3|ROOT 4|3|PUNCT
+*FAT:	oh that's his nose . 698265_699125
+%mor:	intj|oh pron|that-Dem~aux|be-Fin-Ind-Pres-S3 pron|his-Prs-Gen-S3 noun|nose .
+%gra:	1|5|DISCOURSE 2|5|NSUBJ 3|5|COP 4|5|NMOD-POSS 5|5|ROOT 6|5|PUNCT
+*FAT:	oh nose . 699505_700005
+%mor:	intj|oh noun|nose .
+%gra:	1|2|DISCOURSE 2|2|ROOT 3|2|PUNCT
+*FAT:	oh . 700465_700685
+%mor:	intj|oh .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	no . 701785_702005
+%mor:	intj|no .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	no . 703265_703485
+%mor:	intj|no .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	where's his mouth . 703485_704125
+%mor:	adv|where~aux|be-Fin-Ind-Pres-S3 pron|his-Prs-Gen-S3 noun|mouth .
+%gra:	1|4|ROOT 2|1|COP 3|4|NMOD-POSS 4|1|NSUBJ 5|1|PUNCT
+*FAT:	let's see where his mouth is . 704215_705245
+%mor:	verb|let-Fin-Imp-S~pron|we-Prs-Acc-P1 verb|see-Inf-S adv|where pron|his-Prs-Gen-S3 noun|mouth aux|be-Fin-Ind-Pres-S3 .
+%gra:	1|7|ROOT 2|1|OBJ 3|1|XCOMP 4|3|CCOMP 5|6|NMOD-POSS 6|4|NSUBJ 7|4|COP 8|1|PUNCT
+*FAT:	mouth . 706015_706365
+%mor:	noun|mouth .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	good . 706955_707245
+%mor:	adj|good-S1 .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	where's his eyes . 707245_707925
+%mor:	adv|where~aux|be-Fin-Ind-Pres-S3 pron|his-Prs-Gen-S3 noun|eye-Plur .
+%gra:	1|4|ROOT 2|1|COP 3|4|NMOD-POSS 4|1|NSUBJ 5|1|PUNCT
+*FAT:	eye . 708785_709005
+%mor:	noun|eye .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	what's his ears . 709185_709925
+%mor:	pron|what-Int-S1~aux|be-Fin-Ind-Pres-S3 pron|his-Prs-Gen-S3 noun|ear-Plur .
+%gra:	1|4|ROOT 2|1|COP 3|4|NMOD-POSS 4|1|NSUBJ 5|1|PUNCT
+*FAT:	e . 711085_711205
+%mor:	propn|e .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	where's his ears . 712115_712845
+%mor:	adv|where~aux|be-Fin-Ind-Pres-S3 pron|his-Prs-Gen-S3 noun|ear-Plur .
+%gra:	1|4|ROOT 2|1|COP 3|4|NMOD-POSS 4|1|NSUBJ 5|1|PUNCT
+*FAT:	a . 713805_713925
+%mor:	x|a .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	okay . 714475_714765
+%mor:	intj|okay .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	ha . 715465_715685
+%mor:	intj|ha .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	show his hand . 715715_716405
+%mor:	verb|show-Fin-Imp-S pron|his-Prs-Gen-S3 noun|hand-Acc .
+%gra:	1|3|ROOT 2|3|NMOD-POSS 3|1|OBJ 4|1|PUNCT
+*FAT:	where's his hand . 716405_717165
+%mor:	adv|where~aux|be-Fin-Ind-Pres-S3 pron|his-Prs-Gen-S3 noun|hand .
+%gra:	1|4|ROOT 2|1|COP 3|4|NMOD-POSS 4|1|NSUBJ 5|1|PUNCT
+*FAT:	where's his hand . 717805_719005
+%mor:	adv|where~aux|be-Fin-Ind-Pres-S3 pron|his-Prs-Gen-S3 noun|hand .
+%gra:	1|4|ROOT 2|1|COP 3|4|NMOD-POSS 4|1|NSUBJ 5|1|PUNCT
+*FAT:	Ross hand . 719275_721005
+%mor:	propn|Ross noun|hand .
+%gra:	1|2|COMPOUND 2|2|ROOT 3|2|PUNCT
+*FAT:	uhhuh . 721295_721645
+%mor:	intj|uhhuh .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	hand . 722555_722845
+%mor:	noun|hand .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	here . 726355_726645
+%mor:	adv|here .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	he doesn't have fingers . 727025_727765
+%mor:	pron|he-Prs-Nom-S3 aux|do-Fin-Ind-Pres-S3~part|not verb|have-Inf-S noun|finger-Plur-Acc .
+%gra:	1|4|NSUBJ 2|4|AUX 3|4|ADVMOD 4|5|ROOT 5|4|OBJ 6|4|PUNCT
+*FAT:	yeah . 727875_728165
+%mor:	intj|yeah .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	that's here . 728505_729165
+%mor:	pron|that-Dem~aux|be-Fin-Ind-Pres-S3 adv|here .
+%gra:	1|3|NSUBJ 2|3|COP 3|3|ROOT 4|3|PUNCT
+*FAT:	where's . 729435_729925
+%mor:	adv|where~aux|be-Fin-Ind-Pres-S3 .
+%gra:	1|2|ROOT 2|1|COP 3|1|PUNCT
+*FAT:	his shoe [/] shoe [/] shoe . 729925_731645
+%mor:	pron|his-Prs-Gen-S3 noun|shoe .
+%gra:	1|2|NMOD-POSS 2|2|ROOT 3|2|PUNCT
+*FAT:	where's his shoe . 731835_732605
+%mor:	adv|where~aux|be-Fin-Ind-Pres-S3 pron|his-Prs-Gen-S3 noun|shoe .
+%gra:	1|4|ROOT 2|1|COP 3|4|NMOD-POSS 4|1|NSUBJ 5|1|PUNCT
+*FAT:	a . 732805_732925
+%mor:	x|a .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	shoe . 732925_733205
+%mor:	noun|shoe .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	shoe . 734755_735045
+%mor:	noun|shoe .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	go ahead . 735665_736005
+%mor:	verb|go-Fin-Imp-S adv|ahead .
+%gra:	1|2|ROOT 2|1|ADVMOD 3|1|PUNCT
+*FAT:	is there . 736945_737445
+%mor:	aux|be-Fin-Ind-Pres-S3 adv|there .
+%gra:	1|2|COP 2|2|ROOT 3|2|PUNCT
+*FAT:	is he have poo . 738625_739645
+%mor:	aux|be-Fin-Ind-Pres-S3 pron|he-Prs-Nom-S3 verb|have-Inf-S noun|poo-Acc .
+%gra:	1|3|AUX 2|3|NSUBJ 3|4|ROOT 4|3|OBJ 5|3|PUNCT
+*FAT:	poo . 740505_740725
+%mor:	noun|poo .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	I see . 741005_741325
+%mor:	pron|I-Prs-Nom-S1 verb|see-Fin-Ind-Pres-S1 .
+%gra:	1|2|NSUBJ 2|2|ROOT 3|2|PUNCT
+*FAT:	where's his . 741675_742205
+%mor:	adv|where~aux|be-Fin-Ind-Pres-S3 pron|his-Prs-S3 .
+%gra:	1|3|ROOT 2|3|COP 3|1|NSUBJ 4|1|PUNCT
+*FAT:	poo . 742205_742365
+%mor:	noun|poo .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	why do you call it . 742425_743045
+%mor:	adv|why aux|do-Fin-Ind-Pres-S2 pron|you-Prs-Nom-S2 verb|call-Inf-S pron|it-Prs-Acc-S3 .
+%gra:	1|4|ADVMOD 2|4|AUX 3|4|NSUBJ 4|5|ROOT 5|4|OBJ 6|4|PUNCT
+*FAT:	poo . 743185_743405
+%mor:	noun|poo .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	poo . 744345_744565
+%mor:	noun|poo .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	where is his poo . 744565_745365
+%mor:	adv|where aux|be-Fin-Ind-Pres-S3 pron|his-Prs-Gen-S3 noun|poo .
+%gra:	1|4|ROOT 2|1|COP 3|4|NMOD-POSS 4|1|NSUBJ 5|1|PUNCT
+*FAT:	where is his poo . 747775_748685
+%mor:	adv|where aux|be-Fin-Ind-Pres-S3 pron|his-Prs-Gen-S3 noun|poo .
+%gra:	1|4|ROOT 2|1|COP 3|4|NMOD-POSS 4|1|NSUBJ 5|1|PUNCT
+*FAT:	hip poo . 749105_750005
+%mor:	adj|hip-S1 noun|poo .
+%gra:	1|2|AMOD 2|2|ROOT 3|2|PUNCT
+*FAT:	where . 751455_751805
+%mor:	adv|where .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	poo . 752665_752885
+%mor:	noun|poo .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	no . 753505_753725
+%mor:	intj|no .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	poo [/] poo . 754145_754485
+%mor:	noun|poo .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	right here . 754485_754845
+%mor:	adv|right adv|here .
+%gra:	1|2|ADVMOD 2|2|ROOT 3|2|PUNCT
+*FAT:	poop . 756155_756445
+%mor:	noun|poop .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	uhhuh . 756575_756925
+%mor:	intj|uhhuh .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	poo . 758025_758245
+%mor:	noun|poo .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	okay . 758435_758725
+%mor:	intj|okay .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	let's take him and go wash him . 758725_759965
+%mor:	verb|let-Fin-Imp-S~pron|we-Prs-Acc-P1 verb|take-Inf-S pron|he-Prs-Acc-S3 cconj|and verb|go-Inf-S verb|wash-Inf-S pron|he-Prs-Acc-S3 .
+%gra:	1|8|ROOT 2|1|OBJ 3|1|XCOMP 4|3|OBJ 5|6|CC 6|3|CONJ 7|6|XCOMP 8|7|OBJ 9|1|PUNCT
+*FAT:	what's wrong . 762985_763605
+%mor:	pron|what-Int-S1~aux|be-Fin-Ind-Pres-S3 adj|wrong-S1 .
+%gra:	1|3|NSUBJ 2|3|COP 3|3|ROOT 4|3|PUNCT
+*FAT:	he might do it . 764145_764925
+%mor:	pron|he-Prs-Nom-S3 aux|might-Fin-S verb|do-Inf-S pron|it-Prs-Acc-S3 .
+%gra:	1|3|NSUBJ 2|3|AUX 3|4|ROOT 4|3|OBJ 5|3|PUNCT
+*FAT:	let's take the bear and clean him up . 765655_767325
+%mor:	verb|let-Fin-Imp-S~pron|we-Prs-Acc-P1 verb|take-Inf-S det|the-Def-Art noun|bear-Acc cconj|and verb|clean-Inf-S pron|he-Prs-Acc-S3 adp|up .
+%gra:	1|9|ROOT 2|1|OBJ 3|1|XCOMP 4|5|DET 5|3|OBJ 6|7|CC 7|3|CONJ 8|7|OBJ 9|7|COMPOUND-PRT 10|1|PUNCT
+*FAT:	no . 767825_768045
+%mor:	intj|no .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	okay . 768995_769285
+%mor:	intj|okay .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	no . 769785_770005
+%mor:	intj|no .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	come on . 770035_770485
+%mor:	verb|come-Fin-Imp-S adp|on .
+%gra:	1|2|ROOT 2|1|ADVMOD 3|1|PUNCT
+*FAT:	let's go clean the bear . 771135_772085
+%mor:	verb|let-Fin-Imp-S~pron|we-Prs-Acc-P1 verb|go-Inf-S verb|clean-Inf-S det|the-Def-Art noun|bear-Acc .
+%gra:	1|6|ROOT 2|1|OBJ 3|1|XCOMP 4|3|XCOMP 5|6|DET 6|4|OBJ 7|1|PUNCT
+*FAT:	nice bear . 772085_772525
+%mor:	adj|nice-S1 noun|bear .
+%gra:	1|2|AMOD 2|2|ROOT 3|2|PUNCT
+*FAT:	no . 773065_773285
+%mor:	intj|no .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	wash the bear . 773835_774565
+%mor:	verb|wash-Fin-Imp-S det|the-Def-Art noun|bear-Acc .
+%gra:	1|3|ROOT 2|3|DET 3|1|OBJ 4|1|PUNCT
+*FAT:	oh poor bear . 774945_775845
+%mor:	intj|oh adj|poor-S1 noun|bear .
+%gra:	1|3|DISCOURSE 2|3|AMOD 3|3|ROOT 4|3|PUNCT
+*FAT:	he wants to . 775945_776565
+%mor:	pron|he-Prs-Nom-S3 verb|want-Fin-Ind-Pres-S3 part|to .
+%gra:	1|2|NSUBJ 2|3|ROOT 3|2|XCOMP 4|2|PUNCT
+*FAT:	yeah I be . 777475_778165
+%mor:	intj|yeah pron|I-Prs-Nom-S1 aux|be-Fin-Ind-Pres-S1 .
+%gra:	1|3|DISCOURSE 2|3|NSUBJ 3|3|ROOT 4|3|PUNCT
+*FAT:	water . 780495_780845
+%mor:	noun|water .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	you wanna wash the bear . 782145_783045
+%mor:	pron|you-Prs-Nom-S2 aux|wanna-Fin-Ind-Pres-S2 verb|wash-Inf-S det|the-Def-Art noun|bear-Acc .
+%gra:	1|3|NSUBJ 2|3|AUX 3|5|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
+*FAT:	no water with the beer in the water . 785785_789525
+%mor:	det|no-Def-Neg noun|water adp|with det|the-Def-Art noun|beer adp|in det|the-Def-Art noun|water .
+%gra:	1|2|DET 2|8|ROOT 3|5|CASE 4|5|DET 5|2|NMOD 6|8|CASE 7|8|DET 8|5|NMOD 9|2|PUNCT
+*FAT:	seeing the poo . 791345_792405
+%mor:	verb|see-Part-Pres-S det|the-Def-Art noun|poo-Acc .
+%gra:	1|3|ROOT 2|3|DET 3|1|OBJ 4|1|PUNCT
+*FAT:	I thought it was gonna be poo pee . 795285_796605
+%mor:	pron|I-Prs-Nom-S1 verb|think-Fin-Ind-Past-S1-irr pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr part|go aux|be-Inf-S noun|poo noun|pee .
+%gra:	1|2|NSUBJ 2|8|ROOT 3|8|NSUBJ 4|8|AUX 5|8|ADVMOD 6|8|COP 7|8|COMPOUND 8|2|CCOMP 9|2|PUNCT
+*FAT:	I mean I thought it was gonna be Poo and Peepee . 796685_799525
+%mor:	pron|I-Prs-Nom-S1 verb|mean-Fin-Ind-Pres-S1 pron|I-Prs-Nom-S1 verb|think-Fin-Ind-Past-S1-irr pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr part|go aux|be-Inf-S propn|Poo cconj|and propn|Peepee .
+%gra:	1|2|NSUBJ 2|4|PARATAXIS 3|4|NSUBJ 4|11|ROOT 5|9|NSUBJ 6|9|AUX 7|9|ADVMOD 8|9|COP 9|4|CCOMP 10|11|CC 11|9|CONJ 12|4|PUNCT
+*FAT:	oh listen . 799665_802445
+%mor:	intj|oh verb|listen-Fin-Imp-S .
+%gra:	1|2|DISCOURSE 2|2|ROOT 3|2|PUNCT
+*FAT:	he does to me . 803825_804685
+%mor:	pron|he-Prs-Nom-S3 verb|do-Fin-Ind-Pres-S3 adp|to pron|I-Prs-Acc-S1 .
+%gra:	1|2|NSUBJ 2|4|ROOT 3|4|CASE 4|2|OBL 5|2|PUNCT
+*FAT:	but I can't he understand what she . 804825_806725
+%mor:	cconj|but pron|I-Prs-Nom-S1 aux|can-Fin-S~part|not pron|he-Prs-Nom-S3 verb|understand-Inf-S pron|what-Int-S1 pron|she-Prs-Nom-S3 .
+%gra:	1|6|CC 2|6|NSUBJ 3|6|AUX 4|6|ADVMOD 5|6|NSUBJ 6|8|ROOT 7|6|OBJ 8|6|CCOMP 9|6|PUNCT
+*FAT:	wants mommy . 806725_807165
+%mor:	verb|want-Fin-Ind-Pres-S3 noun|mommy-Acc .
+%gra:	1|2|ROOT 2|1|OBJ 3|1|PUNCT
+*FAT:	yeah . 807235_807525
+%mor:	intj|yeah .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	mommy . 807855_808205
+%mor:	noun|mommy .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	what about mommy . 808595_809325
+%mor:	pron|what-Int-S1 adp|about noun|mommy .
+%gra:	1|3|ROOT 2|3|CASE 3|1|NMOD 4|1|PUNCT
+*FAT:	she mommy t mommy [/] mommy [/] mommy this . 811025_838225
+%mor:	pron|she-Prs-Nom-S3 noun|mommy noun|t noun|mommy pron|this-Dem-S1 .
+%gra:	1|4|NSUBJ 2|4|COMPOUND 3|4|COMPOUND 4|5|ROOT 5|4|NMOD-UNMARKED 6|4|PUNCT
+*FAT:	by the way Ross what are these things . 840805_843145
+%mor:	adp|by det|the-Def-Art noun|way propn|Ross pron|what-Int-S1 aux|be-Fin-Ind-Pres-P3 det|this-Def-Dem-Plur noun|thing-Plur .
+%gra:	1|3|CASE 2|3|DET 3|8|ROOT 4|5|NSUBJ 5|3|ACL-RELCL 6|8|COP 7|8|DET 8|3|ACL-RELCL 9|3|PUNCT
+*FAT:	what's Su Ross . 846605_847425
+%mor:	pron|what-Int-S1~aux|be-Fin-Ind-Pres-S3 propn|Su propn|Ross .
+%gra:	1|4|ROOT 2|3|COP 3|1|NSUBJ 4|3|FLAT 5|1|PUNCT
+*FAT:	teeth . 848115_848465
+%mor:	noun|tooth-Plur .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	what . 848735_849025
+%mor:	pron|what-Int-S1 .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	thief . 849315_849665
+%mor:	noun|thief .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	well you didn't have to tell me . 849695_850945
+%mor:	intj|well pron|you-Prs-Nom-S2 aux|do-Fin-Ind-Past-S2-irr~part|not verb|have-Inf-S part|to verb|tell-Inf-S pron|I-Prs-Acc-S1 .
+%gra:	1|5|DISCOURSE 2|5|NSUBJ 3|5|AUX 4|5|ADVMOD 5|8|ROOT 6|7|MARK 7|5|XCOMP 8|7|IOBJ 9|5|PUNCT
+*FAT:	I was gonna let him . 853825_854585
+%mor:	pron|I-Prs-Nom-S1 aux|be-Fin-Ind-Past-S1-irr part|go verb|let-Inf-S pron|he-Prs-Acc-S3 .
+%gra:	1|4|NSUBJ 2|4|AUX 3|4|ADVMOD 4|5|ROOT 5|4|OBJ 6|4|PUNCT
+*FAT:	tell me . 854615_855025
+%mor:	verb|tell-Fin-Imp-S pron|I-Prs-Acc-S1 .
+%gra:	1|2|ROOT 2|1|IOBJ 3|1|PUNCT
+*FAT:	Ross what si . 860815_861665
+%mor:	propn|Ross det|what-Def-Int noun|si .
+%gra:	1|3|ROOT 2|3|DET 3|1|APPOS 4|1|PUNCT
+*FAT:	dog . 862245_862465
+%mor:	noun|dog .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	why . 869805_870025
+%mor:	adv|why .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	what's this . 874405_874945
+%mor:	pron|what-Int-S1~aux|be-Fin-Ind-Pres-S3 pron|this-Dem-S1 .
+%gra:	1|3|ROOT 2|3|COP 3|1|NSUBJ 4|1|PUNCT
+*FAT:	what's this . 875285_875825
+%mor:	pron|what-Int-S1~aux|be-Fin-Ind-Pres-S3 pron|this-Dem-S1 .
+%gra:	1|3|ROOT 2|3|COP 3|1|NSUBJ 4|1|PUNCT
+*FAT:	what's this . 877165_877745
+%mor:	pron|what-Int-S1~aux|be-Fin-Ind-Pres-S3 pron|this-Dem-S1 .
+%gra:	1|3|ROOT 2|3|COP 3|1|NSUBJ 4|1|PUNCT
+*FAT:	okay . 880295_880585
+%mor:	intj|okay .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	what's this . 880885_881465
+%mor:	pron|what-Int-S1~aux|be-Fin-Ind-Pres-S3 pron|this-Dem-S1 .
+%gra:	1|3|ROOT 2|3|COP 3|1|NSUBJ 4|1|PUNCT
+*FAT:	mom [/] mom . 882485_884065
+%mor:	noun|mom .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	okay . 884615_884905
+%mor:	intj|okay .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	what's this . 884905_885465
+%mor:	pron|what-Int-S1~aux|be-Fin-Ind-Pres-S3 pron|this-Dem-S1 .
+%gra:	1|3|ROOT 2|3|COP 3|1|NSUBJ 4|1|PUNCT
+*FAT:	what's this . 887765_888345
+%mor:	pron|what-Int-S1~aux|be-Fin-Ind-Pres-S3 pron|this-Dem-S1 .
+%gra:	1|3|ROOT 2|3|COP 3|1|NSUBJ 4|1|PUNCT
+*FAT:	what's this . 888565_889145
+%mor:	pron|what-Int-S1~aux|be-Fin-Ind-Pres-S3 pron|this-Dem-S1 .
+%gra:	1|3|ROOT 2|3|COP 3|1|NSUBJ 4|1|PUNCT
+*FAT:	hand . 891995_892285
+%mor:	noun|hand .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	hi hand . 893145_894605
+%mor:	intj|hi noun|hand .
+%gra:	1|2|DISCOURSE 2|2|ROOT 3|2|PUNCT
+*FAT:	today is October eighth . 897655_899365
+%mor:	noun|today aux|be-Fin-Ind-Pres-S3 propn|October noun|eighth .
+%gra:	1|3|NSUBJ 2|3|COP 3|4|ROOT 4|3|NUMMOD 5|3|PUNCT
+*FAT:	and Ross just finished telling me to put the &-uh squeegee in the bathtub back . 899945_904765
+%mor:	cconj|and propn|Ross adv|just verb|finish-Fin-Ind-Past-S3 verb|tell-Ger-S pron|I-Prs-Acc-S1 part|to verb|put-Inf-S det|the-Def-Art noun|squeegee-Acc adp|in det|the-Def-Art noun|bathtub adv|back .
+%gra:	1|4|CC 2|4|NSUBJ 3|4|ADVMOD 4|14|ROOT 5|4|XCOMP 6|5|IOBJ 7|8|MARK 8|5|XCOMP 9|10|DET 10|8|OBJ 11|13|CASE 12|13|DET 13|8|OBL 14|8|ADVMOD 15|4|PUNCT
+*FAT:	and he pointed up to the place where it was supposed to be . 905545_907965
+%mor:	cconj|and pron|he-Prs-Nom-S3 verb|point-Fin-Ind-Past-S3 adp|up adp|to det|the-Def-Art noun|place adv|where pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr verb|suppose-Part-Past-S part|to aux|be-Inf-S .
+%gra:	1|3|CC 2|3|NSUBJ 3|13|ROOT 4|3|COMPOUND-PRT 5|7|CASE 6|7|DET 7|3|OBL 8|11|ADVMOD 9|11|NSUBJ-PASS 10|11|AUX-PASS 11|7|ACL-RELCL 12|13|MARK 13|11|XCOMP 14|3|PUNCT
+*FAT:	and he said back . 908705_909725
+%mor:	cconj|and pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr adv|back .
+%gra:	1|3|CC 2|3|NSUBJ 3|4|ROOT 4|3|ADVMOD 5|3|PUNCT
+*FAT:	and he said right in the context of having just said about twenty or thirty times bath . 910425_915165
+%mor:	cconj|and pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr adv|right adp|in det|the-Def-Art noun|context sconj|of aux|have-Part-Pres-S adv|just verb|say-Part-Past-S-irr adv|about num|twenty cconj|or num|thirty noun|time-Plur noun|bath-Acc .
+%gra:	1|3|CC 2|3|NSUBJ 3|17|ROOT 4|7|ADVMOD 5|7|CASE 6|7|DET 7|3|OBL 8|11|MARK 9|11|AUX 10|11|ADVMOD 11|7|ACL 12|13|ADVMOD 13|17|NUMMOD 14|15|CC 15|13|CONJ 16|17|COMPOUND 17|11|OBJ 18|3|PUNCT
+*FAT:	which is which he pronounce as bath . 916095_918365
+%mor:	pron|which-Rel-S1 aux|be-Fin-Ind-Pres-S3 pron|which-Rel-S1 pron|he-Prs-Nom-S3 verb|pronounce-Fin-Ind-Pres-S3 adp|as noun|bath .
+%gra:	1|3|NSUBJ 2|3|COP 3|5|OBL 4|5|NSUBJ 5|7|ROOT 6|7|CASE 7|5|OBL 8|5|PUNCT
+*FAT:	bath . 918875_919165
+%mor:	noun|bath .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	and back is pretty much the same bat . 919385_921525
+%mor:	cconj|and adv|back aux|be-Fin-Ind-Pres-S3 adv|pretty adv|much det|the-Def-Art adj|same-S1 noun|bat .
+%gra:	1|8|CC 2|8|ADVMOD 3|8|COP 4|5|ADVMOD 5|8|ADVMOD 6|8|DET 7|8|AMOD 8|8|ROOT 9|8|PUNCT
+*FAT:	although it seems to have more of a rising intonation on the end . 923365_925685
+%mor:	sconj|although pron|it-Prs-Nom-S3 verb|seem-Fin-Ind-Pres-S3 part|to verb|have-Inf-S adj|more-Cmp-S1 adp|of det|a-Ind-Art verb|rise-Ger-S noun|intonation adp|on det|the-Def-Art noun|end .
+%gra:	1|3|MARK 2|3|EXPL 3|13|ROOT 4|5|MARK 5|3|XCOMP 6|5|OBJ 7|10|CASE 8|10|DET 9|10|AMOD 10|6|OBL 11|13|CASE 12|13|DET 13|10|NMOD 14|3|PUNCT
+*FAT:	&-uh but I really couldn't tell the difference except the context was clear . 926865_930245
+%mor:	cconj|but pron|I-Prs-Nom-S1 adv|really aux|could-Fin-S~part|not verb|tell-Inf-S det|the-Def-Art noun|difference adp|except det|the-Def-Art noun|context aux|be-Fin-Ind-Past-S3-irr adj|clear-S1 .
+%gra:	1|6|CC 2|6|NSUBJ 3|6|ADVMOD 4|6|AUX 5|6|ADVMOD 6|13|ROOT 7|8|DET 8|13|NSUBJ 9|11|CASE 10|11|DET 11|8|NMOD 12|13|COP 13|6|CCOMP 14|6|PUNCT
+*FAT:	so there's two words . 930245_931005
+%mor:	adv|so pron|there-Int-S1~verb|be-Fin-Ind-Pres-S3 num|two noun|word-Plur .
+%gra:	1|3|ADVMOD 2|3|EXPL 3|5|ROOT 4|5|NUMMOD 5|3|NSUBJ 6|3|PUNCT
+*FAT:	they're very much like back and bath . 931315_933325
+%mor:	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 adv|very adv|much adp|like adv|back cconj|and noun|bath .
+%gra:	1|6|NSUBJ 2|6|COP 3|4|ADVMOD 4|6|ADVMOD 5|6|CASE 6|8|ROOT 7|8|CC 8|6|CONJ 9|6|PUNCT
+*FAT:	&-uh and he really uses them both quite appropriately . 933985_937325
+%mor:	cconj|and pron|he-Prs-Nom-S3 adv|really verb|use-Fin-Ind-Pres-S3 pron|they-Prs-Acc-P3 cconj|both adv|quite adv|appropriately .
+%gra:	1|4|CC 2|4|NSUBJ 3|4|ADVMOD 4|8|ROOT 5|4|OBJ 6|8|CC-PRECONJ 7|8|ADVMOD 8|4|ADVMOD 9|4|PUNCT
+*FAT:	although he means by bath he also means shower . 937565_939645
+%mor:	sconj|although pron|he-Prs-Nom-S3 verb|mean-Fin-Ind-Pres-S3 adp|by noun|bath pron|he-Prs-Nom-S3 adv|also verb|mean-Fin-Ind-Pres-S3 noun|shower-Acc .
+%gra:	1|3|MARK 2|3|NSUBJ 3|8|ADVCL 4|5|CASE 5|3|OBL 6|8|NSUBJ 7|8|ADVMOD 8|9|ROOT 9|8|OBJ 10|8|PUNCT
+*FAT:	hi . 943465_943685
+%mor:	intj|hi .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	no . 947865_948085
+%mor:	intj|no .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	Ross says now wants the microphone back . 948555_950165
+%mor:	propn|Ross verb|say-Fin-Ind-Pres-S3 adv|now verb|want-Fin-Ind-Pres-S3 det|the-Def-Art noun|microphone-Acc adv|back .
+%gra:	1|2|NSUBJ 2|7|ROOT 3|4|ADVMOD 4|2|CCOMP 5|6|DET 6|4|OBJ 7|4|ADVMOD 8|2|PUNCT
+*FAT:	but he's going to have to be quiet . 950165_951405
+%mor:	cconj|but pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|go-Part-Pres-S part|to verb|have-Inf-S part|to aux|be-Inf-S adj|quiet-S1 .
+%gra:	1|4|CC 2|4|NSUBJ 3|4|AUX 4|9|ROOT 5|6|MARK 6|4|XCOMP 7|9|MARK 8|9|COP 9|6|XCOMP 10|4|PUNCT
+*FAT:	and the other things that he says about back are that he says back when he wants he gives you a cookie back and doesn't want anymore or when he wants to put his puzzles &-uh back into his drawers . 951785_961365
+%mor:	cconj|and det|the-Def-Art adj|other-S1 noun|thing-Plur pron|that-Rel pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Pres-S3 adp|about noun|back aux|be-Fin-Ind-Pres-P3 sconj|that pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Pres-S3 adv|back adv|when pron|he-Prs-Nom-S3 verb|want-Fin-Ind-Pres-S3 pron|he-Prs-Nom-S3 verb|give-Fin-Ind-Pres-S3 pron|you-Prs-Acc-S2 det|a-Ind-Art noun|cookie-Acc adv|back cconj|and aux|do-Fin-Ind-Pres-S3~part|not verb|want-Inf-S adv|anymore cconj|or adv|when pron|he-Prs-Nom-S3 verb|want-Fin-Ind-Pres-S3 part|to verb|put-Inf-S pron|his-Prs-Gen-S3 noun|puzzle-Plur-Acc adv|back adp|into pron|his-Prs-Gen-S3 noun|drawer-Plur .
+%gra:	1|13|CC 2|4|DET 3|4|AMOD 4|13|NSUBJ-OUTER 5|7|OBJ 6|7|NSUBJ 7|4|ACL-RELCL 8|9|CASE 9|7|OBL 10|13|COP 11|13|MARK 12|13|NSUBJ 13|40|ROOT 14|13|ADVMOD 15|17|ADVMOD 16|17|NSUBJ 17|13|ADVCL 18|19|NSUBJ 19|13|CCOMP 20|19|IOBJ 21|22|DET 22|19|OBJ 23|19|ADVMOD 24|27|CC 25|27|AUX 26|27|ADVMOD 27|19|CONJ 28|27|ADVMOD 29|32|CC 30|32|ADVMOD 31|32|NSUBJ 32|27|ADVCL 33|34|MARK 34|32|XCOMP 35|36|NMOD-POSS 36|34|OBJ 37|34|ADVMOD 38|40|CASE 39|40|NMOD-POSS 40|34|OBL 41|13|PUNCT
+*FAT:	and he'll be telling me . 961665_962765
+%mor:	cconj|and pron|he-Prs-Nom-S3~aux|will-Fin-S aux|be-Inf-S verb|tell-Part-Pres-S pron|I-Prs-Acc-S1 .
+%gra:	1|5|CC 2|5|NSUBJ 3|5|AUX 4|5|AUX 5|6|ROOT 6|5|IOBJ 7|5|PUNCT
+*FAT:	and Mary tells him a lot about back [/] back to put the puzzle back . 962985_966445
+%mor:	cconj|and propn|Mary verb|tell-Fin-Ind-Pres-S3 pron|he-Prs-Acc-S3 det|a-Ind-Art noun|lot adp|about adv|back part|to verb|put-Inf-S det|the-Def-Art noun|puzzle-Acc adv|back .
+%gra:	1|3|CC 2|3|NSUBJ 3|13|ROOT 4|3|IOBJ 5|6|DET 6|3|OBL-UNMARKED 7|8|CASE 8|3|OBL 9|10|MARK 10|3|ADVCL 11|12|DET 12|10|OBJ 13|10|ADVMOD 14|3|PUNCT
+*FAT:	put the piece back where it's supposed to be . 966465_967925
+%mor:	verb|put-Fin-Imp-S det|the-Def-Art noun|piece-Acc adv|back adv|where pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|suppose-Part-Past-S part|to aux|be-Inf-S .
+%gra:	1|10|ROOT 2|3|DET 3|1|OBJ 4|1|ADVMOD 5|8|ADVMOD 6|8|NSUBJ-PASS 7|8|AUX-PASS 8|1|ADVCL 9|10|MARK 10|8|XCOMP 11|1|PUNCT
+*FAT:	put the broom back et cetera . 968585_969805
+%mor:	verb|put-Fin-Imp-S det|the-Def-Art noun|broom-Acc adv|back x|et x|cetera .
+%gra:	1|6|ROOT 2|3|DET 3|1|OBJ 4|1|ADVMOD 5|6|CC 6|4|CONJ 7|1|PUNCT
+*FAT:	so but you tell . 969825_970885
+%mor:	adv|so cconj|but pron|you-Prs-Nom-S2 verb|tell-Fin-Ind-Pres-S2 .
+%gra:	1|4|DISCOURSE 2|4|CC 3|4|NSUBJ 4|4|ROOT 5|4|PUNCT
+*FAT:	me . 970905_971125
+%mor:	pron|I-Prs-Acc-S1 .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	yeah . 971675_971965
+%mor:	intj|yeah .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	to tell you . 972145_972525
+%mor:	part|to verb|tell-Inf-S pron|you-Prs-Acc-S2 .
+%gra:	1|2|MARK 2|3|ROOT 3|2|IOBJ 4|2|PUNCT
+*FAT:	put it back . 972705_973045
+%mor:	verb|put-Fin-Imp-S pron|it-Prs-Acc-S3 adv|back .
+%gra:	1|3|ROOT 2|1|OBJ 3|1|ADVMOD 4|1|PUNCT
+*FAT:	oh yeah . 973045_973365
+%mor:	intj|oh intj|yeah .
+%gra:	1|2|ROOT 2|1|DISCOURSE 3|1|PUNCT
+*FAT:	he just told me that about back to now as far as the puzzle goes . 973365_976885
+%mor:	pron|he-Prs-Nom-S3 adv|just verb|tell-Fin-Ind-Past-S3-irr pron|I-Prs-Acc-S1 pron|that-Dem adv|about adv|back adp|to adv|now adv|as adv|far sconj|as det|the-Def-Art noun|puzzle verb|go-Fin-Ind-Pres-S3 .
+%gra:	1|3|NSUBJ 2|3|ADVMOD 3|15|ROOT 4|3|IOBJ 5|3|OBJ 6|7|ADVMOD 7|3|ADVMOD 8|9|CASE 9|7|OBL 10|11|ADVMOD 11|3|ADVMOD 12|15|MARK 13|14|DET 14|15|NSUBJ 15|11|ADVCL 16|3|PUNCT
+*FAT:	Ross is able to sort out the pieces from two of those &-uh single piece insert puzzles where each piece goes into its own slot . 976915_985085
+%mor:	propn|Ross aux|be-Fin-Ind-Pres-S3 adj|able-S1 part|to verb|sort-Inf-S adp|out det|the-Def-Art noun|piece-Plur-Acc adp|from num|two adp|of det|that-Def-Dem-Plur adj|single-S1 noun|piece noun|insert noun|puzzle-Plur adv|where det|each-Def-Tot noun|piece verb|go-Fin-Ind-Pres-S3 adp|into pron|its-Prs-Gen-S3 adj|own-S1 noun|slot .
+%gra:	1|3|NSUBJ 2|3|COP 3|24|ROOT 4|5|MARK 5|3|XCOMP 6|5|COMPOUND-PRT 7|8|DET 8|5|OBJ 9|10|CASE 10|8|NMOD 11|16|CASE 12|16|DET 13|16|AMOD 14|16|COMPOUND 15|16|COMPOUND 16|10|NMOD 17|20|ADVMOD 18|19|DET 19|20|NSUBJ 20|16|ACL-RELCL 21|24|CASE 22|24|NMOD-POSS 23|24|AMOD 24|20|OBL 25|3|PUNCT
+*FAT:	he's able to [/] to sort the right pieces to the right puzzle . 985675_988125
+%mor:	pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adj|able-S1 part|to verb|sort-Inf-S det|the-Def-Art adj|right-S1 noun|piece-Plur-Acc adp|to det|the-Def-Art adj|right-S1 noun|puzzle .
+%gra:	1|3|NSUBJ 2|3|COP 3|12|ROOT 4|5|MARK 5|3|XCOMP 6|8|DET 7|8|AMOD 8|5|OBJ 9|12|CASE 10|12|DET 11|12|AMOD 12|5|OBL 13|3|PUNCT
+*FAT:	when the two piece sets of pieces have been mixed together . 988435_990565
+%mor:	adv|when det|the-Def-Art num|two noun|piece noun|set-Plur adp|of noun|piece-Plur aux|have-Fin-Ind-Pres-P3 aux|be-Part-Past-S-irr verb|mix-Part-Past-S adv|together .
+%gra:	1|10|ADVMOD 2|5|DET 3|5|NUMMOD 4|5|COMPOUND 5|10|NSUBJ-PASS 6|7|CASE 7|5|NMOD 8|10|AUX 9|10|AUX-PASS 10|11|ROOT 11|10|ADVMOD 12|10|PUNCT
+*FAT:	he also is very good . 991385_992325
+%mor:	pron|he-Prs-Nom-S3 adv|also aux|be-Fin-Ind-Pres-S3 adv|very adj|good-S1 .
+%gra:	1|5|NSUBJ 2|5|ADVMOD 3|5|COP 4|5|ADVMOD 5|5|ROOT 6|5|PUNCT
+*FAT:	now on hammering on his bench . 992345_993685
+%mor:	adv|now sconj|on verb|hammer-Part-Pres-S adp|on pron|his-Prs-Gen-S3 noun|bench .
+%gra:	1|3|ADVMOD 2|3|MARK 3|6|ROOT 4|6|CASE 5|6|NMOD-POSS 6|3|OBL 7|3|PUNCT
+*FAT:	he can &-uh hammer the nails in . 993785_996205
+%mor:	pron|he-Prs-Nom-S3 aux|can-Fin-S verb|hammer-Inf-S det|the-Def-Art noun|nail-Plur-Acc adp|in .
+%gra:	1|3|NSUBJ 2|3|AUX 3|6|ROOT 4|5|DET 5|3|OBJ 6|3|ADVMOD 7|3|PUNCT
+*FAT:	he can also &-uh push them in by [/] by finger . 996225_999365
+%mor:	pron|he-Prs-Nom-S3 aux|can-Fin-S adv|also verb|push-Inf-S pron|they-Prs-Acc-P3 adp|in adp|by noun|finger .
+%gra:	1|4|NSUBJ 2|4|AUX 3|4|ADVMOD 4|8|ROOT 5|4|OBJ 6|4|COMPOUND-PRT 7|8|CASE 8|4|OBL 9|4|PUNCT
+*FAT:	he always puts the washer on the nail . 999365_1001725
+%mor:	pron|he-Prs-Nom-S3 adv|always verb|put-Fin-Ind-Pres-S3 det|the-Def-Art noun|washer-Acc adp|on det|the-Def-Art noun|nail .
+%gra:	1|3|NSUBJ 2|3|ADVMOD 3|8|ROOT 4|5|DET 5|3|OBJ 6|8|CASE 7|8|DET 8|3|OBL 9|3|PUNCT
+*FAT:	and he &-uh can sometimes use the hammer to claw them out . 1002745_1006725
+%mor:	cconj|and pron|he-Prs-Nom-S3 aux|can-Fin-S adv|sometimes verb|use-Inf-S det|the-Def-Art noun|hammer-Acc part|to verb|claw-Inf-S pron|they-Prs-Acc-P3 adp|out .
+%gra:	1|5|CC 2|5|NSUBJ 3|5|AUX 4|5|ADVMOD 5|11|ROOT 6|7|DET 7|5|OBJ 8|9|MARK 9|5|ADVCL 10|9|OBJ 11|9|COMPOUND-PRT 12|5|PUNCT
+*FAT:	although he's not too good at it . 1007365_1008285
+%mor:	sconj|although pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 part|not adv|too adj|good-S1 adp|at pron|it-Prs-Acc-S3 .
+%gra:	1|6|MARK 2|6|NSUBJ 3|6|COP 4|6|ADVMOD 5|6|ADVMOD 6|8|ROOT 7|8|CASE 8|6|OBL 9|6|PUNCT
+*FAT:	he has not got the screwdriver down and definitely not got the wrench down . 1008465_1011205
+%mor:	pron|he-Prs-Nom-S3 aux|have-Fin-Ind-Pres-S3 part|not verb|get-Part-Past-S-irr det|the-Def-Art noun|screwdriver-Acc adp|down cconj|and adv|definitely part|not verb|get-Part-Past-S-irr det|the-Def-Art noun|wrench-Acc adp|down .
+%gra:	1|4|NSUBJ 2|4|AUX 3|4|ADVMOD 4|14|ROOT 5|6|DET 6|4|OBJ 7|4|COMPOUND-PRT 8|11|CC 9|11|ADVMOD 10|11|ADVMOD 11|4|CONJ 12|13|DET 13|11|OBJ 14|11|COMPOUND-PRT 15|4|PUNCT
+*FAT:	although he does sometimes turn one or two turns with the screwdriver . 1011445_1014205
+%mor:	sconj|although pron|he-Prs-Nom-S3 aux|do-Fin-Ind-Pres-S3 adv|sometimes verb|turn-Inf-S num|one cconj|or num|two noun|turn-Plur-Acc adp|with det|the-Def-Art noun|screwdriver .
+%gra:	1|5|MARK 2|5|NSUBJ 3|5|AUX 4|5|ADVMOD 5|12|ROOT 6|9|NUMMOD 7|8|CC 8|6|CONJ 9|5|OBJ 10|12|CASE 11|12|DET 12|9|NMOD 13|5|PUNCT
+*FAT:	and . 1014385_1014605
+%mor:	cconj|and .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	he has turned last time he was turning . 1014605_1016485
+%mor:	pron|he-Prs-Nom-S3 aux|have-Fin-Ind-Pres-S3 verb|turn-Part-Past-S adj|last-S1 noun|time pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr verb|turn-Part-Pres-S .
+%gra:	1|3|NSUBJ 2|3|AUX 3|8|ROOT 4|5|AMOD 5|3|OBL-UNMARKED 6|8|NSUBJ 7|8|AUX 8|5|ACL-RELCL 9|3|PUNCT
+*FAT:	okay . 1017555_1017845
+%mor:	intj|okay .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	he was using the wrench last night . 1017845_1019365
+%mor:	pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr verb|use-Part-Pres-S det|the-Def-Art noun|wrench-Acc adj|last-S1 noun|night .
+%gra:	1|3|NSUBJ 2|3|AUX 3|7|ROOT 4|5|DET 5|3|OBJ 6|7|AMOD 7|3|OBL-UNMARKED 8|3|PUNCT
+*FAT:	okay . 1019365_1019645
+%mor:	intj|okay .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	so he is getting there . 1019645_1020845
+%mor:	adv|so pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Pres-S3 verb|get-Part-Pres-S adv|there .
+%gra:	1|4|ADVMOD 2|4|NSUBJ 3|4|AUX 4|5|ROOT 5|4|ADVMOD 6|4|PUNCT
+*FAT:	and he really likes to play with his little &-um &-um work board work bench . 1021305_1026125
+%mor:	cconj|and pron|he-Prs-Nom-S3 adv|really verb|like-Fin-Ind-Pres-S3 part|to verb|play-Inf-S adp|with pron|his-Prs-Gen-S3 adj|little-S1 noun|work noun|board noun|work noun|bench .
+%gra:	1|4|CC 2|4|NSUBJ 3|4|ADVMOD 4|13|ROOT 5|6|MARK 6|4|XCOMP 7|13|CASE 8|13|NMOD-POSS 9|13|AMOD 10|13|COMPOUND 11|13|COMPOUND 12|13|COMPOUND 13|6|OBL 14|4|PUNCT
+*FAT:	mhm . 1026125_1026525
+%mor:	intj|mhm .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	that's about all right . 1026865_1027845
+%mor:	pron|that-Dem~aux|be-Fin-Ind-Pres-S3 adv|about det|all-Def-Tot adj|right-S1 .
+%gra:	1|5|NSUBJ 2|5|COP 3|5|ADVMOD 4|5|DET 5|5|ROOT 6|5|PUNCT
+*FAT:	but he's really good at puzzles too . 1029145_1030445
+%mor:	cconj|but pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adv|really adj|good-S1 adp|at noun|puzzle-Plur adv|too .
+%gra:	1|5|CC 2|5|NSUBJ 3|5|COP 4|5|ADVMOD 5|8|ROOT 6|7|CASE 7|5|OBL 8|5|ADVMOD 9|5|PUNCT
+*FAT:	he just puts puzzles together . 1030445_1031525
+%mor:	pron|he-Prs-Nom-S3 adv|just verb|put-Fin-Ind-Pres-S3 noun|puzzle-Plur-Acc adv|together .
+%gra:	1|3|NSUBJ 2|3|ADVMOD 3|5|ROOT 4|3|OBJ 5|3|ADVMOD 6|3|PUNCT
+*FAT:	look at his split . 1031525_1032045
+%mor:	verb|look-Fin-Imp-S adp|at pron|his-Prs-Gen-S3 noun|split .
+%gra:	1|4|ROOT 2|4|CASE 3|4|NMOD-POSS 4|1|OBL 5|1|PUNCT
+*FAT:	and also he's being really cute in La he's also started biting . 1033385_1039405
+%mor:	cconj|and adv|also pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 aux|be-Part-Pres-S adv|really adj|cute-S1 adp|in propn|La pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adv|also verb|start-Part-Past-S verb|bite-Ger-S .
+%gra:	1|7|CC 2|7|ADVMOD 3|7|NSUBJ 4|7|AUX 5|7|COP 6|7|ADVMOD 7|14|ROOT 8|9|CASE 9|7|OBL 10|13|NSUBJ-PASS 11|13|AUX 12|13|ADVMOD 13|7|PARATAXIS 14|13|XCOMP 15|7|PUNCT
+*FAT:	he's also started biting . 1039635_1040485
+%mor:	pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adv|also verb|start-Part-Past-S verb|bite-Ger-S .
+%gra:	1|4|NSUBJ-PASS 2|4|AUX-PASS 3|4|ADVMOD 4|5|ROOT 5|4|XCOMP 6|4|PUNCT
+*FAT:	he bit me once . 1040485_1041125
+%mor:	pron|he-Prs-Nom-S3 verb|bite-Fin-Ind-Past-S3-irr pron|I-Prs-Acc-S1 adv|once .
+%gra:	1|2|NSUBJ 2|4|ROOT 3|2|OBJ 4|2|ADVMOD 5|2|PUNCT
+*FAT:	and he bit Mary once when he gets out absolutely well he Matt was throwing him around . 1041125_1045685
+%mor:	cconj|and pron|he-Prs-Nom-S3 verb|bite-Fin-Ind-Past-S3-irr propn|Mary-Acc adv|once adv|when pron|he-Prs-Nom-S3 verb|get-Fin-Ind-Pres-S3 adp|out adv|absolutely adv|well pron|he-Prs-Nom-S3 propn|Matt aux|be-Fin-Ind-Past-S3-irr verb|throw-Part-Pres-S pron|he-Prs-Acc-S3 adv|around .
+%gra:	1|3|CC 2|3|NSUBJ 3|17|ROOT 4|3|OBJ 5|3|ADVMOD 6|8|ADVMOD 7|8|NSUBJ 8|15|ADVCL 9|8|COMPOUND-PRT 10|11|ADVMOD 11|8|ADVMOD 12|15|NSUBJ 13|15|NSUBJ 14|15|AUX 15|3|PARATAXIS 16|15|OBJ 17|15|ADVMOD 18|3|PUNCT
+*FAT:	he bit me once . 1045685_1046325
+%mor:	pron|he-Prs-Nom-S3 verb|bite-Fin-Ind-Past-S3-irr pron|I-Prs-Acc-S1 adv|once .
+%gra:	1|2|NSUBJ 2|4|ROOT 3|2|OBJ 4|2|ADVMOD 5|2|PUNCT
+*FAT:	and just in a moment of rage . 1046325_1047885
+%mor:	cconj|and adv|just adp|in det|a-Ind-Art noun|moment adp|of noun|rage .
+%gra:	1|5|CC 2|5|ADVMOD 3|5|CASE 4|5|DET 5|7|ROOT 6|7|CASE 7|5|NMOD 8|5|PUNCT
+*FAT:	yeah . 1049315_1049605
+%mor:	intj|yeah .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	and this morning he was vindictive and bit Mary okay . 1049605_1053845
+%mor:	cconj|and det|this-Def-Dem-Sing noun|morning-Ger pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr adj|vindictive-S1 cconj|and verb|bite-Fin-Ind-Past-S3-irr propn|Mary-Acc intj|okay .
+%gra:	1|6|CC 2|3|DET 3|6|OBL-UNMARKED 4|6|NSUBJ 5|6|COP 6|10|ROOT 7|8|CC 8|6|CONJ 9|8|OBJ 10|6|DISCOURSE 11|6|PUNCT
+*FAT:	we're gonna turn this off now . 1053845_1054645
+%mor:	pron|we-Prs-Nom-P1~aux|be-Fin-Ind-Pres-P1 adv|gonna verb|turn-Inf-S pron|this-Dem-S1 adp|off adv|now .
+%gra:	1|4|NSUBJ 2|4|AUX 3|4|ADVMOD 4|7|ROOT 5|4|OBJ 6|4|COMPOUND-PRT 7|4|ADVMOD 8|4|PUNCT
+*FAT:	doing is he's been doing a lot of under going under tables . 1057295_1060125
+%mor:	verb|do-Part-Pres-S aux|be-Fin-Ind-Pres-S3 pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 aux|be-Part-Past-S-irr verb|do-Part-Pres-S det|a-Ind-Art noun|lot-Acc adp|of sconj|under verb|go-Part-S adp|under noun|table-Plur .
+%gra:	1|6|CSUBJ-OUTER 2|6|COP 3|6|NSUBJ 4|6|AUX 5|6|AUX 6|13|ROOT 7|8|DET 8|6|OBJ 9|11|MARK 10|11|MARK 11|8|ACL 12|13|CASE 13|11|OBL 14|6|PUNCT
+*FAT:	putting things under his work bench . 1060125_1061885
+%mor:	verb|put-Part-Pres-S noun|thing-Plur-Acc adp|under pron|his-Prs-Gen-S3 noun|work noun|bench .
+%gra:	1|6|ROOT 2|1|OBJ 3|6|CASE 4|6|NMOD-POSS 5|6|COMPOUND 6|1|OBL 7|1|PUNCT
+*FAT:	and &-uh he hasn't had the word under . 1062665_1064525
+%mor:	cconj|and pron|he-Prs-Nom-S3 aux|have-Fin-Ind-Pres-S3~part|not verb|have-Part-Past-S-irr det|the-Def-Art noun|word-Acc adp|under .
+%gra:	1|5|CC 2|5|NSUBJ 3|5|AUX 4|5|ADVMOD 5|8|ROOT 6|7|DET 7|5|OBJ 8|5|ADVMOD 9|5|PUNCT
+*FAT:	but he definitely has the concept also . 1064525_1066725
+%mor:	cconj|but pron|he-Prs-Nom-S3 adv|definitely verb|have-Fin-Ind-Pres-S3 det|the-Def-Art noun|concept-Acc adv|also .
+%gra:	1|4|CC 2|4|NSUBJ 3|4|ADVMOD 4|7|ROOT 5|6|DET 6|4|OBJ 7|4|ADVMOD 8|4|PUNCT
+*FAT:	oh he also seems to have the notion of out . 1066825_1068605
+%mor:	intj|oh pron|he-Prs-Nom-S3 adv|also verb|seem-Fin-Ind-Pres-S3 part|to verb|have-Inf-S det|the-Def-Art noun|notion-Acc adp|of adp|out .
+%gra:	1|4|DISCOURSE 2|4|NSUBJ 3|4|ADVMOD 4|10|ROOT 5|6|MARK 6|4|XCOMP 7|8|DET 8|6|OBJ 9|10|CASE 10|8|NMOD 11|4|PUNCT
+*FAT:	and I [/] I think he says the word out &-uh in the sense . 1068625_1072685
+%mor:	cconj|and pron|I-Prs-Nom-S1 verb|think-Fin-Ind-Pres-S1 pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Pres-S3 det|the-Def-Art noun|word-Acc adp|out adp|in det|the-Def-Art noun|sense .
+%gra:	1|3|CC 2|3|NSUBJ 3|11|ROOT 4|5|NSUBJ 5|3|CCOMP 6|7|DET 7|5|OBJ 8|5|COMPOUND-PRT 9|11|CASE 10|11|DET 11|5|OBL 12|3|PUNCT
+*FAT:	let's see . 1072855_1073285
+%mor:	verb|let-Fin-Imp-S~pron|we-Prs-Acc-P1 verb|see-Inf-S .
+%gra:	1|3|ROOT 2|1|OBJ 3|1|XCOMP 4|1|PUNCT
+*FAT:	he goes also hear I heard him imitate side . 1073285_1075445
+%mor:	pron|he-Prs-Nom-S3 verb|go-Fin-Ind-Pres-S3 adv|also verb|hear-Inf-S pron|I-Prs-Nom-S1 verb|hear-Fin-Ind-Past-S1-irr pron|he-Prs-Acc-S3 verb|imitate-Inf-S noun|side-Acc .
+%gra:	1|2|NSUBJ 2|9|ROOT 3|2|ADVMOD 4|2|XCOMP 5|6|NSUBJ 6|2|PARATAXIS 7|6|OBJ 8|6|XCOMP 9|8|OBJ 10|2|PUNCT
+*FAT:	I said . 1075525_1075765
+%mor:	pron|I-Prs-Nom-S1 verb|say-Fin-Ind-Past-S1-irr .
+%gra:	1|2|NSUBJ 2|2|ROOT 3|2|PUNCT
+*FAT:	you wanna go outside . 1075765_1076605
+%mor:	pron|you-Prs-Nom-S2 aux|wanna-Fin-Ind-Pres-S2 verb|go-Inf-S adv|outside .
+%gra:	1|3|NSUBJ 2|3|AUX 3|4|ROOT 4|3|ADVMOD 5|3|PUNCT
+*FAT:	he said side . 1076625_1077405
+%mor:	pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr noun|side-Acc .
+%gra:	1|2|NSUBJ 2|3|ROOT 3|2|OBJ 4|2|PUNCT
+*FAT:	and I think he mean he knows in outside inside . 1078145_1080285
+%mor:	cconj|and pron|I-Prs-Nom-S1 verb|think-Fin-Ind-Pres-S1 pron|he-Prs-Nom-S3 verb|mean-Fin-Ind-Pres-S3 pron|he-Prs-Nom-S3 verb|know-Fin-Ind-Pres-S3 adp|in adv|outside adv|inside .
+%gra:	1|3|CC 2|3|NSUBJ 3|10|ROOT 4|5|NSUBJ 5|3|CCOMP 6|7|NSUBJ 7|5|CCOMP 8|7|ADVMOD 9|7|ADVMOD 10|7|ADVMOD 11|3|PUNCT
+*FAT:	probably he thinks side means going out . 1080565_1082285
+%mor:	adv|probably pron|he-Prs-Nom-S3 verb|think-Fin-Ind-Pres-S3 noun|side verb|mean-Fin-Ind-Pres-S3 verb|go-Ger-S adp|out .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|7|ROOT 4|5|NSUBJ 5|3|CCOMP 6|5|XCOMP 7|6|COMPOUND-PRT 8|3|PUNCT
+*FAT:	yeah I think he means side means something mis analyze right . 1083075_1087365
+%mor:	intj|yeah pron|I-Prs-Nom-S1 verb|think-Fin-Ind-Pres-S1 pron|he-Prs-Nom-S3 verb|mean-Fin-Ind-Pres-S3 noun|side verb|mean-Fin-Ind-Pres-S3 pron|something-Ind-S1 part|mis verb|analyze-Inf-S adv|right .
+%gra:	1|3|DISCOURSE 2|3|NSUBJ 3|11|ROOT 4|5|NSUBJ 5|3|CCOMP 6|7|NSUBJ 7|3|CCOMP 8|7|OBJ 9|10|MARK 10|8|ACL 11|10|ADVMOD 12|3|PUNCT
+*FAT:	I think he knows out . 1087525_1088645
+%mor:	pron|I-Prs-Nom-S1 verb|think-Fin-Ind-Pres-S1 pron|he-Prs-Nom-S3 verb|know-Fin-Ind-Pres-S3 adp|out .
+%gra:	1|2|NSUBJ 2|5|ROOT 3|4|NSUBJ 4|2|CCOMP 5|4|COMPOUND-PRT 6|2|PUNCT
+*FAT:	and &-uh so out and back would be his first two lockers . 1089385_1092965
+%mor:	cconj|and adv|so adv|out cconj|and adv|back aux|would-Fin-S aux|be-Inf-S pron|his-Prs-Gen-S3 adj|first-S1 num|two noun|locker-Plur .
+%gra:	1|11|CC 2|3|ADVMOD 3|11|ADVMOD 4|5|CC 5|3|CONJ 6|11|AUX 7|11|COP 8|11|NMOD-POSS 9|11|AMOD 10|11|NUMMOD 11|11|ROOT 12|11|PUNCT
+*FAT:	he doesn't know in out . 1092965_1094365
+%mor:	pron|he-Prs-Nom-S3 aux|do-Fin-Ind-Pres-S3~part|not verb|know-Inf-S adp|in adp|out .
+%gra:	1|4|NSUBJ 2|4|AUX 3|4|ADVMOD 4|6|ROOT 5|4|OBL 6|4|COMPOUND-PRT 7|4|PUNCT
+*FAT:	of the . 1094365_1094645
+%mor:	adp|of det|the-Def-Art .
+%gra:	1|2|CASE 2|2|ROOT 3|2|PUNCT
+*FAT:	bed . 1094645_1094845
+%mor:	noun|bed .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	he doesn't know on . 1095105_1095965
+%mor:	pron|he-Prs-Nom-S3 aux|do-Fin-Ind-Pres-S3~part|not verb|know-Inf-S adp|on .
+%gra:	1|4|NSUBJ 2|4|AUX 3|4|ADVMOD 4|5|ROOT 5|4|ADVMOD 6|4|PUNCT
+*FAT:	oh out he knows up . 1096105_1097325
+%mor:	intj|oh adv|out pron|he-Prs-Nom-S3 verb|know-Fin-Ind-Pres-S3 adp|up .
+%gra:	1|4|DISCOURSE 2|4|ADVMOD 3|4|NSUBJ 4|5|ROOT 5|4|COMPOUND-PRT 6|4|PUNCT
+*FAT:	and he also seems to be saying down too . 1097465_1099805
+%mor:	cconj|and pron|he-Prs-Nom-S3 adv|also verb|seem-Fin-Ind-Pres-S3 part|to aux|be-Inf-S verb|say-Part-Pres-S adp|down adv|too .
+%gra:	1|4|CC 2|4|NSUBJ 3|4|ADVMOD 4|9|ROOT 5|7|MARK 6|7|AUX 7|4|XCOMP 8|7|COMPOUND-PRT 9|7|ADVMOD 10|4|PUNCT
+*FAT:	yes . 1100265_1100485
+%mor:	intj|yes .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	out is come is taking over for up . 1100745_1102685
+%mor:	adv|out aux|be-Fin-Ind-Pres-S3 verb|come-Part-Past-S-irr aux|be-Fin-Ind-Pres-S3 verb|take-Part-Pres-S adp|over adp|for adp|up .
+%gra:	1|3|ADVMOD 2|3|COP 3|8|ROOT 4|5|AUX 5|3|XCOMP 6|5|COMPOUND-PRT 7|8|CASE 8|5|OBL 9|3|PUNCT
+*FAT:	right out is taking over because he out of the bed . 1103175_1105245
+%mor:	adv|right adv|out aux|be-Fin-Ind-Pres-S3 verb|take-Part-Pres-S adp|over sconj|because pron|he-Prs-Nom-S3 adp|out adp|of det|the-Def-Art noun|bed .
+%gra:	1|2|ADVMOD 2|4|ADVMOD 3|4|AUX 4|11|ROOT 5|4|COMPOUND-PRT 6|11|MARK 7|11|NSUBJ 8|11|CASE 9|11|CASE 10|11|DET 11|4|ADVCL 12|4|PUNCT
+*FAT:	the tub . 1105465_1106085
+%mor:	det|the-Def-Art noun|tub .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+*FAT:	out of . 1106385_1106805
+%mor:	adv|out adp|of .
+%gra:	1|2|ROOT 2|1|PUNCT 3|1|PUNCT
+*FAT:	the crib . 1106805_1107285
+%mor:	det|the-Def-Art noun|crib .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+*FAT:	right . 1107415_1107765
+%mor:	adj|right-S1 .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	which is much better notion . 1107765_1109085
+%mor:	pron|which-Rel-S1 aux|be-Fin-Ind-Pres-S3 adv|much adj|good-Cmp-S1 noun|notion .
+%gra:	1|5|NSUBJ 2|5|COP 3|4|ADVMOD 4|5|AMOD 5|5|ROOT 6|5|PUNCT
+*FAT:	uhhuh . 1109095_1109445
+%mor:	intj|uhhuh .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	and the down is coming with the . 1110185_1112165
+%mor:	cconj|and det|the-Def-Art noun|down aux|be-Fin-Ind-Pres-S3 verb|come-Part-Pres-S adp|with det|the-Def-Art .
+%gra:	1|5|CC 2|3|DET 3|5|NSUBJ 4|5|AUX 5|7|ROOT 6|7|CASE 7|5|OBL 8|5|PUNCT
+*FAT:	high chair down &-uh from the high chair . 1112235_1114045
+%mor:	adj|high-S1 noun|chair adv|down adp|from det|the-Def-Art adj|high-S1 noun|chair .
+%gra:	1|2|AMOD 2|7|ROOT 3|2|ADVMOD 4|7|CASE 5|7|DET 6|7|AMOD 7|2|NMOD 8|2|PUNCT
+*FAT:	so it's no longer uppy . 1114045_1115005
+%mor:	adv|so pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adv|no adv|long adj|uppy-S1 .
+%gra:	1|6|DISCOURSE 2|6|NSUBJ 3|6|COP 4|5|ADVMOD 5|6|ADVMOD 6|6|ROOT 7|6|PUNCT
+*FAT:	so he is reserving Upy for up into your arms . 1115005_1116725
+%mor:	adv|so pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Pres-S3 verb|reserve-Part-Pres-S noun|upy-Acc adp|for adv|up adp|into pron|your-Prs-Gen-S2 noun|arm-Plur .
+%gra:	1|4|ADVMOD 2|4|NSUBJ 3|4|AUX 4|10|ROOT 5|4|OBJ 6|7|CASE 7|4|OBL 8|10|CASE 9|10|NMOD-POSS 10|4|OBL 11|4|PUNCT
+*FAT:	well . 1117475_1117765
+%mor:	intj|well .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	yeah really is . 1118435_1119405
+%mor:	intj|yeah adv|really aux|be-Fin-Ind-Pres-S3 .
+%gra:	1|2|DISCOURSE 2|3|ADVMOD 3|3|ROOT 4|3|PUNCT
+*FAT:	yes . 1120225_1120445
+%mor:	intj|yes .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	and his use . 1120545_1121245
+%mor:	cconj|and pron|his-Prs-Gen-S3 noun|use .
+%gra:	1|3|CC 2|3|NMOD-POSS 3|3|ROOT 4|3|PUNCT
+*FAT:	and <up to the high chair> [/] up to the high chair . 1121465_1123365
+%mor:	cconj|and adv|up adp|to det|the-Def-Art adj|high-S1 noun|chair .
+%gra:	1|2|CC 2|6|ROOT 3|6|CASE 4|6|DET 5|6|AMOD 6|2|OBL 7|2|PUNCT
+*FAT:	yeah . 1123475_1123765
+%mor:	intj|yeah .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	which is most mostly eat really . 1123855_1125805
+%mor:	pron|which-Rel-S1 aux|be-Fin-Ind-Pres-S3 adv|most adv|mostly verb|eat-Inf-S adv|really .
+%gra:	1|5|NSUBJ 2|5|COP 3|4|ADVMOD 4|5|ADVMOD 5|6|ROOT 6|5|ADVMOD 7|5|PUNCT
+*FAT:	okay . 1127185_1127475
+%mor:	intj|okay .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	&-uh also apple is definitely tomato . 1128335_1130755
+%mor:	adv|also noun|apple aux|be-Fin-Ind-Pres-S3 adv|definitely noun|tomato .
+%gra:	1|5|ADVMOD 2|5|NSUBJ 3|5|COP 4|5|ADVMOD 5|5|ROOT 6|5|PUNCT
+*FAT:	and tomatoes are called apples . 1131095_1132435
+%mor:	cconj|and noun|tomato-Plur aux|be-Fin-Ind-Pres-P3 verb|call-Part-Past-S noun|apple-Plur .
+%gra:	1|4|CC 2|4|NSUBJ-PASS 3|4|AUX-PASS 4|5|ROOT 5|4|XCOMP 6|4|PUNCT
+*FAT:	no [/] no attempt . 1133215_1133955
+%mor:	det|no-Def-Neg noun|attempt .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+*FAT:	there's no . 1133955_1134475
+%mor:	pron|there-Int-S1~verb|be-Fin-Ind-Pres-S3 intj|no .
+%gra:	1|2|EXPL 2|3|ROOT 3|2|DISCOURSE 4|2|PUNCT
+*FAT:	and water . 1134495_1135035
+%mor:	cconj|and noun|water .
+%gra:	1|2|CC 2|2|ROOT 3|2|PUNCT
+*FAT:	yeah . 1135385_1135675
+%mor:	intj|yeah .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	he knows Wawa wada wawa why y [/] y that's it . 1136055_1139715
+%mor:	pron|he-Prs-Nom-S3 verb|know-Fin-Ind-Pres-S3 propn|Wawa-Acc propn|wada propn|wawa adv|why intj|y pron|that-Dem~aux|be-Fin-Ind-Pres-S3 pron|it-Prs-Nom-S3 .
+%gra:	1|2|NSUBJ 2|10|ROOT 3|2|OBJ 4|3|FLAT 5|3|FLAT 6|10|ADVMOD 7|10|DISCOURSE 8|10|NSUBJ 9|10|COP 10|2|PARATAXIS 11|2|PUNCT
+*FAT:	y what was the other word he said with the r on the end . 1139795_1142075
+%mor:	intj|y pron|what-Int-S1 aux|be-Fin-Ind-Past-S3-irr det|the-Def-Art adj|other-S1 noun|word pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr adp|with det|the-Def-Art aux|be-Fin-Ind-Pres-S3 adp|on det|the-Def-Art noun|end .
+%gra:	1|2|DISCOURSE 2|14|ROOT 3|2|COP 4|6|DET 5|6|AMOD 6|2|NSUBJ 7|8|NSUBJ 8|6|ACL-RELCL 9|14|MARK 10|14|DET 11|14|COP 12|14|CASE 13|14|DET 14|8|OBL 15|2|PUNCT
+*FAT:	he says . 1142075_1142435
+%mor:	pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Pres-S3 .
+%gra:	1|2|NSUBJ 2|2|ROOT 3|2|PUNCT
+*FAT:	funny . 1142435_1142715
+%mor:	adj|funny-S1 .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	do he says it calls it . 1145455_1146635
+%mor:	aux|do-Fin-Ind-Pres-S3 pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Pres-S3 pron|it-Prs-Nom-S3 verb|call-Fin-Ind-Pres-S3 pron|it-Prs-Acc-S3 .
+%gra:	1|3|AUX 2|3|NSUBJ 3|6|ROOT 4|5|NSUBJ 5|3|CCOMP 6|5|OBJ 7|3|PUNCT
+*FAT:	doy do doy car . 1146775_1150635
+%mor:	intj|doy verb|do-Fin-Imp-S noun|doy noun|car-Acc .
+%gra:	1|2|DISCOURSE 2|4|ROOT 3|4|COMPOUND 4|2|OBJ 5|2|PUNCT
+*FAT:	oh car . 1150855_1151315
+%mor:	intj|oh noun|car .
+%gra:	1|2|DISCOURSE 2|2|ROOT 3|2|PUNCT
+*FAT:	that's right . 1151315_1151795
+%mor:	pron|that-Dem~aux|be-Fin-Ind-Pres-S3 adj|right-S1 .
+%gra:	1|3|NSUBJ 2|3|COP 3|3|ROOT 4|3|PUNCT
+*FAT:	car is a Kai instead of a car . 1151855_1154235
+%mor:	noun|car aux|be-Fin-Ind-Pres-S3 det|a-Ind-Art propn|Kai adv|instead adp|of det|a-Ind-Art noun|car .
+%gra:	1|4|NSUBJ 2|4|COP 3|4|DET 4|8|ROOT 5|8|CASE 6|5|FIXED 7|8|DET 8|4|NMOD 9|4|PUNCT
+*FAT:	it's a kai . 1154235_1154795
+%mor:	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|kai .
+%gra:	1|4|NSUBJ 2|4|COP 3|4|DET 4|4|ROOT 5|4|PUNCT
+*FAT:	so he says . 1156295_1156835
+%mor:	adv|so pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Pres-S3 .
+%gra:	1|3|DISCOURSE 2|3|NSUBJ 3|3|ROOT 4|3|PUNCT
+*FAT:	the r's is I essentially thank you . 1156835_1159115
+%mor:	det|the-Def-Art aux|be-Fin-Ind-Pres-S3~aux|be-Fin-Ind-Pres-S3 aux|be-Fin-Ind-Pres-S3 pron|I-Prs-Nom-S1 adv|essentially verb|thank-Fin-Ind-Pres-S1 pron|you-Prs-Acc-S2 .
+%gra:	1|2|NSUBJ 2|7|REPARANDUM 3|7|REPARANDUM 4|7|COP 5|7|NSUBJ 6|7|ADVMOD 7|8|ROOT 8|7|OBJ 9|7|PUNCT
+*FAT:	he has box . 1159255_1159915
+%mor:	pron|he-Prs-Nom-S3 verb|have-Fin-Ind-Pres-S3 noun|box-Acc .
+%gra:	1|2|NSUBJ 2|3|ROOT 3|2|OBJ 4|2|PUNCT
+*FAT:	yeah a box is pretty good . 1160545_1161675
+%mor:	intj|yeah det|a-Ind-Art noun|box aux|be-Fin-Ind-Pres-S3 adv|pretty adj|good-S1 .
+%gra:	1|6|DISCOURSE 2|3|DET 3|6|NSUBJ 4|6|COP 5|6|ADVMOD 6|6|ROOT 7|6|PUNCT
+*FAT:	okay . 1162025_1162315
+%mor:	intj|okay .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	I'm gonna turn this off . 1162315_1162875
+%mor:	pron|I-Prs-Nom-S1~aux|be-Fin-Ind-Pres-S1 part|go verb|turn-Inf-S pron|this-Dem-S1 adp|off .
+%gra:	1|4|NSUBJ 2|4|AUX 3|4|ADVMOD 4|6|ROOT 5|4|OBJ 6|4|COMPOUND-PRT 7|4|PUNCT
+*FAT:	now's different from both . 1163125_1163835
+%mor:	adv|now~aux|be-Fin-Ind-Pres-S3 adj|different-S1 adp|from det|both-Def-Tot .
+%gra:	1|3|ADVMOD 2|3|COP 3|5|ROOT 4|5|CASE 5|3|OBL 6|3|PUNCT
+*FAT:	how's the car . 1163845_1164435
+%mor:	adv|how~aux|be-Fin-Ind-Pres-S3 det|the-Def-Art noun|car .
+%gra:	1|4|ROOT 2|1|COP 3|4|DET 4|1|NSUBJ 5|1|PUNCT
+*FAT:	Ross hmm car . 1164435_1165835
+%mor:	propn|Ross intj|hmm noun|car .
+%gra:	1|3|ROOT 2|3|DISCOURSE 3|1|LIST 4|1|PUNCT
+*FAT:	huh . 1166655_1166875
+%mor:	intj|huh .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	very good . 1167625_1168155
+%mor:	adv|very adj|good-S1 .
+%gra:	1|2|ADVMOD 2|2|ROOT 3|2|PUNCT
+*FAT:	that was nice and clear . 1169025_1169995
+%mor:	pron|that-Dem aux|be-Fin-Ind-Past-S3-irr adj|nice-S1 cconj|and adj|clear-S1 .
+%gra:	1|3|NSUBJ 2|3|COP 3|5|ROOT 4|5|CC 5|3|CONJ 6|3|PUNCT
+*FAT:	where's the car . 1170025_1170795
+%mor:	adv|where~aux|be-Fin-Ind-Pres-S3 det|the-Def-Art noun|car .
+%gra:	1|4|ROOT 2|1|COP 3|4|DET 4|1|NSUBJ 5|1|PUNCT
+*FAT:	cut here . 1171655_1172595
+%mor:	verb|cut-Fin-Imp-S adv|here .
+%gra:	1|2|ROOT 2|1|ADVMOD 3|1|PUNCT
+*FAT:	<that was> [/] that was more of the kind . 1172595_1173835
+%mor:	pron|that-Dem aux|be-Fin-Ind-Past-S3-irr adj|more-Cmp-S1 adp|of det|the-Def-Art noun|kind .
+%gra:	1|3|NSUBJ 2|3|COP 3|6|ROOT 4|6|CASE 5|6|DET 6|3|OBL 7|3|PUNCT
+*FAT:	very . 1175385_1175675
+%mor:	adv|very .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	good . 1175675_1175795
+%mor:	adj|good-S1 .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	so the first one was an imitation . 1175795_1176755
+%mor:	adv|so det|the-Def-Art adj|first-S1 noun|one aux|be-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|imitation .
+%gra:	1|7|DISCOURSE 2|4|DET 3|4|AMOD 4|7|NSUBJ 5|7|COP 6|7|DET 7|7|ROOT 8|7|PUNCT
+*FAT:	and the second you got the idea in the right . 1176755_1178475
+%mor:	cconj|and det|the-Def-Art adj|second-S1 pron|you-Prs-Nom-S2 verb|get-Fin-Ind-Past-S2-irr det|the-Def-Art noun|idea-Acc adp|in det|the-Def-Art noun|right .
+%gra:	1|5|CC 2|3|DET 3|5|OBL-UNMARKED 4|5|NSUBJ 5|10|ROOT 6|7|DET 7|5|OBJ 8|10|CASE 9|10|DET 10|5|OBL 11|5|PUNCT
+*FAT:	way . 1178475_1178595
+%mor:	noun|way .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	okay . 1180625_1180915
+%mor:	intj|okay .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	I'm gonna turn it off now . 1180915_1181595
+%mor:	pron|I-Prs-Nom-S1~aux|be-Fin-Ind-Pres-S1 part|go verb|turn-Inf-S pron|it-Prs-Acc-S3 adp|off adv|now .
+%gra:	1|4|NSUBJ 2|4|AUX 3|4|ADVMOD 4|7|ROOT 5|4|OBJ 6|4|COMPOUND-PRT 7|4|ADVMOD 8|4|PUNCT
+*FAT:	anything to say . 1182635_1182955
+%mor:	pron|anything-Ind-S1 part|to verb|say-Inf-S .
+%gra:	1|3|ROOT 2|3|MARK 3|1|ACL 4|1|PUNCT
+*FAT:	Ross . 1182955_1183195
+%mor:	propn|Ross .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	truck . 1183885_1184235
+%mor:	noun|truck .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	hmm truck . 1184475_1185355
+%mor:	intj|hmm noun|truck .
+%gra:	1|2|DISCOURSE 2|2|ROOT 3|2|PUNCT
+*FAT:	who's the truck . 1186445_1187075
+%mor:	pron|who-Int~aux|be-Fin-Ind-Pres-S3 det|the-Def-Art noun|truck .
+%gra:	1|4|NSUBJ 2|4|COP 3|4|DET 4|4|ROOT 5|4|PUNCT
+*FAT:	October the ninth shoes and socks on . 1197825_1203355
+%mor:	propn|October det|the-Def-Art adj|ninth-S1 noun|shoe-Plur cconj|and noun|sock-Plur adp|on .
+%gra:	1|4|NSUBJ 2|4|DET 3|4|AMOD 4|7|ROOT 5|6|CC 6|4|CONJ 7|4|NMOD 8|4|PUNCT
+*FAT:	he's telling me about them . 1204945_1208075
+%mor:	pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|tell-Part-Pres-S pron|I-Prs-Acc-S1 adp|about pron|they-Prs-Acc-P3 .
+%gra:	1|3|NSUBJ 2|3|AUX 3|6|ROOT 4|3|IOBJ 5|6|CASE 6|3|OBL 7|3|PUNCT
+*FAT:	he saying shock or something like that . 1209655_1211435
+%mor:	pron|he-Prs-Nom-S3 verb|say-Part-Pres-S noun|shock-Acc cconj|or pron|something-Ind-S1 adp|like pron|that-Dem .
+%gra:	1|2|NSUBJ 2|7|ROOT 3|2|OBJ 4|5|CC 5|3|CONJ 6|7|CASE 7|5|NMOD 8|2|PUNCT
+*FAT:	shock . 1211605_1211955
+%mor:	noun|shock .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	put your shoes and socks on . 1216535_1217595
+%mor:	verb|put-Fin-Imp-S pron|your-Prs-Gen-S2 noun|shoe-Plur-Acc cconj|and noun|sock-Plur adp|on .
+%gra:	1|6|ROOT 2|3|NMOD-POSS 3|1|OBJ 4|5|CC 5|3|CONJ 6|1|ADVMOD 7|1|PUNCT
+*FAT:	Ross do you want this . 1223865_1228075
+%mor:	propn|Ross aux|do-Fin-Ind-Pres-S2 pron|you-Prs-Nom-S2 verb|want-Inf-S pron|this-Dem-S1 .
+%gra:	1|4|VOCATIVE 2|4|AUX 3|4|NSUBJ 4|5|ROOT 5|4|OBJ 6|4|PUNCT
+*FAT:	no . 1228535_1228755
+%mor:	intj|no .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	can I have it . 1229975_1230675
+%mor:	aux|can-Fin-S pron|I-Prs-Nom-S1 verb|have-Inf-S pron|it-Prs-Acc-S3 .
+%gra:	1|3|AUX 2|3|NSUBJ 3|4|ROOT 4|3|OBJ 5|3|PUNCT
+*FAT:	no . 1231135_1231355
+%mor:	intj|no .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	what's that . 1233095_1233595
+%mor:	pron|what-Int-S1~aux|be-Fin-Ind-Pres-S3 pron|that-Dem .
+%gra:	1|3|ROOT 2|3|COP 3|1|NSUBJ 4|1|PUNCT
+*FAT:	what's that . 1236415_1237075
+%mor:	pron|what-Int-S1~aux|be-Fin-Ind-Pres-S3 pron|that-Dem .
+%gra:	1|3|ROOT 2|3|COP 3|1|NSUBJ 4|1|PUNCT
+*FAT:	what is it . 1237995_1238565
+%mor:	pron|what-Int-S1 aux|be-Fin-Ind-Pres-S3 pron|it-Prs-Nom-S3 .
+%gra:	1|3|ROOT 2|1|COP 3|1|NSUBJ 4|1|PUNCT
+*FAT:	okay . 1242875_1243165
+%mor:	intj|okay .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	child . 1246695_1247045
+%mor:	noun|child .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	you're not going to talk now . 1247225_1248605
+%mor:	pron|you-Prs-Nom-S2~aux|be-Fin-Ind-Pres-S2 part|not verb|go-Part-Pres-S part|to verb|talk-Inf-S adv|now .
+%gra:	1|4|NSUBJ 2|4|AUX 3|4|ADVMOD 4|7|ROOT 5|6|MARK 6|4|XCOMP 7|6|ADVMOD 8|4|PUNCT
+*FAT:	what daddy [/] daddy Ross what did you mean when you said . 1249115_1267245
+%mor:	det|what-Def-Int propn|daddy-Acc propn|Ross pron|what-Int-S1 aux|do-Fin-Ind-Past-S2-irr pron|you-Prs-Nom-S2 verb|mean-Inf-S adv|when pron|you-Prs-Nom-S2 verb|say-Fin-Ind-Past-S2-irr .
+%gra:	1|2|DET 2|7|OBJ 3|2|FLAT 4|10|OBJ 5|7|AUX 6|7|NSUBJ 7|10|ROOT 8|10|ADVMOD 9|10|NSUBJ 10|7|ADVCL 11|7|PUNCT
+*FAT:	no Mom I don't want to . 1267505_1268805
+%mor:	det|no-Def-Neg noun|mom pron|I-Prs-Nom-S1 aux|do-Fin-Ind-Pres-S1~part|not verb|want-Inf-S part|to .
+%gra:	1|2|DET 2|7|ROOT 3|6|NSUBJ 4|6|AUX 5|6|ADVMOD 6|2|ACL-RELCL 7|6|XCOMP 8|2|PUNCT
+*FAT:	this is Friday the twelfth October huh . 1269955_1275085
+%mor:	pron|this-Dem-S1 aux|be-Fin-Ind-Pres-S3 propn|Friday det|the-Def-Art adj|twelfth-S1 propn|October intj|huh .
+%gra:	1|3|NSUBJ 2|3|COP 3|7|ROOT 4|6|DET 5|6|AMOD 6|3|APPOS 7|3|APPOS 8|3|PUNCT
+*FAT:	okay . 1275915_1276205
+%mor:	intj|okay .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	no Mom I don't want to did you say that . 1276705_1280445
+%mor:	det|no-Def-Neg noun|mom pron|I-Prs-Nom-S1 aux|do-Fin-Ind-Pres-S1~part|not verb|want-Inf-S part|to aux|do-Fin-Ind-Past-S2-irr pron|you-Prs-Nom-S2 verb|say-Inf-S pron|that-Dem .
+%gra:	1|2|DET 2|10|VOCATIVE 3|6|NSUBJ 4|6|AUX 5|6|ADVMOD 6|2|ACL-RELCL 7|10|MARK 8|10|AUX 9|10|NSUBJ 10|11|ROOT 11|10|OBJ 12|10|PUNCT
+*FAT:	huh . 1285665_1285885
+%mor:	intj|huh .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	oh my be my oh nice bear pee sheep [/] sheep . 1287905_1301565
+%mor:	intj|oh pron|my-Prs-Gen-S1 aux|be-Fin-S pron|my-Prs-Gen-S1 intj|oh adj|nice-S1 noun|bear noun|pee noun|sheep .
+%gra:	1|9|DISCOURSE 2|9|NMOD-POSS 3|9|COP 4|9|NMOD-POSS 5|9|DISCOURSE 6|9|AMOD 7|9|COMPOUND 8|9|COMPOUND 9|9|ROOT 10|9|PUNCT
+*FAT:	that's sheep . 1301585_1302325
+%mor:	pron|that-Dem~aux|be-Fin-Ind-Pres-S3 noun|sheep .
+%gra:	1|3|NSUBJ 2|3|COP 3|3|ROOT 4|3|PUNCT
+*FAT:	bee is bear and p sheep nice bear . 1303025_1307645
+%mor:	noun|bee aux|be-Fin-Ind-Pres-S3 noun|bear cconj|and noun|p noun|sheep adj|nice-S1 noun|bear .
+%gra:	1|3|NSUBJ 2|3|COP 3|8|ROOT 4|8|CC 5|8|COMPOUND 6|8|COMPOUND 7|8|AMOD 8|3|CONJ 9|3|PUNCT
+*FAT:	a few minutes ago . 1312645_1313365
+%mor:	det|a-Ind-Art adj|few-S1 noun|minute-Plur adv|ago .
+%gra:	1|3|DET 2|3|AMOD 3|4|OBL-UNMARKED 4|4|ROOT 5|4|PUNCT
+*FAT:	Ross clearly said . 1313395_1315325
+%mor:	propn|Ross adv|clearly verb|say-Fin-Ind-Past-S3-irr .
+%gra:	1|3|NSUBJ 2|3|ADVMOD 3|3|ROOT 4|3|PUNCT
+*FAT:	for no reason at all that I could figure . 1316105_1317485
+%mor:	adp|for det|no-Def-Neg noun|reason adp|at det|all-Def-Tot sconj|that pron|I-Prs-Nom-S1 aux|could-Fin-S verb|figure-Inf-S .
+%gra:	1|3|CASE 2|3|DET 3|9|ROOT 4|5|CASE 5|3|NMOD 6|9|MARK 7|9|NSUBJ 8|9|AUX 9|3|ACL 10|3|PUNCT
+*FAT:	nice donkey . 1318195_1319085
+%mor:	adj|nice-S1 noun|donkey .
+%gra:	1|2|AMOD 2|2|ROOT 3|2|PUNCT
+*FAT:	he said . 1319905_1320365
+%mor:	pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr .
+%gra:	1|2|NSUBJ 2|2|ROOT 3|2|PUNCT
+*FAT:	&-um no Mom I don't want to said a couple times mom your mom &-um red cat . 1320465_1334695
+%mor:	det|no-Def-Neg noun|mom pron|I-Prs-Nom-S1 aux|do-Fin-Ind-Pres-S1~part|not verb|want-Inf-S part|to verb|say-Part-Past-S-irr det|a-Ind-Art noun|couple noun|time-Plur noun|mom pron|your-Prs-Gen-S2 noun|mom adj|red-S1 noun|cat-Acc .
+%gra:	1|2|DET 2|6|VOCATIVE 3|6|NSUBJ 4|6|AUX 5|6|ADVMOD 6|16|ROOT 7|8|MARK 8|6|XCOMP 9|10|DET 10|11|NMOD-UNMARKED 11|8|OBL-UNMARKED 12|8|IOBJ 13|16|NMOD-POSS 14|16|COMPOUND 15|16|AMOD 16|8|OBJ 17|6|PUNCT
+*FAT:	what's this . 1335115_1335695
+%mor:	pron|what-Int-S1~aux|be-Fin-Ind-Pres-S3 pron|this-Dem-S1 .
+%gra:	1|3|ROOT 2|3|COP 3|1|NSUBJ 4|1|PUNCT
+*FAT:	this is a bunny . 1337325_1338055
+%mor:	pron|this-Dem-S1 aux|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|bunny .
+%gra:	1|4|NSUBJ 2|4|COP 3|4|DET 4|4|ROOT 5|4|PUNCT
+*FAT:	she . 1339915_1340135
+%mor:	pron|she-Prs-Nom-S3 .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	yep . 1340595_1340815
+%mor:	intj|yep .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	that's a sheep . 1340815_1341615
+%mor:	pron|that-Dem~aux|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|sheep .
+%gra:	1|4|NSUBJ 2|4|COP 3|4|DET 4|4|ROOT 5|4|PUNCT
+*FAT:	where's the dog . 1344405_1345495
+%mor:	adv|where~aux|be-Fin-Ind-Pres-S3 det|the-Def-Art noun|dog .
+%gra:	1|4|ROOT 2|1|COP 3|4|DET 4|1|NSUBJ 5|1|PUNCT
+*FAT:	doggy [/] doggy dog . 1346785_1350375
+%mor:	adj|doggy-S1 noun|dog .
+%gra:	1|2|AMOD 2|2|ROOT 3|2|PUNCT
+*FAT:	this is the music box . 1359005_1360375
+%mor:	pron|this-Dem-S1 aux|be-Fin-Ind-Pres-S3 det|the-Def-Art noun|music noun|box .
+%gra:	1|5|NSUBJ 2|5|COP 3|5|DET 4|5|COMPOUND 5|5|ROOT 6|5|PUNCT
+*FAT:	a box . 1361255_1361695
+%mor:	det|a-Ind-Art noun|box .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+*FAT:	yeah a box . 1362125_1363535
+%mor:	intj|yeah det|a-Ind-Art noun|box .
+%gra:	1|3|DISCOURSE 2|3|DET 3|3|ROOT 4|3|PUNCT
+*FAT:	yes . 1364115_1364335
+%mor:	intj|yes .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	oh notice . 1364755_1365415
+%mor:	intj|oh noun|notice .
+%gra:	1|2|DISCOURSE 2|2|ROOT 3|2|PUNCT
+*FAT:	he says . 1365475_1365855
+%mor:	pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Pres-S3 .
+%gra:	1|2|NSUBJ 2|2|ROOT 3|2|PUNCT
+*FAT:	a box . 1366015_1366375
+%mor:	det|a-Ind-Art noun|box .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+*FAT:	hmm . 1367055_1367175
+%mor:	intj|hmm .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	you do why . 1377265_1378045
+%mor:	pron|you-Prs-Nom-S2 aux|do-Fin-Ind-Pres-S2 adv|why .
+%gra:	1|2|NSUBJ 2|3|ROOT 3|2|ADVMOD 4|2|PUNCT
+*FAT:	oh [/] oh my nice dog . 1385185_1389045
+%mor:	intj|oh pron|my-Prs-Gen-S1 adj|nice-S1 noun|dog .
+%gra:	1|4|DISCOURSE 2|4|NMOD-POSS 3|4|AMOD 4|4|ROOT 5|4|PUNCT
+*FAT:	hi nice dog . 1389825_1392805
+%mor:	intj|hi adj|nice-S1 noun|dog .
+%gra:	1|3|DISCOURSE 2|3|AMOD 3|3|ROOT 4|3|PUNCT
+*FAT:	hi say . 1394185_1395685
+%mor:	intj|hi verb|say-Fin-Imp-S .
+%gra:	1|2|DISCOURSE 2|2|ROOT 3|2|PUNCT
+*FAT:	hi what's what . 1396145_1397325
+%mor:	intj|hi pron|what-Int-S1~aux|be-Fin-Ind-Pres-S3 pron|what-Int-S1 .
+%gra:	1|2|DISCOURSE 2|4|ROOT 3|4|COP 4|2|NSUBJ 5|2|PUNCT
+*FAT:	gay . 1397825_1398045
+%mor:	adj|gay-S1 .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	those are soldiers . 1398935_1399725
+%mor:	pron|that-Dem-P1 aux|be-Fin-Ind-Pres-P3 noun|soldier-Plur .
+%gra:	1|3|NSUBJ 2|3|COP 3|3|ROOT 4|3|PUNCT
+*FAT:	man [/] man . 1401985_1405405
+%mor:	noun|man .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	oh whoa mom little . 1408105_1420275
+%mor:	intj|oh intj|whoa noun|mom adj|little-S1 .
+%gra:	1|4|DISCOURSE 2|4|DISCOURSE 3|4|COMPOUND 4|4|ROOT 5|4|PUNCT
+*FAT:	thank you . 1434535_1435005
+%mor:	verb|thank-Fin-Ind-Pres-S1 pron|you-Prs-Acc-S2 .
+%gra:	1|2|ROOT 2|1|OBJ 3|1|PUNCT
+*FAT:	Ross [/] Ross is handing me the microphone . 1435005_1438565
+%mor:	propn|Ross aux|be-Fin-Ind-Pres-S3 verb|hand-Part-Pres-S pron|I-Prs-Acc-S1 det|the-Def-Art noun|microphone-Acc .
+%gra:	1|3|NSUBJ 2|3|AUX 3|6|ROOT 4|3|IOBJ 5|6|DET 6|3|OBJ 7|3|PUNCT
+*FAT:	he just found it on the bed . 1438665_1439845
+%mor:	pron|he-Prs-Nom-S3 adv|just verb|find-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3 adp|on det|the-Def-Art noun|bed .
+%gra:	1|3|NSUBJ 2|3|ADVMOD 3|7|ROOT 4|3|OBJ 5|7|CASE 6|7|DET 7|3|OBL 8|3|PUNCT
+*FAT:	<now you> [/] now you do it . 1441305_1442965
+%mor:	adv|now pron|you-Prs-Nom-S2 verb|do-Fin-Ind-Pres-S2 pron|it-Prs-Acc-S3 .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|4|ROOT 4|3|OBJ 5|3|PUNCT
+*FAT:	hi . 1444985_1445205
+%mor:	intj|hi .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	hi . 1446505_1446725
+%mor:	intj|hi .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	what's the doggy . 1449065_1449805
+%mor:	pron|what-Int-S1~aux|be-Fin-Ind-Pres-S3 det|the-Def-Art noun|doggy .
+%gra:	1|4|ROOT 2|4|COP 3|4|DET 4|1|NSUBJ 5|1|PUNCT
+*FAT:	going . 1449805_1449965
+%mor:	verb|go-Part-Pres-S .
+%gra:	1|1|ROOT 2|1|PUNCT
+*FAT:	hi [/] hi . 1450505_1453885
+%mor:	intj|hi .
+%gra:	1|1|ROOT 2|1|PUNCT
+@End
