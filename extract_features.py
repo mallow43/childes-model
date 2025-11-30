@@ -22,6 +22,8 @@ import sys
 from classify_util import *
 import pandas as pd
 import re
+from typing import List
+import string
 
 ## To run (pipeline):
 # 1: python extract_features.py -i data/split/train.csv -e > out/ext.train (Extract all features from each set)
@@ -78,6 +80,7 @@ PRONOUNS = {"i","you","he","she","we","they","it","me","him","her","us","them","
 COMMON_VERBS = {"go","goes","went","gone","see","saw","seen","get","got","gotten","have","has","had","want","wants","wanted","like","likes","liked","make","makes","made","say","says","said","think","thinks","thought","come","comes","came","take","takes","took","need","needs","needed"}
 COMMON_NOUNS = {"dog","dogs","cat","cats","ball","balls","mom","mommy","dad","daddy","car","cars","toy","toys","book","books","house","houses","baby","babies","friend","friends","boy","boys","girl","girls"}
 UNINTELLIGIBLE_MARKERS = {"xxx", "yyy"}
+PUNCT_TABLE = str.maketrans("", "", string.punctuation)
 
 def is_verb(tok):
     if tok in COMMON_VERBS:
@@ -105,6 +108,47 @@ def morpheme_count(tok):
         count += 1
     return count
 
+# POS tagging via NLTK only; if unavailable, we skip POS features.
+try:
+    import nltk
+    from nltk import pos_tag
+    HAVE_NLTK = True
+except ImportError:
+    HAVE_NLTK = False
+
+def get_pos_tags(tokens: List[str]) -> List[str]:
+    if HAVE_NLTK and tokens:
+        try:
+            # Universal tagset keeps the feature space compact
+            return [tag for _, tag in pos_tag(tokens, tagset="universal")]
+        except LookupError:
+            # Tagger models not downloaded; skip POS features
+            return []
+    return []
+
+def normalize_token(tok: str) -> str:
+    """
+    Normalize tokens:
+    - lowercase
+    - strip surrounding punctuation
+    """
+    return tok.lower().translate(PUNCT_TABLE)
+
+def bin_unintelligible(prop: float, count: int) -> str:
+    """
+    Bucket unintelligible proportion into coarse bins to reduce noise.
+    """
+    if count == 0:
+        return "none"
+    if prop < 0.1:
+        return "low"
+    if prop < 0.5:
+        return "mid"
+    return "high"
+
+def is_alpha_token(tok: str) -> bool:
+    return bool(re.fullmatch(r"[a-z]+", tok))
+
 #############################################################################
 # Load the cleaned CSV (note in pandas dataframe)
 df = pd.read_csv(input_file)
@@ -118,7 +162,13 @@ for idx, row in df.iterrows():
     label = bucket_age(age_m)
 
     # Basic tokenization
-    tokens = utter.split()
+    raw_tokens = utter.split()
+    # Normalize tokens (lowercase, strip punctuation)
+    tokens = []
+    for tok in raw_tokens:
+        norm = normalize_token(tok)
+        if norm:
+            tokens.append(norm)
     lower_tokens = [t.lower() for t in tokens]
     num_tokens = len(tokens)
 
@@ -164,6 +214,9 @@ for idx, row in df.iterrows():
         features.append("unintelligible_prop=0.000")
     if unintelligible_count > 0:
         features.append("has_unintelligible")
+    # Binned version to reduce variance
+    prop_val = unintelligible_count/num_tokens if num_tokens > 0 else 0.0
+    features.append("unintelligible_bin=" + bin_unintelligible(prop_val, unintelligible_count))
 
     # Inflectional cues
     if any(t.endswith("ing") for t in lower_tokens):
@@ -190,6 +243,7 @@ for idx, row in df.iterrows():
 
     # Extended features if requested
     if options.extended_features:
+        pos_tags = get_pos_tags(tokens)
 
         # Bigrams
         for i in range(num_tokens-1):
@@ -217,7 +271,6 @@ for idx, row in df.iterrows():
             features.append("has_negation")
 
         # POS tags and n-grams (NLTK); if tagging fails, skip POS features
-        pos_tags = get_pos_tags(tokens)
         for tag in pos_tags:
             features.append("pos=" + tag)
         for i in range(len(pos_tags)-1):

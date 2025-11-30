@@ -5,6 +5,15 @@ group based solely on their spontaneous speech utterances. We focus on which lin
 features—lexical diversity, morphological complexity, or utterance length—are most
 predictive of developmental stage.
 
+## Current Features (baseline extractor)
+
+- Lexical/length: word count, unique words, type–token ratio, character length, first/last word.
+- Function words: presence flags for a closed-class list.
+- Morphology/complexity: MLU in words, morpheme counts with per-token heuristic inflection cues (ing/ed/3sg/plural/possessive).
+- Intelligibility: counts/proportion of `xxx/yyy`, binned `none/low/mid/high`, and a presence flag.
+- Heuristic word-class proportions: noun/verb/function-word ratios via lightweight suffix/lexicon checks.
+- Extended mode (`-e`): word bigrams/trigrams, syntactic marker flags (`because/when/that/if/so`), negation/plural flags, and POS tags plus tag n-grams when NLTK is available.
+
 ## Research Questions
 
 - Can we classify a child’s age group from individual utterances?
@@ -59,24 +68,6 @@ Our modeling strategy is incremental:
   - N-gram probabilistic language model to capture sentence grammaticality and
     structure
 
-## Features
-
-We experiment with several types of features:
-
-- Lexical features
-  - Type–Token Ratio (TTR) for vocabulary diversity
-  - Proportion of different word classes (nouns, verbs, function words)
-- Morphological features
-  - Mean Length of Utterance (MLU) in words and morphemes
-  - Use of verb inflections (-ing, -ed, -s)
-  - Plural and possessive marking
-- N-gram features
-  - Bi-grams and tri-grams of POS tags
-  - Common word combinations
-
-These features are used individually and in combination within our models to see which
-sets best predict age.
-
 ## Simplifying Assumptions
 
 To keep the project tractable, we make the following assumptions:
@@ -84,7 +75,7 @@ To keep the project tractable, we make the following assumptions:
 - Treat each utterance as independent (ignore speaker-level variance).
 - Use only clean, transcribed speech; unintelligible or heavily garbled segments are
   excluded.
-- Represent age in discrete bins (e.g., 12 months, 2 years, 3 years).
+- Represent age in six coarse bins (1yo, 2yo, 3yo, 4yo, 5yo, 6yo_plus).
 - Do not use word intelligibility as a feature to avoid interpreter-dependent
   variability.
 
