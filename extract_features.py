@@ -90,15 +90,6 @@ def is_noun(tok):
     # crude plural/possessive cues
     return tok.endswith(("s","'s"))
 
-def coarse_pos(tok):
-    if tok in FUNCTION_WORDS or tok in PRONOUNS:
-        return "FUNC"
-    if is_verb(tok):
-        return "VERB"
-    if is_noun(tok):
-        return "NOUN"
-    return "WORD"
-
 def morpheme_count(tok):
     t = re.sub(r"^[^A-Za-z']+|[^A-Za-z']+$", "", tok.lower())
     if not t:
@@ -225,8 +216,8 @@ for idx, row in df.iterrows():
         if "not" in lower_tokens or "don't" in lower_tokens:
             features.append("has_negation")
 
-        # Coarse POS tags and n-grams over them
-        pos_tags = [coarse_pos(t) for t in lower_tokens]
+        # POS tags and n-grams (NLTK); if tagging fails, skip POS features
+        pos_tags = get_pos_tags(tokens)
         for tag in pos_tags:
             features.append("pos=" + tag)
         for i in range(len(pos_tags)-1):
