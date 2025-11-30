@@ -6,6 +6,14 @@ DATA_DIR = "data/raw"
 OUTPUT_FILE = "data/processed/utterances.csv"
 
 
+def iter_cha_files(root_dir):
+    """Yield full paths to .cha files under root_dir (recursively)."""
+    for dirpath, _, filenames in os.walk(root_dir):
+        for fname in filenames:
+            if fname.endswith(".cha"):
+                yield os.path.join(dirpath, fname)
+
+
 def age_to_months(age_str):
     """
     Convert CHILDES age format from Y;MM.DD to months
@@ -79,13 +87,18 @@ def extract_all():
 
     for corpus in ["Brown", "MacWhinney"]:
         folder = os.path.join(DATA_DIR, corpus)
-        print(f"Processing: {folder}")
+        if not os.path.isdir(folder):
+            continue
 
-        for filename in os.listdir(folder):
-            if filename.endswith(".cha"):
-                filepath = os.path.join(folder, filename)
-                rows = extract_utterances_from_file(filepath, corpus)
-                all_rows.extend(rows)
+        print(f"Processing: {folder}")
+        file_count = 0
+
+        for filepath in iter_cha_files(folder):
+            file_count += 1
+            rows = extract_utterances_from_file(filepath, corpus)
+            all_rows.extend(rows)
+
+        print(f"  Scanned {file_count} .cha files, collected {len(all_rows)} rows so far.")
 
     df = pd.DataFrame(all_rows, columns=["utterance", "age_months", "corpus", "file"])
     df.to_csv(OUTPUT_FILE, index=False)

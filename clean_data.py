@@ -13,8 +13,7 @@ def clean_utterances(df):
         text = re.sub(r'\(.*?\)', '', text)  # Remove (parentheses) 
         text = re.sub(r'<.*?>', '', text)   # Remove <angle brackets>
         text = re.sub(r'&-\w+', '', text)   # Remove &-uh, &-um etc
-        text = re.sub(r'xxx', '', text)     # Remove xxx (unintelligible)
-        text = re.sub(r'yyy', '', text)     # Remove yyy (phonological fragment)
+        # Keep xxx/yyy to capture intelligibility; they will be features downstream
         text = re.sub(r'\+\.\.\.', '', text) # Remove +... (incomplete)
         text = re.sub(r'@\w+', '', text)    # Remove @o, @b etc
         text = re.sub(r'\s+', ' ', text)    # Multiple spaces to single

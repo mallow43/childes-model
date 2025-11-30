@@ -65,6 +65,56 @@ def bucket_age(age_months):
         return "6yo_plus"
 
 #############################################################################
+# Lightweight lexical/morphological helpers
+
+# Closed-class items we care about for proportions and POS heuristics
+FUNCTION_WORDS = {
+    "the","a","an","and","but","or","because","if","when","that","this","those",
+    "these","of","for","in","on","at","to","with","as","so","by","from","up",
+    "down","not","no","don't","do","does","did","is","am","are","was","were",
+    "be","been","being","can","could","should","would","will","shall"
+}
+PRONOUNS = {"i","you","he","she","we","they","it","me","him","her","us","them","my","your","his","her","our","their"}
+COMMON_VERBS = {"go","goes","went","gone","see","saw","seen","get","got","gotten","have","has","had","want","wants","wanted","like","likes","liked","make","makes","made","say","says","said","think","thinks","thought","come","comes","came","take","takes","took","need","needs","needed"}
+COMMON_NOUNS = {"dog","dogs","cat","cats","ball","balls","mom","mommy","dad","daddy","car","cars","toy","toys","book","books","house","houses","baby","babies","friend","friends","boy","boys","girl","girls"}
+UNINTELLIGIBLE_MARKERS = {"xxx", "yyy"}
+
+def is_verb(tok):
+    if tok in COMMON_VERBS:
+        return True
+    return tok.endswith(("ing","ed")) or tok.endswith("s") and tok[:-1] in COMMON_VERBS
+
+def is_noun(tok):
+    if tok in COMMON_NOUNS:
+        return True
+    # crude plural/possessive cues
+    return tok.endswith(("s","'s"))
+
+def coarse_pos(tok):
+    if tok in FUNCTION_WORDS or tok in PRONOUNS:
+        return "FUNC"
+    if is_verb(tok):
+        return "VERB"
+    if is_noun(tok):
+        return "NOUN"
+    return "WORD"
+
+def morpheme_count(tok):
+    t = re.sub(r"^[^A-Za-z']+|[^A-Za-z']+$", "", tok.lower())
+    if not t:
+        return 0
+    count = 1
+    if t.endswith("'s"):
+        count += 1
+    elif t.endswith("s") and len(t) > 3:
+        count += 1
+    if t.endswith("ing") and len(t) > 4:
+        count += 1
+    elif t.endswith("ed") and len(t) > 3:
+        count += 1
+    return count
+
+#############################################################################
 # Load the cleaned CSV (note in pandas dataframe)
 df = pd.read_csv(input_file)
 
@@ -79,15 +129,21 @@ for idx, row in df.iterrows():
     # Basic tokenization
     tokens = utter.split()
     lower_tokens = [t.lower() for t in tokens]
+    num_tokens = len(tokens)
 
     features = []
 
     # Basic lexical features
-    features.append("word_count=" + str(len(tokens)))
+    features.append("word_count=" + str(num_tokens))
     features.append("unique_words=" + str(len(set(lower_tokens))))
+    if num_tokens > 0:
+        ttr = len(set(lower_tokens)) / num_tokens
+        features.append(f"ttr={ttr:.3f}")
+    else:
+        features.append("ttr=0.000")
 
     # First/last word
-    if len(tokens) > 0:
+    if num_tokens > 0:
         features.append("first_word=" + tokens[0].lower())
         features.append("last_word=" + tokens[-1].lower())
 
@@ -95,25 +151,62 @@ for idx, row in df.iterrows():
     features.append("char_len=" + str(len(utter)))
 
     # Presence of function words
-    function_words = {"the","a","an","and","but","or","because","if","when","that"}
-    for fw in function_words:
+    for fw in FUNCTION_WORDS:
         if fw in lower_tokens:
             features.append("has_" + fw)
 
-    # MLU (approx)
-    # (This is proxy MLU for single utterance: words / 1)
-    features.append("mlu=" + str(len(tokens)))
+    # MLU approximations (words and morphemes)
+    features.append("mlu_words=" + str(num_tokens))
+    morph_count = sum(morpheme_count(t) for t in tokens)
+    features.append("morpheme_count=" + str(morph_count))
+    if num_tokens > 0:
+        features.append(f"mlu_morphemes={morph_count/num_tokens:.3f}")
+    else:
+        features.append("mlu_morphemes=0.000")
+
+    # Intelligibility markers (xxx/yyy kept from cleaning step)
+    unintelligible_count = sum(1 for t in lower_tokens if t in UNINTELLIGIBLE_MARKERS)
+    features.append("unintelligible_count=" + str(unintelligible_count))
+    if num_tokens > 0:
+        features.append(f"unintelligible_prop={unintelligible_count/num_tokens:.3f}")
+    else:
+        features.append("unintelligible_prop=0.000")
+    if unintelligible_count > 0:
+        features.append("has_unintelligible")
+
+    # Inflectional cues
+    if any(t.endswith("ing") for t in lower_tokens):
+        features.append("has_ing")
+    if any(t.endswith("ed") for t in lower_tokens):
+        features.append("has_ed")
+    if any(t.endswith("s") and len(t) > 1 for t in lower_tokens):
+        features.append("has_3sg_or_plural")
+    if any(t.endswith("'s") for t in lower_tokens):
+        features.append("has_possessive")
+
+    # Word class proportions (heuristic)
+    noun_count = sum(1 for t in lower_tokens if is_noun(t))
+    verb_count = sum(1 for t in lower_tokens if is_verb(t))
+    func_count = sum(1 for t in lower_tokens if t in FUNCTION_WORDS)
+    if num_tokens > 0:
+        features.append(f"prop_nouns={noun_count/num_tokens:.3f}")
+        features.append(f"prop_verbs={verb_count/num_tokens:.3f}")
+        features.append(f"prop_function_words={func_count/num_tokens:.3f}")
+    else:
+        features.append("prop_nouns=0.000")
+        features.append("prop_verbs=0.000")
+        features.append("prop_function_words=0.000")
 
     # Extended features if requested
     if options.extended_features:
 
         # Bigrams
-        for i in range(len(lower_tokens)-1):
+        for i in range(num_tokens-1):
             bigram = lower_tokens[i] + "_" + lower_tokens[i+1]
             features.append("bigram=" + bigram)
 
         # Trigrams
-        for i in range(len(lower_tokens)-2):
+        for i in range(num_tokens-2):
             trigram = lower_tokens[i] + "_" + lower_tokens[i+1] + "_" + lower_tokens[i+2]
             features.append("trigram=" + trigram)
 
@@ -131,6 +224,15 @@ for idx, row in df.iterrows():
         # Check for negation (older children = more negation forms)
         if "not" in lower_tokens or "don't" in lower_tokens:
             features.append("has_negation")
+
+        # Coarse POS tags and n-grams over them
+        pos_tags = [coarse_pos(t) for t in lower_tokens]
+        for tag in pos_tags:
+            features.append("pos=" + tag)
+        for i in range(len(pos_tags)-1):
+            features.append("pos_bigram=" + pos_tags[i] + "_" + pos_tags[i+1])
+        for i in range(len(pos_tags)-2):
+            features.append("pos_trigram=" + pos_tags[i] + "_" + pos_tags[i+1] + "_" + pos_tags[i+2])
 
     # Label at the end (must be last)
     features.append(label)
