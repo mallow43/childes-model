@@ -22,7 +22,7 @@ import sys
 from classify_util import *
 import pandas as pd
 import re
-from typing import List
+import nltk 
 import string
 
 ## To run (pipeline):
@@ -90,7 +90,7 @@ def is_verb(tok):
 def is_noun(tok):
     if tok in COMMON_NOUNS:
         return True
-    # crude plural/possessive cues
+    # Plural/possessive cues
     return tok.endswith(("s","'s"))
 
 def morpheme_count(tok):
@@ -108,35 +108,21 @@ def morpheme_count(tok):
         count += 1
     return count
 
-# POS tagging via NLTK only; if unavailable, we skip POS features.
-try:
-    import nltk
-    from nltk import pos_tag
-    HAVE_NLTK = True
-except ImportError:
-    HAVE_NLTK = False
-
-def get_pos_tags(tokens: List[str]) -> List[str]:
-    if HAVE_NLTK and tokens:
-        try:
-            # Universal tagset keeps the feature space compact
-            return [tag for _, tag in pos_tag(tokens, tagset="universal")]
-        except LookupError:
-            # Tagger models not downloaded; skip POS features
-            return []
+# POS tagging via NLTK
+def get_pos_tags(tokens):
+    if tokens:
+        return [tag for _, tag in nltk.tag.pos_tag(tokens, tagset="universal")]
     return []
 
-def normalize_token(tok: str) -> str:
+def normalize_token(tok):
     """
-    Normalize tokens:
-    - lowercase
-    - strip surrounding punctuation
+    Normalize tokens by changing to lowercase and removing punctuation
     """
     return tok.lower().translate(PUNCT_TABLE)
 
-def bin_unintelligible(prop: float, count: int) -> str:
+def bin_unintelligible(prop, count):
     """
-    Bucket unintelligible proportion into coarse bins to reduce noise.
+    Bucket unintelligible proportion into coarse bins
     """
     if count == 0:
         return "none"
@@ -146,7 +132,7 @@ def bin_unintelligible(prop: float, count: int) -> str:
         return "mid"
     return "high"
 
-def is_alpha_token(tok: str) -> bool:
+def is_alpha_token(tok):
     return bool(re.fullmatch(r"[a-z]+", tok))
 
 #############################################################################

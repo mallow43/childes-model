@@ -18,6 +18,7 @@ def age_to_months(age_str):
     """
     Convert CHILDES age format from Y;MM.DD to months
     """
+    # Here use try/except in case any of these lines fail due to bad parsing
     try:
         years, rest = age_str.split(";")
         months = rest.split(".")[0]
@@ -28,7 +29,7 @@ def age_to_months(age_str):
 
 def extract_speaker_ages(lines):
     """
-    Build a dictionary mapping speaker codes → age_months
+    Build a dictionary mapping speaker codes to age_months
     by reading @ID lines.
     """
     speaker_age = {}
@@ -38,13 +39,14 @@ def extract_speaker_ages(lines):
 
         if line.startswith("@ID:"):
             parts = line.split("|")
-
+            
+            # Skip all IDs that are not parsed correctly or are not formatted correctly
             if len(parts) < 5:
                 continue
 
             # Parse components
-            speaker = parts[2].strip() # e.g., "CHI", "MAR"
-            age_str = parts[3].strip() # e.g., "5;06.24"
+            speaker = parts[2].strip() # "CHI", "MAR"
+            age_str = parts[3].strip() # "5;06.24", etc
             role = parts[7].strip() if len(parts) > 7 else ""
 
             # Only assign ages for target children
@@ -85,7 +87,7 @@ def extract_utterances_from_file(filepath, corpus_name):
 def extract_all():
     all_rows = []
 
-    for corpus in ["Brown", "MacWhinney"]:
+    for corpus in ["Brown", "MacWhinney"]: # This is assuming we are only using Brown and MacWhinney
         folder = os.path.join(DATA_DIR, corpus)
         if not os.path.isdir(folder):
             continue
@@ -98,7 +100,7 @@ def extract_all():
             rows = extract_utterances_from_file(filepath, corpus)
             all_rows.extend(rows)
 
-        print(f"  Scanned {file_count} .cha files, collected {len(all_rows)} rows so far.")
+        print(f"Scanned {file_count} .cha files, collected {len(all_rows)} rows so far.")
 
     df = pd.DataFrame(all_rows, columns=["utterance", "age_months", "corpus", "file"])
     df.to_csv(OUTPUT_FILE, index=False)
