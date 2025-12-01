@@ -24,6 +24,7 @@ import pandas as pd
 import re
 import nltk 
 import string
+from feature_constants import FUNCTION_WORDS, CONTRACTION_MAP
 
 ## To run (pipeline):
 # 1: python extract_features.py -i data/split/train.csv -e > out/ext.train (Extract all features from each set)
@@ -70,17 +71,11 @@ def bucket_age(age_months):
 # Lightweight lexical/morphological helpers
 
 # Closed-class items we care about for proportions and POS heuristics
-FUNCTION_WORDS = {
-    "the","a","an","and","but","or","because","if","when","that","this","those",
-    "these","of","for","in","on","at","to","with","as","so","by","from","up",
-    "down","not","no","don't","do","does","did","is","am","are","was","were",
-    "be","been","being","can","could","should","would","will","shall"
-}
 PRONOUNS = {"i","you","he","she","we","they","it","me","him","her","us","them","my","your","his","her","our","their"}
 COMMON_VERBS = {"go","goes","went","gone","see","saw","seen","get","got","gotten","have","has","had","want","wants","wanted","like","likes","liked","make","makes","made","say","says","said","think","thinks","thought","come","comes","came","take","takes","took","need","needs","needed"}
 COMMON_NOUNS = {"dog","dogs","cat","cats","ball","balls","mom","mommy","dad","daddy","car","cars","toy","toys","book","books","house","houses","baby","babies","friend","friends","boy","boys","girl","girls"}
 UNINTELLIGIBLE_MARKERS = {"xxx", "yyy"}
-PUNCT_TABLE = str.maketrans("", "", string.punctuation)
+PUNCT_TABLE = str.maketrans("", "", string.punctuation.replace("'", ""))
 
 def is_verb(tok):
     if tok in COMMON_VERBS:
@@ -116,9 +111,16 @@ def get_pos_tags(tokens):
 
 def normalize_token(tok):
     """
-    Normalize tokens by changing to lowercase and removing punctuation
+    Normalize tokens:
+    - lowercase
+    - strip surrounding punctuation while preserving internal apostrophes
     """
-    return tok.lower().translate(PUNCT_TABLE)
+    cleaned = tok.lower()
+    # Strip leading/trailing punctuation but keep internal apostrophes (can't -> can't)
+    cleaned = re.sub(r"^[^a-z0-9']+|[^a-z0-9']+$", "", cleaned)
+    cleaned = cleaned.translate(PUNCT_TABLE)
+    cleaned = cleaned.strip("'")
+    return cleaned
 
 def bin_unintelligible(prop, count):
     """
@@ -134,6 +136,13 @@ def bin_unintelligible(prop, count):
 
 def is_alpha_token(tok):
     return bool(re.fullmatch(r"[a-z]+", tok))
+
+def expand_for_function_words(tok):
+    """
+    Return the token itself or expanded pieces for contractions
+    so function-word counting recognizes hidden auxiliaries/negation.
+    """
+    return CONTRACTION_MAP.get(tok, [tok])
 
 #############################################################################
 # Load the cleaned CSV (note in pandas dataframe)
@@ -177,13 +186,28 @@ for idx, row in df.iterrows():
     # Character length
     features.append("char_len=" + str(len(utter)))
 
-    # Presence of function words
-    for fw in FUNCTION_WORDS:
-        if fw in lower_tokens:
-            features.append("has_" + fw)
+    # Function word aggregates (counts + ratios; contraction-aware)
+    function_word_hits = []
+    expanded_len = 0
+    for tok in lower_tokens:
+        expanded = expand_for_function_words(tok)
+        expanded_len += len(expanded)
+        for piece in expanded:
+            if piece in FUNCTION_WORDS:
+                function_word_hits.append(piece)
+    func_count = len(function_word_hits)
+    func_types = len(set(function_word_hits))
+    func_prop = func_count / expanded_len if expanded_len > 0 else 0.0
+    content_tokens = max(expanded_len - func_count, 0)
+    features.append("function_word_count=" + str(func_count))
+    features.append(f"function_word_prop={func_prop:.3f}")
+    features.append("function_word_types=" + str(func_types))
+    if func_count > 0:
+        features.append(f"content_to_function_ratio={content_tokens/func_count:.3f}")
+    else:
+        features.append("content_to_function_ratio=0.000")
 
     # MLU approximations (words and morphemes)
-    features.append("mlu_words=" + str(num_tokens))
     morph_count = sum(morpheme_count(t) for t in tokens)
     features.append("morpheme_count=" + str(morph_count))
     if num_tokens > 0:
@@ -217,15 +241,12 @@ for idx, row in df.iterrows():
     # Word class proportions (heuristic)
     noun_count = sum(1 for t in lower_tokens if is_noun(t))
     verb_count = sum(1 for t in lower_tokens if is_verb(t))
-    func_count = sum(1 for t in lower_tokens if t in FUNCTION_WORDS)
     if num_tokens > 0:
         features.append(f"prop_nouns={noun_count/num_tokens:.3f}")
         features.append(f"prop_verbs={verb_count/num_tokens:.3f}")
-        features.append(f"prop_function_words={func_count/num_tokens:.3f}")
     else:
         features.append("prop_nouns=0.000")
         features.append("prop_verbs=0.000")
-        features.append("prop_function_words=0.000")
 
     # Extended features if requested
     if options.extended_features:
