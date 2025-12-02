@@ -30,7 +30,7 @@ MODEL_DIR = FEATURE_EVAL_DIR / "models"
 RESULTS_PATH = FEATURE_EVAL_DIR / "feature_impact.tsv"
 
 SPLITS: Sequence[str] = ("train", "dev", "test")
-RUNS_PER_CONFIG = 3  # repeat training to smooth out optimizer variance
+RUNS_PER_CONFIG = 1  # set to 3 for final results, 1 for quick iteration
 
 GROUP_LEXICAL = "lexical_length"
 GROUP_FUNCTION = "function_words"
@@ -226,8 +226,8 @@ def filter_features(full_path: Path, dest_path: Path, allowed_groups: Set[str]) 
             dst.write(",".join(kept + [label]) + "\n")
 
 
-def score_model(model_path: Path, eval_path: Path) -> float:
-    """Apply a trained model and return accuracy parsed from score.py output."""
+def score_model(model_path: Path, eval_path: Path) -> Dict[str, float]:
+    """Apply a trained model and return all metrics parsed from score.py output."""
     apply_res = run_cmd(
         [str(CLASSIFY_BIN), "apply", str(model_path), str(eval_path)],
         f"model application for {eval_path.name}",
@@ -241,42 +241,66 @@ def score_model(model_path: Path, eval_path: Path) -> float:
     )
     if score_res.returncode != 0:
         raise RuntimeError(f"Scoring failed for {eval_path}: {score_res.stderr}")
-    match = re.search(r"Accuracy:\s+([0-9.]+)", score_res.stdout)
-    if not match:
+
+    # Parse all metrics from score.py output
+    metrics: Dict[str, float] = {}
+
+    acc_match = re.search(r"Exact Accuracy:\s+([0-9.]+)", score_res.stdout)
+    if not acc_match:
         raise RuntimeError(f"Could not parse accuracy from: {score_res.stdout}")
-    return float(match.group(1))
+    metrics["accuracy"] = float(acc_match.group(1))
+
+    within1_match = re.search(r"Within-1-Bin Acc:\s+([0-9.]+)", score_res.stdout)
+    if within1_match:
+        metrics["within_1_acc"] = float(within1_match.group(1))
+
+    mae_bins_match = re.search(r"MAE \(bins\):\s+([0-9.]+)", score_res.stdout)
+    if mae_bins_match:
+        metrics["mae_bins"] = float(mae_bins_match.group(1))
+
+    mae_months_match = re.search(r"MAE \(months\):\s+([0-9.]+)", score_res.stdout)
+    if mae_months_match:
+        metrics["mae_months"] = float(mae_months_match.group(1))
+
+    return metrics
 
 
-def train_and_eval(config_name: str, allowed_groups: Set[str], full_paths: Dict[str, Path]) -> Tuple[float, float]:
-    """Filter features, train RUNS_PER_CONFIG models, and return averaged dev/test accuracy."""
+def train_and_eval(config_name: str, allowed_groups: Set[str], full_paths: Dict[str, Path]) -> Dict[str, float]:
+    """Filter features, train RUNS_PER_CONFIG models, and return averaged dev metrics."""
     filtered_paths = {
         split: FILTERED_DIR / f"{config_name}.{split}" for split in SPLITS
     }
     for split in SPLITS:
         filter_features(full_paths[split], filtered_paths[split], allowed_groups)
 
-    dev_scores: List[float] = []
-    test_scores: List[float] = []
+    dev_metrics_list: List[Dict[str, float]] = []
     MODEL_DIR.mkdir(parents=True, exist_ok=True)
 
     for run_idx in range(RUNS_PER_CONFIG):
         model_path = MODEL_DIR / f"{config_name}.model"
         train_desc = f"training {config_name} (run {run_idx + 1}/{RUNS_PER_CONFIG})"
         run_cmd([str(CLASSIFY_BIN), "train", str(filtered_paths["train"]), str(model_path)], train_desc)
-        dev_scores.append(score_model(model_path, filtered_paths["dev"]))
-        test_scores.append(score_model(model_path, filtered_paths["test"]))
+        dev_metrics_list.append(score_model(model_path, filtered_paths["dev"]))
         model_path.unlink(missing_ok=True)
 
-    avg_dev = sum(dev_scores) / len(dev_scores)
-    avg_test = sum(test_scores) / len(test_scores)
-    return avg_dev, avg_test
+    # Average all metrics across runs
+    def avg_metrics(metrics_list: List[Dict[str, float]]) -> Dict[str, float]:
+        if not metrics_list:
+            return {}
+        keys = metrics_list[0].keys()
+        return {k: sum(m[k] for m in metrics_list) / len(metrics_list) for k in keys}
+
+    return avg_metrics(dev_metrics_list)
 
 
 def write_results(rows: List[Dict[str, str]]) -> None:
     RESULTS_PATH.parent.mkdir(parents=True, exist_ok=True)
     with RESULTS_PATH.open("w", newline="") as fh:
         writer = csv.writer(fh, delimiter="\t")
-        writer.writerow(["config", "type", "groups_included", "runs", "dev_accuracy", "test_accuracy"])
+        writer.writerow([
+            "config", "type", "groups_included", "runs",
+            "accuracy", "within_1_acc", "mae_bins", "mae_months"
+        ])
         for row in rows:
             writer.writerow(
                 [
@@ -284,8 +308,10 @@ def write_results(rows: List[Dict[str, str]]) -> None:
                     row["type"],
                     row["groups"],
                     row["runs"],
-                    f'{float(row["dev_accuracy"]):.2f}',
-                    f'{float(row["test_accuracy"]):.2f}',
+                    f'{float(row["accuracy"]):.2f}',
+                    f'{float(row["within_1_acc"]):.2f}',
+                    f'{float(row["mae_bins"]):.3f}',
+                    f'{float(row["mae_months"]):.2f}',
                 ]
             )
 
@@ -304,15 +330,17 @@ def main() -> None:
 
     results: List[Dict[str, str]] = []
     for exp_type, name, groups in experiments:
-        dev_acc, test_acc = train_and_eval(name, groups, full_paths)
+        metrics = train_and_eval(name, groups, full_paths)
         results.append(
             {
                 "config": name,
                 "type": exp_type,
                 "groups": ",".join(sorted(groups)),
                 "runs": str(RUNS_PER_CONFIG),
-                "dev_accuracy": dev_acc,
-                "test_accuracy": test_acc,
+                "accuracy": metrics["accuracy"],
+                "within_1_acc": metrics.get("within_1_acc", 0),
+                "mae_bins": metrics.get("mae_bins", 0),
+                "mae_months": metrics.get("mae_months", 0),
             }
         )
 

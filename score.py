@@ -2,13 +2,13 @@
 
 #############################################################################
 # Copyright 2011 Jason Baldridge
-# 
+#
 #    Licensed under the Apache License, Version 2.0 (the "License");
 #    you may not use this file except in compliance with the License.
 #    You may obtain a copy of the License at
-# 
+#
 #        http://www.apache.org/licenses/LICENSE-2.0
-# 
+#
 #    Unless required by applicable law or agreed to in writing, software
 #    distributed under the License is distributed on an "AS IS" BASIS,
 #    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -20,6 +20,25 @@ from __future__ import division
 import sys
 from optparse import OptionParser
 from classify_util import *
+
+#############################################################################
+# Age bin definitions - must match extract_features.py
+
+# Ordered list of age bins (for ordinal distance calculation)
+AGE_BIN_ORDER = ["1yo", "2yo", "3yo", "4yo", "5yo", "6yo_plus"]
+
+# Map each bin to its ordinal index (for calculating bin distance)
+AGE_BIN_TO_INDEX = {label: i for i, label in enumerate(AGE_BIN_ORDER)}
+
+# Map each bin to its midpoint in months (for MAE in months)
+AGE_BIN_TO_MONTHS = {
+    "1yo": 18,       # Midpoint of 12-23 months
+    "2yo": 30,       # Midpoint of 24-35 months
+    "3yo": 42,       # Midpoint of 36-47 months
+    "4yo": 54,       # Midpoint of 48-59 months
+    "5yo": 66,       # Midpoint of 60-71 months
+    "6yo_plus": 78,  # Estimate for 72+ months
+}
 
 #############################################################################
 # Set up the options
@@ -55,9 +74,49 @@ if len(gold) != len(predicted):
     print("Exiting.")
     sys.exit
 
-# Zip the gold and predicted lists together and test for equality,
-# then sum to get the number that matched.
-num_correct = sum([x[0]==x[1] for x in zip(gold,predicted)])
+#############################################################################
+# Calculate metrics
 
-accuracy = num_correct/len(gold) * 100.0
-print("Accuracy: %.2f" % accuracy)
+n = len(gold)
+
+# 1. Exact accuracy
+num_correct = sum([x[0]==x[1] for x in zip(gold, predicted)])
+accuracy = num_correct / n * 100.0
+
+# 2. Within-1-bin accuracy (correct if prediction is at most 1 bin away)
+within_1_correct = 0
+for g, p in zip(gold, predicted):
+    g_idx = AGE_BIN_TO_INDEX.get(g, -1)
+    p_idx = AGE_BIN_TO_INDEX.get(p, -1)
+    if g_idx >= 0 and p_idx >= 0 and abs(g_idx - p_idx) <= 1:
+        within_1_correct += 1
+within_1_accuracy = within_1_correct / n * 100.0
+
+# 3. Mean Absolute Error in bins (ordinal distance)
+total_bin_error = 0
+for g, p in zip(gold, predicted):
+    g_idx = AGE_BIN_TO_INDEX.get(g, -1)
+    p_idx = AGE_BIN_TO_INDEX.get(p, -1)
+    if g_idx >= 0 and p_idx >= 0:
+        total_bin_error += abs(g_idx - p_idx)
+mae_bins = total_bin_error / n
+
+# 4. Mean Absolute Error in months (using bin midpoints)
+total_month_error = 0
+for g, p in zip(gold, predicted):
+    g_months = AGE_BIN_TO_MONTHS.get(g, 0)
+    p_months = AGE_BIN_TO_MONTHS.get(p, 0)
+    total_month_error += abs(g_months - p_months)
+mae_months = total_month_error / n
+
+#############################################################################
+# Print results
+
+print("=" * 50)
+print("EVALUATION METRICS")
+print("=" * 50)
+print(f"Exact Accuracy:       {accuracy:.2f}%")
+print(f"Within-1-Bin Acc:     {within_1_accuracy:.2f}%")
+print(f"MAE (bins):           {mae_bins:.3f}")
+print(f"MAE (months):         {mae_months:.2f}")
+print("=" * 50)

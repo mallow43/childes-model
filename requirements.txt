@@ -4,5 +4,7 @@ pandas>=2.0
 # Modeling and splitting
 scikit-learn>=1.3
 
-# POS tagging (real tagger fallback)
+# POS tagging
+# Note: After installing, NLTK data will be auto-downloaded on first run,
+# or you can run: python setup_nltk.py
 nltk>=3.9

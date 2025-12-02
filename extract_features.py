@@ -22,9 +22,25 @@ import sys
 from classify_util import *
 import pandas as pd
 import re
-import nltk 
+import nltk
 import string
 from feature_constants import FUNCTION_WORDS, CONTRACTION_MAP
+
+# Ensure required NLTK data is available
+def ensure_nltk_data():
+    """Download NLTK data if not already present."""
+    required = [
+        ('taggers/universal_tagset', 'universal_tagset'),
+        ('taggers/averaged_perceptron_tagger', 'averaged_perceptron_tagger'),
+    ]
+    for path, name in required:
+        try:
+            nltk.data.find(path)
+        except LookupError:
+            print(f"Downloading NLTK data: {name}...", file=sys.stderr)
+            nltk.download(name, quiet=True)
+
+ensure_nltk_data()
 
 ## To run (pipeline):
 # 1: python extract_features.py -i data/split/train.csv -e > out/ext.train (Extract all features from each set)
