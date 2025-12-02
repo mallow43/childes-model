@@ -34,13 +34,10 @@ Providence corpora to test cross-corpus generalization.
 
 ## Data Setup
 
-1. Download corpora (archives cached in `data/downloads`, extracted to `data/raw`):
+1. Download corpora to `data/raw`:
 
-   ```
-   python scripts/download_childes.py --corpora Brown MacWhinney
-   ```
-
-   Add `--force` to refresh an existing corpus or `--skip-download` to reuse cached zips.
+Download transcripts (https://git.talkbank.org/childes/data/Eng-NA/Brown.zip)
+Download transcripts (https://git.talkbank.org/childes/data/Eng-NA/MacWhinney.zip)
 
 2. Parse transcripts into a single CSV of child utterances (recursively scans `.cha` files):
 
