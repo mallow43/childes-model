@@ -19,6 +19,14 @@ def clean_utterances(df):
         text = re.sub(r'\s+', ' ', text)    # Multiple spaces to single
         text = re.sub(r'[\x00-\x1F]*\d+_\d+[\x00-\x1F]*', '', text) # Remove random unicode items 
         
+        text = text.strip()
+
+        # Remove trailing punctuation tokens
+        tokens = text.split()
+        if tokens and tokens[-1] in {".", "?", "!"}:
+            tokens = tokens[:-1]
+        text = " ".join(tokens)
+
         return text.strip()
     
     # Clean utterances
@@ -29,6 +37,9 @@ def clean_utterances(df):
     
     # Add word count
     df['word_count'] = df['clean_utterance'].str.split().str.len()
+
+    # Remove all uterrances where word count are less than 3
+    df = df[df['word_count'] > 2]
     
     return df
 
