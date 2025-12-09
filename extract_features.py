@@ -70,7 +70,9 @@ def bucket_age(age_months):
     """Convert continuous age in months into labels."""
     if age_months is None or not isinstance(age_months, int):
         return "UNK"
-    if age_months < 24:
+    elif age_months < 12:
+        return "0yo"
+    elif age_months < 24: 
         return "1yo"
     elif age_months < 36:
         return "2yo"
@@ -89,7 +91,7 @@ def bucket_age(age_months):
 # Closed-class items we care about for proportions and POS heuristics
 PRONOUNS = {"i","you","he","she","we","they","it","me","him","her","us","them","my","your","his","her","our","their"}
 COMMON_VERBS = {"go","goes","went","gone","see","saw","seen","get","got","gotten","have","has","had","want","wants","wanted","like","likes","liked","make","makes","made","say","says","said","think","thinks","thought","come","comes","came","take","takes","took","need","needs","needed"}
-COMMON_NOUNS = {"dog","dogs","cat","cats","ball","balls","mom","mommy","dad","daddy","car","cars","toy","toys","book","books","house","houses","baby","babies","friend","friends","boy","boys","girl","girls"}
+COMMON_NOUNS = {"dog","dogs","cat","cats","ball","balls","mom","mommy","momma","dad","papa","daddy","car","cars","toy","toys","book","books","house","houses","baby","babies","friend","friends","boy","boys","girl","girls","shoe","shoes","milk", "tummy"}
 UNINTELLIGIBLE_MARKERS = {"xxx", "yyy"}
 PUNCT_TABLE = str.maketrans("", "", string.punctuation.replace("'", ""))
 
@@ -116,6 +118,8 @@ def morpheme_count(tok):
     if t.endswith("ing") and len(t) > 4:
         count += 1
     elif t.endswith("ed") and len(t) > 3:
+        count += 1
+    elif t.endswith("n't") or t.endswith("'re") or t.endswith("'ve"):
         count += 1
     return count
 
@@ -187,7 +191,7 @@ for idx, row in df.iterrows():
 
     # Basic lexical features
     features.append("word_count=" + str(num_tokens))
-    features.append("unique_words=" + str(len(set(lower_tokens))))
+    # features.append("unique_words=" + str(len(set(lower_tokens))))
     if num_tokens > 0:
         ttr = len(set(lower_tokens)) / num_tokens
         features.append(f"ttr={ttr:.3f}")
@@ -200,7 +204,7 @@ for idx, row in df.iterrows():
         features.append("last_word=" + tokens[-1].lower())
 
     # Character length
-    features.append("char_len=" + str(len(utter)))
+    # features.append("char_len=" + str(len(utter)))
 
     # Function word aggregates (counts + ratios; contraction-aware)
     function_word_hits = []
@@ -215,17 +219,16 @@ for idx, row in df.iterrows():
     func_types = len(set(function_word_hits))
     func_prop = func_count / expanded_len if expanded_len > 0 else 0.0
     content_tokens = max(expanded_len - func_count, 0)
-    features.append("function_word_count=" + str(func_count))
+    # features.append("function_word_count=" + str(func_count))
     features.append(f"function_word_prop={func_prop:.3f}")
     features.append("function_word_types=" + str(func_types))
-    if func_count > 0:
-        features.append(f"content_to_function_ratio={content_tokens/func_count:.3f}")
-    else:
-        features.append("content_to_function_ratio=0.000")
+    # if func_count > 0:
+    #     features.append(f"content_to_function_ratio={content_tokens/func_count:.3f}")
+    # else:
+    #     features.append("content_to_function_ratio=0.000")
 
     # MLU approximations (words and morphemes)
     morph_count = sum(morpheme_count(t) for t in tokens)
-    features.append("morpheme_count=" + str(morph_count))
     if num_tokens > 0:
         features.append(f"mlu_morphemes={morph_count/num_tokens:.3f}")
     else:
@@ -245,14 +248,14 @@ for idx, row in df.iterrows():
     features.append("unintelligible_bin=" + bin_unintelligible(prop_val, unintelligible_count))
 
     # Inflectional cues
-    if any(t.endswith("ing") for t in lower_tokens):
-        features.append("has_ing")
-    if any(t.endswith("ed") for t in lower_tokens):
-        features.append("has_ed")
-    if any(t.endswith("s") and len(t) > 1 for t in lower_tokens):
-        features.append("has_3sg_or_plural")
-    if any(t.endswith("'s") for t in lower_tokens):
-        features.append("has_possessive")
+    # if any(t.endswith("ing") for t in lower_tokens):
+    #     features.append("has_ing")
+    # if any(t.endswith("ed") for t in lower_tokens):
+    #     features.append("has_ed")
+    # if any(t.endswith("s") and len(t) > 1 for t in lower_tokens):
+    #     features.append("has_3sg_or_plural")
+    # if any(t.endswith("'s") for t in lower_tokens):
+    #     features.append("has_possessive")
 
     # Word class proportions (heuristic)
     noun_count = sum(1 for t in lower_tokens if is_noun(t))
@@ -263,6 +266,12 @@ for idx, row in df.iterrows():
     else:
         features.append("prop_nouns=0.000")
         features.append("prop_verbs=0.000")
+    
+    # Common child phrases 
+    if num_tokens >= 2 and lower_tokens[0] == "i" and lower_tokens[1] == "want":
+        features.append("frame_i_want")
+    if num_tokens >= 2 and lower_tokens[0] == "can" and lower_tokens[1] == "i":
+        features.append("frame_can_i")
 
     # Extended features if requested
     if options.extended_features:
@@ -294,12 +303,12 @@ for idx, row in df.iterrows():
             features.append("has_negation")
 
         # POS tags and n-grams (NLTK); if tagging fails, skip POS features
-        for tag in pos_tags:
-            features.append("pos=" + tag)
-        for i in range(len(pos_tags)-1):
-            features.append("pos_bigram=" + pos_tags[i] + "_" + pos_tags[i+1])
-        for i in range(len(pos_tags)-2):
-            features.append("pos_trigram=" + pos_tags[i] + "_" + pos_tags[i+1] + "_" + pos_tags[i+2])
+        # for tag in pos_tags:
+        #     features.append("pos=" + tag)
+        # for i in range(len(pos_tags)-1):
+        #     features.append("pos_bigram=" + pos_tags[i] + "_" + pos_tags[i+1])
+        # for i in range(len(pos_tags)-2):
+        #     features.append("pos_trigram=" + pos_tags[i] + "_" + pos_tags[i+1] + "_" + pos_tags[i+2])
 
     # Label at the end (must be last)
     features.append(label)
