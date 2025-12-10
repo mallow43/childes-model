@@ -49,7 +49,7 @@ parser.add_option("-g", "--gold", dest="gold",
                   help="use gold labels in FILE", metavar="FILE")
 parser.add_option("-p", "--predict", dest="predict",
                   help="score predicted labels in FILE", metavar="FILE")
-parser.add_option("-s", "--show-examples", dest="show_examples", type="int", default=10,
+parser.add_option("-s", "--show-examples", dest="show_examples", type="int", default=0,
                   help="show examples of predictions versus gold labels (default 10 utterances)")
 
 (options, args) = parser.parse_args()

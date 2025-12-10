@@ -93,6 +93,7 @@ PRONOUNS = {"i","you","he","she","we","they","it","me","him","her","us","them","
 COMMON_VERBS = {"go","goes","went","gone","see","saw","seen","get","got","gotten","have","has","had","want","wants","wanted","like","likes","liked","make","makes","made","say","says","said","think","thinks","thought","come","comes","came","take","takes","took","need","needs","needed"}
 COMMON_NOUNS = {"dog","dogs","cat","cats","ball","balls","mom","mommy","momma","dad","papa","daddy","car","cars","toy","toys","book","books","house","houses","baby","babies","friend","friends","boy","boys","girl","girls","shoe","shoes","milk", "tummy"}
 UNINTELLIGIBLE_MARKERS = {"xxx", "yyy"}
+QUESTION_WORDS = {"who","what","when","where","why","how"}
 PUNCT_TABLE = str.maketrans("", "", string.punctuation.replace("'", ""))
 
 def is_verb(tok):
@@ -126,7 +127,7 @@ def morpheme_count(tok):
 # POS tagging via NLTK
 def get_pos_tags(tokens):
     if tokens:
-        return [tag for _, tag in nltk.tag.pos_tag(tokens, tagset="universal")]
+        return [tag for _, tag in nltk.tag.pos_tag(tokens)]
     return []
 
 def normalize_token(tok):
@@ -272,6 +273,12 @@ for idx, row in df.iterrows():
         features.append("frame_i_want")
     if num_tokens >= 2 and lower_tokens[0] == "can" and lower_tokens[1] == "i":
         features.append("frame_can_i")
+    
+    # Question words 
+    for word in QUESTION_WORDS:
+        if word in lower_tokens:
+            features.append("has_wh")
+            break
 
     # Extended features if requested
     if options.extended_features:
@@ -301,6 +308,9 @@ for idx, row in df.iterrows():
         # Check for negation (older children = more negation forms)
         if "not" in lower_tokens or "don't" in lower_tokens:
             features.append("has_negation")
+        
+        if any(tag == "VBD" for tag in pos_tags):
+            features.append("has_past_tense")
 
         # POS tags and n-grams (NLTK); if tagging fails, skip POS features
         # for tag in pos_tags:
