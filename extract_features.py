@@ -310,6 +310,10 @@ for idx, row in df.iterrows():
         # for i in range(len(pos_tags)-2):
         #     features.append("pos_trigram=" + pos_tags[i] + "_" + pos_tags[i+1] + "_" + pos_tags[i+2])
 
+        # Keep the utterance as a feature for scoring and analysis later
+        safe_utter = utter.replace(",", "<COMMA>")
+        features.append(f"UTT={safe_utter}")
+
     # Label at the end (must be last)
     features.append(label)
 

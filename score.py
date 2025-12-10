@@ -20,6 +20,7 @@ from __future__ import division
 import sys
 from optparse import OptionParser
 from classify_util import *
+from collections import defaultdict
 
 #############################################################################
 # Age bin definitions - must match extract_features.py
@@ -48,6 +49,8 @@ parser.add_option("-g", "--gold", dest="gold",
                   help="use gold labels in FILE", metavar="FILE")
 parser.add_option("-p", "--predict", dest="predict",
                   help="score predicted labels in FILE", metavar="FILE")
+parser.add_option("-s", "--show-examples", dest="show_examples", type="int", default=10,
+                  help="show examples of predictions versus gold labels (default 10 utterances)")
 
 (options, args) = parser.parse_args()
 check_mandatory_options(parser, options, ['gold'])
@@ -64,7 +67,9 @@ if options.predict != None:
 # Do the scoring.
 
 # Slurp in the labels from each file as lists
-gold = [x.strip().split(',')[-1] for x in gold_file.readlines()]
+#gold = [x.strip().split(',')[-1] for x in gold_file.readlines()]
+gold_lines = [x.strip() for x in gold_file.readlines()]
+gold = [line.split(',')[-1] for line in gold_lines]
 predicted = [x.strip().split(' ')[0] for x in prediction_file.readlines()]
 
 if len(gold) != len(predicted):
@@ -92,7 +97,28 @@ for g, p in zip(gold, predicted):
         within_1_correct += 1
 within_1_accuracy = within_1_correct / n * 100.0
 
-# 3. Mean Absolute Error in bins (ordinal distance)
+# 3. Macro-averaged recall
+
+gold_counts = defaultdict(int)
+true_positive_counts = defaultdict(int)
+
+for g, p in zip(gold, predicted):
+    gold_counts[g] += 1
+    if g == p:
+        true_positive_counts[g] += 1
+
+macro_recall_sum = 0
+num_classes = 0
+
+for label in gold_counts:
+    if gold_counts[label] > 0:
+        recall = true_positive_counts[label] / gold_counts[label]
+        macro_recall_sum += recall
+        num_classes += 1
+
+macro_recall = (macro_recall_sum / num_classes) * 100 if num_classes > 0 else 0
+
+# 4. Mean Absolute Error in bins (ordinal distance)
 total_bin_error = 0
 for g, p in zip(gold, predicted):
     g_idx = AGE_BIN_TO_INDEX.get(g, -1)
@@ -101,7 +127,7 @@ for g, p in zip(gold, predicted):
         total_bin_error += abs(g_idx - p_idx)
 mae_bins = total_bin_error / n
 
-# 4. Mean Absolute Error in months (using bin midpoints)
+# 5. Mean Absolute Error in months (using bin midpoints)
 total_month_error = 0
 for g, p in zip(gold, predicted):
     g_months = AGE_BIN_TO_MONTHS.get(g, 0)
@@ -117,6 +143,28 @@ print("EVALUATION METRICS")
 print("=" * 50)
 print(f"Exact Accuracy:       {accuracy:.2f}%")
 print(f"Within-1-Bin Acc:     {within_1_accuracy:.2f}%")
+print(f"Macro Recall:         {macro_recall:.2f}%")
 print(f"MAE (bins):           {mae_bins:.3f}")
 print(f"MAE (months):         {mae_months:.2f}")
 print("=" * 50)
+
+# Show sample predictions if flag pressed
+if options.show_examples:
+    print("\nSAMPLE PREDICTIONS (gold -> predicted):")
+    print("=" * 50)
+
+    shown = 0
+    max_show = options.show_examples
+
+    for line, g, p in zip(gold_lines, gold, predicted):
+        if g != p:
+            parts = line.split(',')
+            # Create iterator that will turn feature back into the clean utterance
+            utt = next((x.replace("UTT=", "").replace("<COMMA>", ",") for x in parts if x.startswith("UTT=")),None)
+            # Only show valid utterances
+            if utt:
+                context = f'"{utt}"'
+                print(f"{context:40s}  GOLD={g:6s}  PRED={p:6s}")
+                shown += 1
+            if shown >= max_show:
+                break
