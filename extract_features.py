@@ -68,7 +68,7 @@ errmsg("Showing verbose output.", verbose)
 # NOTE: WE CAN CHANGE TO HOWEVER WE WANT HERE 
 def bucket_age(age_months):
     """Convert continuous age in months into labels."""
-    if age_months is None or not isinstance(age_months, int):
+    if age_months is None or pd.isna(age_months):
         return "UNK"
     elif age_months < 12:
         return "0yo"
@@ -322,7 +322,7 @@ for idx, row in df.iterrows():
 
         # Keep the utterance as a feature for scoring and analysis later
         safe_utter = utter.replace(",", "<COMMA>")
-        features.append(f"UTT={safe_utter}")
+        features.append(f"utter={safe_utter}")
 
     # Label at the end (must be last)
     features.append(label)

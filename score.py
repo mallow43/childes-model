@@ -26,13 +26,14 @@ from collections import defaultdict
 # Age bin definitions - must match extract_features.py
 
 # Ordered list of age bins (for ordinal distance calculation)
-AGE_BIN_ORDER = ["1yo", "2yo", "3yo", "4yo", "5yo", "6yo_plus"]
+AGE_BIN_ORDER = ["0yo", "1yo", "2yo", "3yo", "4yo", "5yo", "6yo_plus"]
 
 # Map each bin to its ordinal index (for calculating bin distance)
 AGE_BIN_TO_INDEX = {label: i for i, label in enumerate(AGE_BIN_ORDER)}
 
 # Map each bin to its midpoint in months (for MAE in months)
 AGE_BIN_TO_MONTHS = {
+    "0yo": 6,        # Midpoint of 0-11 months
     "1yo": 18,       # Midpoint of 12-23 months
     "2yo": 30,       # Midpoint of 24-35 months
     "3yo": 42,       # Midpoint of 36-47 months
@@ -157,14 +158,14 @@ if options.show_examples:
     max_show = options.show_examples
 
     for line, g, p in zip(gold_lines, gold, predicted):
-        if g != p:
-            parts = line.split(',')
-            # Create iterator that will turn feature back into the clean utterance
-            utt = next((x.replace("UTT=", "").replace("<COMMA>", ",") for x in parts if x.startswith("UTT=")),None)
-            # Only show valid utterances
-            if utt:
-                context = f'"{utt}"'
-                print(f"{context:40s}  GOLD={g:6s}  PRED={p:6s}")
-                shown += 1
-            if shown >= max_show:
-                break
+        #if g != p: ADD THIS IF ONLY WANT TO LOOK AT ERRORS
+        parts = line.split(',')
+        # Create iterator that will turn feature back into the clean utterance
+        utt = next((x.replace("utter=", "").replace("<COMMA>", ",") for x in parts if x.startswith("utter=")),None)
+        # Only show valid utterances
+        if utt:
+            context = f'"{utt}"'
+            print(f"{context:40s}  GOLD={g:6s}  PRED={p:6s}")
+            shown += 1
+        if shown >= max_show:
+            break
