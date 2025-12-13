@@ -71,7 +71,7 @@ childes-model/
 2. Parse transcripts into a single CSV of child utterances (recursively scans `.cha` files):
 
    ```
-   python parse_childes.py --data-dir data/raw --output data/processed/utterances.csv --corpora Brown MacWhinney
+   python parse_childes.py
    ```
 
    The output includes columns for `utterance`, `age_months`, `corpus`, `file`, `speaker`, and the relative `path` to the source file.
@@ -149,7 +149,7 @@ We evaluate our models along several dimensions:
 - Baselines
   - Random guessing (e.g., 7 classes → 14% accuracy)
   - Simple utterance-only classifier
-  
+
 - Analysis
   - Feature importance: which features drive correct predictions?
   - Neighboring-age variation: where do models confuse adjacent age groups, and are
