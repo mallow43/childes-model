@@ -130,7 +130,7 @@ To keep the project tractable, we make the following assumptions:
 
 - Treat each utterance as independent (ignore speaker-level variance).
 - Use only clean, transcribed speech, removing any unnecessary or non-lingustic markers.
-- Represent age in six coarse bins (1yo, 2yo, 3yo, 4yo, 5yo, 6yo_plus).
+- Represent age in seven coarse bins (0yo, 1yo, 2yo, 3yo, 4yo, 5yo, 6yo_plus).
 - Do not solely use word intelligibility as a feature to avoid interpreter-dependent
   variability.
 
