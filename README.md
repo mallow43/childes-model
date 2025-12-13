@@ -112,6 +112,8 @@ childes-model/
    bin/classify apply out/childes.model out/ext.test | ./score.py -g out/ext.test
    ```
    
+Note: if NLTK has trouble installing is POS tagger, we have included a script to install the requirements if you were to use POS as a feature. You can install these requirements using `python setup_nltk.py`.
+
 ## Models
 
 Our modeling strategy is incremental:
