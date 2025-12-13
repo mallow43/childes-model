@@ -42,6 +42,33 @@ AGE_BIN_TO_MONTHS = {
     "6yo_plus": 78,  # Estimate for 72+ months
 }
 
+# # Ordered list of age bins (6-month intervals)
+# AGE_BIN_ORDER = [
+#     "0-5mo", "6-11mo",
+#     "12-17mo", "18-23mo",
+#     "24-29mo", "30-35mo",
+#     "36-41mo", "42-47mo",
+#     "48-53mo", "54-59mo",
+#     "60-65mo", "66-71mo",
+#     "72mo_plus"
+# ]
+# AGE_BIN_TO_INDEX = {label: i for i, label in enumerate(AGE_BIN_ORDER)}
+# AGE_BIN_TO_MONTHS = {
+#     "0-5mo": 3,
+#     "6-11mo": 9,
+#     "12-17mo": 15,
+#     "18-23mo": 21,
+#     "24-29mo": 27,
+#     "30-35mo": 33,
+#     "36-41mo": 39,
+#     "42-47mo": 45,
+#     "48-53mo": 51,
+#     "54-59mo": 57,
+#     "60-65mo": 63,
+#     "66-71mo": 69,
+#     "72mo_plus": 78   # representative value for open-ended bin
+# }
+
 #############################################################################
 # Set up the options
 
@@ -99,10 +126,10 @@ for g, p in zip(gold, predicted):
 within_1_accuracy = within_1_correct / n * 100.0
 
 # 3. Macro-averaged recall
-
 gold_counts = defaultdict(int)
 true_positive_counts = defaultdict(int)
 
+# Keep track of gold labels, but only increment if predicted == gold 
 for g, p in zip(gold, predicted):
     gold_counts[g] += 1
     if g == p:
@@ -111,6 +138,7 @@ for g, p in zip(gold, predicted):
 macro_recall_sum = 0
 num_classes = 0
 
+# Calculate recall for individual, and then sum 
 for label in gold_counts:
     if gold_counts[label] > 0:
         recall = true_positive_counts[label] / gold_counts[label]
@@ -142,11 +170,11 @@ mae_months = total_month_error / n
 print("=" * 50)
 print("EVALUATION METRICS")
 print("=" * 50)
-print(f"Exact Accuracy:       {accuracy:.2f}%")
-print(f"Within-1-Bin Acc:     {within_1_accuracy:.2f}%")
-print(f"Macro Recall:         {macro_recall:.2f}%")
-print(f"MAE (bins):           {mae_bins:.3f}")
-print(f"MAE (months):         {mae_months:.2f}")
+print(f"Exact Accuracy: {accuracy:.2f}%")
+print(f"Within-1-Bin Acc: {within_1_accuracy:.2f}%")
+print(f"Macro Recall: {macro_recall:.2f}%")
+print(f"MAE (bins): {mae_bins:.3f}")
+print(f"MAE (months): {mae_months:.2f}")
 print("=" * 50)
 
 # Show sample predictions if flag pressed

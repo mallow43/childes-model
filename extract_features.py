@@ -42,11 +42,6 @@ def ensure_nltk_data():
 
 ensure_nltk_data()
 
-## To run (pipeline):
-# 1: python extract_features.py -i data/split/train.csv -e > out/ext.train (Extract all features from each set)
-# 2: Train the logistic regression model: bin/classify train out/ext.train out/childes.model > /dev/null
-# 3: Apply the model to dev/test set: bin/classify apply out/childes.model out/ext.dev | ./score.py -g out/ext.dev
-
 #############################################################################
 # Set up the options
 parser = get_feature_extractor_option_parser()
@@ -84,6 +79,33 @@ def bucket_age(age_months):
         return "5yo"
     else:
         return "6yo_plus"
+    # NOTE: Uncomment this code and replace above if you want 6-month intervals 
+    # if age_months < 6:
+    #     return "0-5mo"
+    # elif age_months < 12:
+    #     return "6-11mo"
+    # elif age_months < 18:
+    #     return "12-17mo"
+    # elif age_months < 24:
+    #     return "18-23mo"
+    # elif age_months < 30:
+    #     return "24-29mo"
+    # elif age_months < 36:
+    #     return "30-35mo"
+    # elif age_months < 42:
+    #     return "36-41mo"
+    # elif age_months < 48:
+    #     return "42-47mo"
+    # elif age_months < 54:
+    #     return "48-53mo"
+    # elif age_months < 60:
+    #     return "54-59mo"
+    # elif age_months < 66:
+    #     return "60-65mo"
+    # elif age_months < 72:
+    #     return "66-71mo"
+    # else:
+    #     return "72mo_plus"
 
 #############################################################################
 # Lightweight lexical/morphological helpers
@@ -97,17 +119,20 @@ QUESTION_WORDS = {"who","what","when","where","why","how"}
 PUNCT_TABLE = str.maketrans("", "", string.punctuation.replace("'", ""))
 
 def is_verb(tok):
+    """Given a token, check if the token exists as a common verb"""
     if tok in COMMON_VERBS:
         return True
     return tok.endswith(("ing","ed")) or tok.endswith("s") and tok[:-1] in COMMON_VERBS
 
 def is_noun(tok):
+    """Given a token, check if the token exists as a common noun"""
     if tok in COMMON_NOUNS:
         return True
     # Plural/possessive cues
     return tok.endswith(("s","'s"))
 
 def morpheme_count(tok):
+    """Count the number of morphemes in a token (very rough)"""
     t = re.sub(r"^[^A-Za-z']+|[^A-Za-z']+$", "", tok.lower())
     if not t:
         return 0
@@ -124,8 +149,8 @@ def morpheme_count(tok):
         count += 1
     return count
 
-# POS tagging via NLTK
 def get_pos_tags(tokens):
+    """POS tagging using NLTK"""
     if tokens:
         return [tag for _, tag in nltk.tag.pos_tag(tokens)]
     return []
@@ -169,8 +194,8 @@ def expand_for_function_words(tok):
 # Load the cleaned CSV (note in pandas dataframe)
 df = pd.read_csv(input_file)
 
-# Feature extraction
-# TODO HERE: ADD ALL NORMAL AND EXTENDED FEATURES 
+# Feature extraction and implementation of different features
+# Note that everything that is commented out is a feature that did not make it onto the final model 
 for idx, row in df.iterrows():
 
     utter = row["clean_utterance"]
@@ -207,7 +232,7 @@ for idx, row in df.iterrows():
     # Character length
     # features.append("char_len=" + str(len(utter)))
 
-    # Function word aggregates (counts + ratios; contraction-aware)
+    # Function word aggregates (counts + ratios)
     function_word_hits = []
     expanded_len = 0
     for tok in lower_tokens:
@@ -245,8 +270,8 @@ for idx, row in df.iterrows():
     if unintelligible_count > 0:
         features.append("has_unintelligible")
     # Binned version to reduce variance
-    prop_val = unintelligible_count/num_tokens if num_tokens > 0 else 0.0
-    features.append("unintelligible_bin=" + bin_unintelligible(prop_val, unintelligible_count))
+    # prop_val = unintelligible_count/num_tokens if num_tokens > 0 else 0.0
+    # features.append("unintelligible_bin=" + bin_unintelligible(prop_val, unintelligible_count))
 
     # Inflectional cues
     # if any(t.endswith("ing") for t in lower_tokens):
@@ -277,7 +302,7 @@ for idx, row in df.iterrows():
     # Question words 
     for word in QUESTION_WORDS:
         if word in lower_tokens:
-            features.append("has_wh")
+            features.append("has_question")
             break
 
     # Extended features if requested
